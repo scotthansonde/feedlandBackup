@@ -1,0 +1,98 @@
+name: Fetch OPML files and commit if changed
+
+on:
+  schedule:
+    # every 3 hours (UTC)
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    env:
+      CONFIG_FILE: ".github/fetch-sources.json"
+      ETAG_DIR: ".cache/etags"
+      COMMIT_MESSAGE: "chore(opml): update fetched files [skip ci]"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Install helpers
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y jq libxml2-utils
+          mkdir -p "$ETAG_DIR"
+
+      - name: Fetch all OPML sources
+        run: |
+          set -euo pipefail
+
+          # ensure config exists
+          test -f "$CONFIG_FILE" || { echo "Missing $CONFIG_FILE"; exit 1; }
+
+          changed=0
+
+          # loop over items
+          jq -c '.[]' "$CONFIG_FILE" | while read -r item; do
+            url=$(echo "$item"  | jq -r '.url')
+            path=$(echo "$item" | jq -r '.path')
+
+            echo "::group::Fetching $url -> $path"
+
+            # Per-URL ETag cache file (sha256 of URL)
+            key=$(printf "%s" "$url" | sha256sum | awk '{print $1}')
+            etag_file="$ETAG_DIR/etag-$key"
+
+            # Ensure directory exists
+            mkdir -p "$(dirname "$path")"
+
+            # Download with conditional GET using ETag
+            # -fS: fail on 4xx/5xx; -L: follow redirects; --retry for robustness
+            curl -fSL \
+              --retry 3 --retry-delay 2 \
+              --etag-compare "$etag_file" \
+              --etag-save "$etag_file" \
+              -o "$path" \
+              "$url"
+
+            # Normalize line endings (CRLF -> LF)
+            sed -i 's/\r$//' "$path"
+
+            # Pretty-print OPML to keep diffs stable (xmllint keeps encoding + indentation consistent)
+            # If the file isn't valid XML, xmllint exits non-zero; in that case, keep raw download.
+            if xmllint --noent --encode UTF-8 --format "$path" > "$path.tmp" 2>/dev/null; then
+              mv "$path.tmp" "$path"
+            else
+              echo "Warning: xmllint failed to format $path (non-fatal)."
+              rm -f "$path.tmp" || true
+            fi
+
+            # Optionally strip volatile OPML attributes that change every run (uncomment if needed)
+            # xmlstarlet is another option; here’s a lightweight xmllint sed example:
+            # sed -i 's/\sdateModified="[^"]*"//g' "$path"
+
+            # Stage file + updated ETag; we'll commit later if any changes exist
+            git add "$path" "$etag_file"
+
+            echo "::endgroup::"
+          done
+
+          # Commit only if there are changes
+          if ! git diff --cached --quiet; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "$COMMIT_MESSAGE"
+            git push
+            echo "Changes detected and pushed."
+          else
+            echo "No changes."
+          fi
