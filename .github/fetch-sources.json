@@ -2,5 +2,13 @@
   {
     "url": "https://feedland.shanson.de/opml?screenname=shanson",
     "path": "shanson_de/feedlist.opml"
+  },
+  {
+    "url": "https://feedland.org/opml?screenname=ScottHansonDE",
+    "path": "feedland_org/feedlist.opml"
+  },
+  {
+    "url": "https://feedland.com/opml?screenname=shanson",
+    "path": "feedland_com/feedlist.opml"
   }
 ]
