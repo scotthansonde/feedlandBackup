@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.2.</description>
-    <dateModified>Sat, 27 Sep 2025 06:03:36 GMT</dateModified>
+    <dateModified>Sat, 27 Sep 2025 18:02:59 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="Herve Family" xmlUrl="https://herve.bzh/feed" htmlUrl="https://herve.bzh/" category="all,bloggers,wordpress"/>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://dave.linkblog.org/" htmlUrl="https://links.daveverse.org" category="all,bloggers,politics,linkblog"/>
