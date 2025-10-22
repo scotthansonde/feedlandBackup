@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.2.</description>
-    <dateModified>Wed, 22 Oct 2025 06:04:09 GMT</dateModified>
+    <dateModified>Wed, 22 Oct 2025 18:04:51 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,bloggers,dev,tech,blogroll"/>
     <outline type="rss" text="Herve Family" xmlUrl="https://herve.bzh/feed" htmlUrl="https://herve.bzh/" category="all,bloggers,wordpress"/>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
@@ -137,7 +138,6 @@
     <outline type="rss" text="Tantek Çelik" xmlUrl="https://tantek.com/updates.atom" htmlUrl="https://tantek.com/" category="all,blogroll,tech"/>
     <outline type="rss" text="Mitch's Blog" xmlUrl="https://mitchw.blog/feed" htmlUrl="https://mitchw.blog/" category="all,blogroll,bloggers"/>
     <outline type="rss" text="This Week in the IndieWeb" xmlUrl="https://indieweb.org/this-week/feed.xml" htmlUrl="https://indieweb.org/this-week" category="all,blogroll,tech"/>
-    <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,blogroll,tech,bloggers"/>
     <outline type="rss" text="Doc Searls Weblog" xmlUrl="https://doc.searls.com/feed" htmlUrl="https://doc.searls.com/" category="all,blogroll,tech,politics"/>
     <outline type="rss" text="Bluesky" xmlUrl="https://bsky.social/about/rss.xml" htmlUrl="https://bsky.social/about" category="all,blogroll,tech"/>
     <outline type="rss" text="Threads Archives | Meta Newsroom" xmlUrl="https://about.fb.com/news/category/threads/feed/" htmlUrl="https://about.fb.com/news/category/technologies/threads/" category="all,blogroll,tech"/>
