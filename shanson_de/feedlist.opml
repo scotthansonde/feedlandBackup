@@ -3,10 +3,15 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.3.</description>
-    <dateModified>Sat, 01 Nov 2025 06:02:49 GMT</dateModified>
+    <dateModified>Sat, 01 Nov 2025 18:02:55 GMT</dateModified>
   </head>
   <body>
-    <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,bloggers,dev,tech,blogroll"/>
+    <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,tech"/>
+    <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="http://jvns.ca/" category="all,main,tech"/>
+    <outline type="rss" text="swyx's site RSS Feed" xmlUrl="https://www.swyx.io/rss.xml" htmlUrl="https://www.swyx.io/" category="all,bloggers,tech"/>
+    <outline type="rss" text="daverupert.com" xmlUrl="https://daverupert.com/atom.xml" htmlUrl="https://daverupert.com/" category="all,bloggers,tech"/>
+    <outline type="rss" text="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/" htmlUrl="https://css-tricks.com/" category="all,tech"/>
+    <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,bloggers,tech,blogroll"/>
     <outline type="rss" text="Herve Family" xmlUrl="https://herve.bzh/feed" htmlUrl="https://herve.bzh/" category="all,bloggers,wordpress"/>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
@@ -121,13 +126,8 @@
     <outline type="rss" text="Doc Searls Weblog" xmlUrl="https://blogs.harvard.edu/doc/feed/" htmlUrl="https://doc.searls.com/" category="all,tech"/>
     <outline type="rss" text="DER SPIEGEL - Schlagzeilen" xmlUrl="https://www.spiegel.de/schlagzeilen/index.rss" htmlUrl="https://www.spiegel.de/" category="all,german"/>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
-    <outline type="rss" text="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/" htmlUrl="https://css-tricks.com/" category="all,dev"/>
-    <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,dev"/>
     <outline type="rss" text="Finance &amp; economics" xmlUrl="https://www.economist.com/finance-and-economics/rss.xml" htmlUrl="https://www.economist.com/finance-and-economics" category="all,economist"/>
     <outline type="rss" text="Europe" xmlUrl="https://www.economist.com/europe/rss.xml" htmlUrl="https://www.economist.com/europe" category="all,economist"/>
-    <outline type="rss" text="swyx's site RSS Feed" xmlUrl="https://www.swyx.io/rss.xml" htmlUrl="https://www.swyx.io/" category="all,bloggers,dev,tech"/>
-    <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="http://jvns.ca/" category="all,dev,main"/>
-    <outline type="rss" text="daverupert.com" xmlUrl="https://daverupert.com/atom.xml" htmlUrl="https://daverupert.com/" category="all,bloggers,dev"/>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://data.feedland.com/feeds/shanson.xml" htmlUrl="https://feedland.com/?river=https://data.feedland.com/feeds/shanson.xml" category="all,me"/>
     <outline type="rss" text="Scott's Feed" xmlUrl="http://data.feedland.org/feeds/ScottHansonDE.xml" htmlUrl="http://feedland.org/?river=http://data.feedland.org/feeds/ScottHansonDE.xml" category="all,me"/>
     <outline type="rss" text="FeedLand likes for ScottHansonDE" xmlUrl="http://data.feedland.org/likes/ScottHansonDE.xml" htmlUrl="http://feedland.org/?likes" category="all,me"/>
