@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.3.</description>
-    <dateModified>Fri, 31 Oct 2025 18:03:20 GMT</dateModified>
+    <dateModified>Sat, 01 Nov 2025 06:02:49 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,bloggers,dev,tech,blogroll"/>
