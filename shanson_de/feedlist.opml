@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.4.</description>
-    <dateModified>Fri, 07 Nov 2025 18:02:57 GMT</dateModified>
+    <dateModified>Sat, 08 Nov 2025 06:03:09 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,tech"/>
