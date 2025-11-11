@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.4.</description>
-    <dateModified>Mon, 10 Nov 2025 18:03:09 GMT</dateModified>
+    <dateModified>Tue, 11 Nov 2025 06:03:09 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
     <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,tech"/>
     <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="http://jvns.ca/" category="all,main,tech"/>
     <outline type="rss" text="swyx's site RSS Feed" xmlUrl="https://www.swyx.io/rss.xml" htmlUrl="https://www.swyx.io/" category="all,bloggers,tech"/>
@@ -121,7 +122,6 @@
     <outline type="rss" text="Gizmodo" xmlUrl="http://gizmodo.com/index.xml" htmlUrl="https://gizmodo.com/" category="all,tech,starters"/>
     <outline type="rss" text="Paul Graham: Essays" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/" category="all,starters"/>
     <outline type="rss" text="DER SPIEGEL - International" xmlUrl="http://www.spiegel.de/international/index.rss" htmlUrl="https://www.spiegel.de/" category="all,politics,starters"/>
-    <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all,politics"/>
     <outline type="rss" text="Doc Searls Weblog" xmlUrl="https://blogs.harvard.edu/doc/feed/" htmlUrl="https://doc.searls.com/" category="all,tech"/>
     <outline type="rss" text="daveverse" xmlUrl="https://daveverse.wordpress.com/feed/" htmlUrl="https://daveverse.org/" category="all,bloggers,main"/>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
