@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>shanson</title>
-    <description>shanson's subscription list. List created by feedlandDatabase v0.8.4.</description>
-    <dateModified>Sat, 22 Nov 2025 06:02:42 GMT</dateModified>
+    <description>shanson's subscription list. List created by feedlandDatabase v0.8.6.</description>
+    <dateModified>Sat, 22 Nov 2025 18:02:43 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
@@ -123,7 +123,6 @@
     <outline type="rss" text="Paul Graham: Essays" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/" category="all,starters"/>
     <outline type="rss" text="DER SPIEGEL - International" xmlUrl="http://www.spiegel.de/international/index.rss" htmlUrl="https://www.spiegel.de/" category="all,politics,starters"/>
     <outline type="rss" text="Doc Searls Weblog" xmlUrl="https://blogs.harvard.edu/doc/feed/" htmlUrl="https://doc.searls.com/" category="all,tech"/>
-    <outline type="rss" text="daveverse" xmlUrl="https://daveverse.wordpress.com/feed/" htmlUrl="https://daveverse.org/" category="all,bloggers,main"/>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
     <outline type="rss" text="DER SPIEGEL - Schlagzeilen" xmlUrl="https://www.spiegel.de/schlagzeilen/index.rss" htmlUrl="https://www.spiegel.de/" category="all,german"/>
     <outline type="rss" text="Europe" xmlUrl="https://www.economist.com/europe/rss.xml" htmlUrl="https://www.economist.com/europe" category="all,economist"/>
