@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.6.</description>
-    <dateModified>Wed, 26 Nov 2025 18:02:59 GMT</dateModified>
+    <dateModified>Thu, 27 Nov 2025 06:03:01 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
@@ -135,7 +135,7 @@
     <outline type="rss" text="I am Scott Hanson" xmlUrl="https://scotthanson.de/rss.xml" htmlUrl="https://scotthanson.de/" category="all,me"/>
     <outline type="rss" text="Scott's Test Fediverse Blog" xmlUrl="https://scottverse.wordpress.com/feed/" htmlUrl="https://scottverse.wordpress.com/" category="all,me"/>
     <outline type="rss" text="Tantek Çelik" xmlUrl="https://tantek.com/updates.atom" htmlUrl="https://tantek.com/" category="all,blogroll,tech"/>
-    <outline type="rss" text="Mitch's Blog" xmlUrl="https://mitchw.blog/feed" htmlUrl="https://mitchw.blog/" category="all,blogroll,bloggers"/>
+    <outline type="rss" text="Mitch Wagner" xmlUrl="https://mitchw.blog/feed" htmlUrl="https://mitchw.blog/" category="all,blogroll,bloggers"/>
     <outline type="rss" text="This Week in the IndieWeb" xmlUrl="https://indieweb.org/this-week/feed.xml" htmlUrl="https://indieweb.org/this-week" category="all,blogroll,tech"/>
     <outline type="rss" text="Doc Searls Weblog" xmlUrl="https://doc.searls.com/feed" htmlUrl="https://doc.searls.com/" category="all,blogroll,tech,politics"/>
     <outline type="rss" text="Bluesky" xmlUrl="https://bsky.social/about/rss.xml" htmlUrl="https://bsky.social/about" category="all,blogroll,tech"/>
