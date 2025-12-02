@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.11.</description>
-    <dateModified>Tue, 02 Dec 2025 06:03:02 GMT</dateModified>
+    <dateModified>Tue, 02 Dec 2025 18:03:08 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all,testing"/>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
     <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,tech"/>
     <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="http://jvns.ca/" category="all,main,tech"/>
@@ -15,7 +16,6 @@
     <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,bloggers,tech,blogroll"/>
     <outline type="rss" text="Herve Family" xmlUrl="https://herve.bzh/feed" htmlUrl="https://herve.bzh/" category="all,bloggers,wordpress"/>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
-    <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://dave.linkblog.org/" htmlUrl="https://links.daveverse.org" category="all,bloggers,politics,linkblog"/>
     <outline type="rss" text="The Kyiv Independent" xmlUrl="https://kyivindependent.com/news-archive/rss/" htmlUrl="https://kyivindependent.com/" category="all,politics"/>
     <outline type="rss" text="The Zuiker Chronicles" xmlUrl="http://zuiker.com/rss/" htmlUrl="http://zuiker.com/" category="all,bloggers"/>
