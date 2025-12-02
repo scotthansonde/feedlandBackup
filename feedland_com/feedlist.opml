@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.4.</description>
-    <dateModified>Mon, 01 Dec 2025 18:03:15 GMT</dateModified>
+    <dateModified>Tue, 02 Dec 2025 06:03:03 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
     <outline type="rss" text="The Contrarian" xmlUrl="https://contrarian.substack.com/feed" htmlUrl="https://contrarian.substack.com/" category="all,politics"/>
     <outline type="rss" text="Letters from an American" xmlUrl="https://heathercoxrichardson.substack.com/feed" htmlUrl="https://heathercoxrichardson.substack.com/" category="all,bloggers,politics,blogroll"/>
     <outline type="rss" text="STAT" xmlUrl="https://www.statnews.com/feed/" htmlUrl="https://www.statnews.com/" category="all,starters,tech"/>
