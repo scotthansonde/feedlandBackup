@@ -3,10 +3,11 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.11.</description>
-    <dateModified>Wed, 03 Dec 2025 06:03:31 GMT</dateModified>
+    <dateModified>Wed, 03 Dec 2025 18:02:56 GMT</dateModified>
   </head>
   <body>
-    <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all,testing"/>
+    <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
+    <outline type="rss" text="Scott's Test Fediverse Blog" xmlUrl="https://scottverse.wordpress.com/feed" htmlUrl="https://scottverse.wordpress.com/" category="all,testing"/>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
     <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,tech"/>
     <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="http://jvns.ca/" category="all,main,tech"/>
