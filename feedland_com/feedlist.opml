@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.4.</description>
-    <dateModified>Tue, 09 Dec 2025 06:03:11 GMT</dateModified>
+    <dateModified>Tue, 09 Dec 2025 18:02:55 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
@@ -89,7 +89,7 @@
     <outline type="rss" text="Finance &amp; economics" xmlUrl="https://www.economist.com/finance-and-economics/rss.xml" htmlUrl="https://www.economist.com/finance-and-economics" category="all,economist"/>
     <outline type="rss" text="Europe" xmlUrl="https://www.economist.com/europe/rss.xml" htmlUrl="https://www.economist.com/europe" category="all,economist"/>
     <outline type="rss" text="swyx's site RSS Feed" xmlUrl="https://www.swyx.io/rss.xml" htmlUrl="https://www.swyx.io/" category="all,bloggers,dev,tech"/>
-    <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="http://jvns.ca/" category="all,dev,main"/>
+    <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="https://jvns.ca/" category="all,dev,main"/>
     <outline type="rss" text="daverupert.com" xmlUrl="https://daverupert.com/atom.xml" htmlUrl="https://daverupert.com/" category="all,bloggers,dev"/>
     <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,dev"/>
     <outline type="rss" text="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/" htmlUrl="https://css-tricks.com/" category="all,dev"/>
