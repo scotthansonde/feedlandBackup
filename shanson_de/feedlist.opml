@@ -2,8 +2,8 @@
 <opml version="2.0">
   <head>
     <title>shanson</title>
-    <description>shanson's subscription list. List created by feedlandDatabase v0.8.11.</description>
-    <dateModified>Sun, 21 Dec 2025 18:02:49 GMT</dateModified>
+    <description>shanson's subscription list. List created by feedlandDatabase v0.8.12.</description>
+    <dateModified>Mon, 22 Dec 2025 06:03:34 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
