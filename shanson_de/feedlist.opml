@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.12.</description>
-    <dateModified>Tue, 23 Dec 2025 18:02:50 GMT</dateModified>
+    <dateModified>Wed, 24 Dec 2025 06:02:52 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
@@ -20,7 +20,7 @@
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://dave.linkblog.org/" htmlUrl="https://links.daveverse.org" category="all,bloggers,politics,linkblog"/>
     <outline type="rss" text="The Kyiv Independent" xmlUrl="https://kyivindependent.com/news-archive/rss/" htmlUrl="https://kyivindependent.com/" category="all,politics"/>
-    <outline type="rss" text="The Zuiker Chronicles" xmlUrl="http://zuiker.com/rss/" htmlUrl="http://zuiker.com/" category="all,bloggers"/>
+    <outline type="rss" text="The Zuiker Chronicles" xmlUrl="http://zuiker.com/rss/" htmlUrl="https://zuiker.com/" category="all,bloggers"/>
     <outline type="rss" text="Daring Fireball" xmlUrl="https://daringfireball.net/feeds/main" htmlUrl="https://daringfireball.net/" category="all,bloggers,main,tech,blogroll"/>
     <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland.social/papascott/240136846/rss.xml" htmlUrl="https://wordland.shanson.de" category="all,me"/>
     <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland.shanson.de/feed/" htmlUrl="https://wordland.shanson.de/" category="all,me"/>
