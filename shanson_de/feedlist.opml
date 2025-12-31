@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.12.</description>
-    <dateModified>Tue, 30 Dec 2025 18:02:58 GMT</dateModified>
+    <dateModified>Wed, 31 Dec 2025 06:03:14 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
@@ -161,7 +161,7 @@
     <outline type="rss" text="ongoing by Tim Bray" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom" htmlUrl="https://www.tbray.org/ongoing/" category="all,blogroll"/>
     <outline type="rss" text="Waxy.org" xmlUrl="http://waxy.org/feed/" htmlUrl="https://waxy.org/" category="all,blogroll,tech,bloggers"/>
     <outline type="rss" text="The Brian Lehrer Show" xmlUrl="http://feeds.wnyc.org/wnyc_bl" htmlUrl="https://www.wnyc.org/shows/bl" category="all,blogroll,podcasts"/>
-    <outline type="rss" text="The Editorial Board." xmlUrl="https://www.editorialboard.com/feed/" htmlUrl="https://www.editorialboard.com/" category="all,blogroll,politics"/>
+    <outline type="rss" text="Editorial Board" xmlUrl="https://www.editorialboard.com/feed/" htmlUrl="https://www.editorialboard.com/" category="all,blogroll,politics"/>
     <outline type="rss" text="  Comments on:  " xmlUrl="https://wordpress.com/blog/feed-oddities/feed/" htmlUrl="https://wordpress.com/blog" category="all"/>
     <outline type="rss" text="Tedium" xmlUrl="https://tedium.co/feed" htmlUrl="https://tedium.co/" category="all,blogroll"/>
     <outline type="rss" text="Post Reports" xmlUrl="https://podcast.posttv.com/itunes/post-reports.xml" category="all,blogroll,politics,podcasts"/>
