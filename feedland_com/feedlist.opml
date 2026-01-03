@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.12.</description>
-    <dateModified>Sat, 03 Jan 2026 06:02:59 GMT</dateModified>
+    <dateModified>Sat, 03 Jan 2026 18:02:43 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
@@ -159,7 +159,7 @@
     <outline type="rss" text="NYT &gt; Most Recent Headlines" xmlUrl="http://nytimes.com/timeswire/feeds/" htmlUrl="https://www.nytimes.com/timeswire" category="all,nyt,starters"/>
     <outline type="rss" text="Techmeme" xmlUrl="http://www.techmeme.com/feed.xml" htmlUrl="http://www.techmeme.com/" category="all,tech,starters"/>
     <outline type="rss" text="Axios" xmlUrl="https://api.axios.com/feed/" htmlUrl="https://www.axios.com/" category="all,politics"/>
-    <outline type="rss" text="Tech – Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/gadgets" htmlUrl="https://arstechnica.com/" category="all,starters"/>
+    <outline type="rss" text="Tech - Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/gadgets" htmlUrl="https://arstechnica.com/" category="all,starters"/>
     <outline type="rss" text="The Omg Lol Times" xmlUrl="https://omglol.news/rss.xml" htmlUrl="https://omglol.news" category="all,main,tech"/>
     <outline type="rss" text="Memex 1.1" xmlUrl="http://memex.naughtons.org/feed" htmlUrl="https://memex.naughtons.org/" category="all,bloggers,starters"/>
     <outline type="rss" text="Open Source with Christopher Lydon" xmlUrl="https://radioopensource.org/feed/" htmlUrl="https://radioopensource.org/" category="all,podcasts,starters"/>
