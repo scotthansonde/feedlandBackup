@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.12.</description>
-    <dateModified>Tue, 06 Jan 2026 18:03:00 GMT</dateModified>
+    <dateModified>Wed, 07 Jan 2026 06:02:57 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
@@ -112,7 +112,7 @@
     <outline type="rss" text="Political Wire" xmlUrl="http://feeds.feedburner.com/PoliticalWire" htmlUrl="https://politicalwire.com/" category="all,politics"/>
     <outline type="rss" text="Politics – FiveThirtyEight" xmlUrl="http://fivethirtyeight.com/politics/feed/" htmlUrl="https://fivethirtyeight.com/" category="all,politics"/>
     <outline type="rss" text="DIE ZEIT | Nachrichten, News, Hintergründe und Debatten" xmlUrl="http://newsfeed.zeit.de/index" htmlUrl="https://www.zeit.de/index" category="all,german"/>
-    <outline type="rss" text="CNET" xmlUrl="http://feeds.feedburner.com/cnet/tcoc" htmlUrl="https://www.cnet.com/#ftag=CAD590a51e" category="all,tech,starters"/>
+    <outline type="rss" text="CNET" xmlUrl="http://feeds.feedburner.com/cnet/tcoc" htmlUrl="https://www.cnet.com/" category="all,tech,starters"/>
     <outline type="rss" text="aka Ken Smith" xmlUrl="http://oldschool.scripting.com/KenSmith/rss.xml" htmlUrl="http://oldschool.scripting.com/KenSmith/" category="all,bloggers"/>
     <outline type="rss" text="The NPR Politics Podcast" xmlUrl="http://www.npr.org/rss/podcast.php?id=510310" htmlUrl="https://www.npr.org/podcasts/510310/npr-politics-podcast" category="all,politics"/>
     <outline type="rss" text="NPR Topics: Politics" xmlUrl="http://www.npr.org/rss/rss.php?id=1014" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1014" category="all,politics"/>
