@@ -10,5 +10,9 @@
   {
     "url": "https://feedland.com/opml?screenname=shanson",
     "path": "feedland_com/feedlist.opml"
+  },
+  {
+    "url": "https://drummer.land/papascott@gmail.com/myInstantOutline.opml",
+    "path": "drummer_land/myInstantOutline.opml"
   }
 ]
