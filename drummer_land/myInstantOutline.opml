@@ -7,9 +7,9 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 11 Jan 2026 15:45:39 GMT</dateModified>
-    <expansionState>1,2,3,5,8,11,12,14,16</expansionState>
-    <lastCursor>9</lastCursor>
+    <dateModified>Sun, 11 Jan 2026 16:37:29 GMT</dateModified>
+    <expansionState>1,2,3,5,8,10,11,13,15</expansionState>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
@@ -23,7 +23,6 @@
           <outline text="There are then standard actions to build an image and push to Docker Hub" created="Sun, 11 Jan 2026 15:43:40 GMT">
             <outline text="docker/login-action, docker/metadata-action, and docker/build-push-action " created="Sun, 11 Jan 2026 15:44:23 GMT"/>
           </outline>
-          <outline text="" created="Sun, 11 Jan 2026 15:45:10 GMT"/>
         </outline>
       </outline>
       <outline text="January 10" created="Sat, 10 Jan 2026 11:00:29 GMT" type="calendarDay" name="10">
