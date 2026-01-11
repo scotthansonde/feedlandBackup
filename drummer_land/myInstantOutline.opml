@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>ScottShare</title>
+    <dateCreated>Sun, 12 Feb 2023 09:22:31 GMT</dateCreated>
+    <flPublic>true</flPublic>
+    <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
+    <ownerId>papascott@gmail.com</ownerId>
+    <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
+    <dateModified>Sun, 11 Jan 2026 15:45:39 GMT</dateModified>
+    <expansionState>1,2,3,5,8,11,12,14,16</expansionState>
+    <lastCursor>9</lastCursor>
+  </head>
+  <body>
+    <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 11" created="Sun, 11 Jan 2026 15:40:34 GMT" type="calendarDay" name="11">
+        <outline text="feedlandDockerInstall: build image with GitHub actions" created="Sun, 11 Jan 2026 15:40:35 GMT" type="outline">
+          <outline text="Triggered automatically when the feedland npm package has a new version" created="Sun, 11 Jan 2026 15:41:26 GMT"/>
+          <outline text="It turns out to be easy to check the version of a package on npm" created="Sun, 11 Jan 2026 15:41:53 GMT">
+            <outline text="npm view feedland version" created="Sun, 11 Jan 2026 15:42:19 GMT"/>
+          </outline>
+          <outline text="The version number is then saved to a file in the repository" created="Sun, 11 Jan 2026 15:42:27 GMT"/>
+          <outline text="There are then standard actions to build an image and push to Docker Hub" created="Sun, 11 Jan 2026 15:43:40 GMT">
+            <outline text="docker/login-action, docker/metadata-action, and docker/build-push-action " created="Sun, 11 Jan 2026 15:44:23 GMT"/>
+          </outline>
+          <outline text="" created="Sun, 11 Jan 2026 15:45:10 GMT"/>
+        </outline>
+      </outline>
+      <outline text="January 10" created="Sat, 10 Jan 2026 11:00:29 GMT" type="calendarDay" name="10">
+        <outline text="WordCamp Europe" created="Sat, 10 Jan 2026 11:02:04 GMT" type="outline">
+          <outline text="Cool. I can't be there, though. We have a global corporate meeting in Las Vegas that week." created="Sat, 10 Jan 2026 11:02:12 GMT"/>
+        </outline>
+        <outline text="FeedLand: create index itemCreated on items (whenCreated); " created="Sat, 10 Jan 2026 11:00:30 GMT" type="outline">
+          <outline text="That took about 3 seconds on my instance" created="Sat, 10 Jan 2026 11:01:10 GMT"/>
+          <outline text="Should it be added to the official database schema? I think so." created="Sat, 10 Jan 2026 16:16:46 GMT">
+            <outline text="Small databases won't have this problem, but it could prevent problems on larger databases." created="Sat, 10 Jan 2026 16:20:35 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="January 8" created="Thu, 08 Jan 2026 08:45:46 GMT" type="calendarDay" name="08">
+        <outline text="I hope the db fix for feedland.com works! 😃" created="Thu, 08 Jan 2026 15:59:58 GMT" type="outline"/>
+        <outline text="Scalable hosting for FeedLand" created="Thu, 08 Jan 2026 08:45:47 GMT" type="outline">
+          <outline text="When researching this a couple of months ago, the solution I ran into was Kubernetes." created="Thu, 08 Jan 2026 08:45:56 GMT"/>
+          <outline text="It can run several instances of a Docker image, and scale up or down (start new instances or shut them down) on demand." created="Thu, 08 Jan 2026 08:52:23 GMT"/>
+          <outline text="As an example, DigitalOcean offers basic managed Kubernetes for $24 per node per month, minimum of 3 nodes, so $72." created="Thu, 08 Jan 2026 08:53:55 GMT">
+            <outline text="https://www.digitalocean.com/products/kubernetes" created="Thu, 08 Jan 2026 09:07:33 GMT" type="link"/>
+          </outline>
+          <outline text="As for database, when looking at the SQL dump from wordland.com, I put it on managed MySQL at DigitalOcean. Once the indices were built, I needed 60GB storage. Monthly cost would be $61." created="Thu, 08 Jan 2026 08:56:37 GMT">
+            <outline text="https://www.digitalocean.com/products/managed-databases" created="Thu, 08 Jan 2026 09:09:54 GMT" type="link"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="January 7" created="Wed, 07 Jan 2026 14:42:05 GMT" type="calendarDay" name="07">
+        <outline text="To-do items I haven't touched in a while, but haven't forgotten." created="Wed, 07 Jan 2026 15:11:10 GMT" type="outline">
+          <outline text="CSS for daveverse on mobile." created="Wed, 07 Jan 2026 15:11:25 GMT"/>
+          <outline text="Showing a FeedLand news product on a page in WordPress." created="Wed, 07 Jan 2026 15:11:56 GMT"/>
+        </outline>
+        <outline text="Updated the scotthansonde/feedland Docker image to feedland 0.7.20." created="Wed, 07 Jan 2026 14:42:06 GMT" type="outline">
+          <outline text="The &quot;docker buildx...&quot; script seems to always install the latest version. " created="Wed, 07 Jan 2026 14:43:30 GMT"/>
+          <outline text="Tagging docker images with a version number seems not to be automatic." created="Wed, 07 Jan 2026 14:44:54 GMT">
+            <outline text="Image tags are just strings and don't have any meaning." created="Wed, 07 Jan 2026 14:45:44 GMT"/>
+            <outline text="It's up to the builder to come up with sensible tags in the the build script." created="Wed, 07 Jan 2026 14:46:22 GMT"/>
+          </outline>
+          <outline text="Docker Hub now has &quot;latest&quot; and &quot;0.7.20&quot; images of feedland." created="Wed, 07 Jan 2026 14:46:49 GMT">
+            <outline text="https://hub.docker.com/r/scotthansonde/feedland/tags" created="Wed, 07 Jan 2026 14:47:55 GMT"/>
+          </outline>
+          <outline text="Updating a running instance seems to be easy enough." created="Wed, 07 Jan 2026 14:48:30 GMT">
+            <outline text="docker compose pull &amp;&amp; docker compose up -d --force-recreate " created="Wed, 07 Jan 2026 14:49:15 GMT"/>
+          </outline>
+          <outline text="I'm not yet confident enough in the process to publish any instructions on running feedland with docker-compose." created="Wed, 07 Jan 2026 14:49:24 GMT"/>
+        </outline>
+      </outline>
+      <outline text="January 6" created="Tue, 06 Jan 2026 07:58:29 GMT" type="calendarDay" name="06">
+        <outline text="Serving files from GitHub now working for scott.this.how." created="Tue, 06 Jan 2026 07:58:30 GMT" type="outline">
+          <outline text="This will be the easiest workflow for me." created="Tue, 06 Jan 2026 07:59:40 GMT">
+            <outline text="Edit outlines locally with Electric Drummer" created="Tue, 06 Jan 2026 07:59:55 GMT"/>
+            <outline text="Commit and push to GitHub" created="Tue, 06 Jan 2026 08:00:08 GMT"/>
+          </outline>
+          <outline text="I'll figure out an index script once I actually have a few files to index. 😃" created="Tue, 06 Jan 2026 08:06:12 GMT"/>
+        </outline>
+      </outline>
+      <outline text="January 5" created="Mon, 05 Jan 2026 07:36:46 GMT" type="calendarDay" name="05">
+        <outline text="And the new domain is working" created="Mon, 05 Jan 2026 16:23:59 GMT" type="outline">
+          <outline text="https://scott.this.how/TestThisHow.opml" created="Mon, 05 Jan 2026 16:24:13 GMT"/>
+          <outline text="I guess that an index page linking to all outlines I either have to write manually or script myself 😃" created="Mon, 05 Jan 2026 19:16:58 GMT"/>
+          <outline text="It looks like I can &lt;a href=&quot;https://github.com/scripting/pagePark/blob/master/docs/config.md&quot;&gt;serve files saved on GitHub&lt;/a&gt;, but my first attempt is not working. I'll try again tomorrow. " created="Mon, 05 Jan 2026 19:21:37 GMT"/>
+          <outline text="I'm actually running PagePark in a Docker instance running in Coolify. That's also something I can document here." created="Mon, 05 Jan 2026 19:23:45 GMT"/>
+        </outline>
+        <outline text="I do have PagePark running (CNAME opml.shanson.de)" created="Mon, 05 Jan 2026 07:36:47 GMT" type="outline">
+          <outline text="I indeed spun it up to try out a news product in FeedLand" created="Mon, 05 Jan 2026 15:03:32 GMT"/>
+          <outline text="I put up a test outline to view the template" created="Mon, 05 Jan 2026 15:16:10 GMT">
+            <outline text="https://opml.shanson.de/TestThisHow.opml" created="Mon, 05 Jan 2026 15:16:27 GMT"/>
+          </outline>
+          <outline text="Go ahead and map scott.this.how to this CNAME" created="Mon, 05 Jan 2026 14:34:25 GMT"/>
+          <outline text="So sure, I can host this.how documents myself" created="Mon, 05 Jan 2026 07:39:23 GMT">
+            <outline text="Testing, it looks like all I have to do it drop opml files into the folder for the domain" created="Mon, 05 Jan 2026 10:19:54 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="January 4" created="Sun, 04 Jan 2026 15:18:47 GMT" type="calendarDay" name="04">
+        <outline text="this.how docs?" created="Sun, 04 Jan 2026 15:18:48 GMT" type="outline">
+          <outline text="Sure, I'd be willing to give them a try" created="Sun, 04 Jan 2026 15:19:01 GMT"/>
+          <outline text="Could be a good way document the stuff I keep forgetting 😃" created="Sun, 04 Jan 2026 15:19:12 GMT"/>
+          <outline text="Good that we're thinking on the same page. A public, permanent place to put notes is a good idea." created="Sun, 04 Jan 2026 16:37:21 GMT"/>
+        </outline>
+      </outline>
+      <outline text="January 3" created="Sat, 03 Jan 2026 15:59:59 GMT" type="calendarDay" name="03">
+        <outline text="Instant outlines are instant" created="Sat, 03 Jan 2026 16:10:53 GMT" type="outline">
+          <outline text="And I now see a green lightning bolt over your outline, so the web sockets are working." created="Sat, 03 Jan 2026 16:08:59 GMT"/>
+          <outline text="This way of working is fun. With our different time zones, we're not always online at the same time. But when we are, it's like collaborating in real time." created="Sat, 03 Jan 2026 16:11:25 GMT"/>
+        </outline>
+        <outline text="daveverse CSS" created="Sat, 03 Jan 2026 16:00:00 GMT" type="outline">
+          <outline text="https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.css" created="Sat, 03 Jan 2026 16:00:10 GMT"/>
+          <outline text="We have a plugin that loads this CSS file last, so it overrides the CSS in the theme" created="Sat, 03 Jan 2026 16:00:23 GMT"/>
+          <outline text="We add the current time as a query parameter so it never gets cached" created="Sat, 03 Jan 2026 16:01:08 GMT"/>
+          <outline text="You're welcome! My pleasure! 😃" created="Sat, 03 Jan 2026 16:08:09 GMT"/>
+        </outline>
+      </outline>
+      <outline text="January 1" created="Thu, 01 Jan 2026 14:32:30 GMT" type="calendarDay" name="01">
+        <outline text="masto.land shutdown" created="Thu, 01 Jan 2026 14:32:31 GMT" type="outline">
+          <outline text="I believe we can go ahead and delete the droplet." created="Thu, 01 Jan 2026 14:32:39 GMT"/>
+          <outline text="I have backups on S3 of the mastodon data, should we ever want to revive it." created="Thu, 01 Jan 2026 14:33:10 GMT"/>
+          <outline text="I can delete the droplet. I'll take care of it." created="Thu, 01 Jan 2026 14:41:54 GMT"/>
+          <outline text="It's done. The droplet is deleted." created="Thu, 01 Jan 2026 16:14:32 GMT"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="December 2025" created="Mon, 08 Dec 2025 16:55:11 GMT" name="december2025" type="calendarMonth">
+      <outline text="December 29" created="Mon, 29 Dec 2025 13:42:16 GMT" type="calendarDay" name="29">
+        <outline text="Travel day today. Back online Tuesday or Wednesday " created="Mon, 29 Dec 2025 13:42:17 GMT" type="outline"/>
+      </outline>
+      <outline text="December 28" created="Sun, 28 Dec 2025 22:26:18 GMT" type="calendarDay" name="28">
+        <outline text="First version of FeedLand Docker Compose is ready to try out" created="Sun, 28 Dec 2025 22:26:19 GMT" type="outline">
+          <outline text="https://github.com/scotthansonde/feedlandDockerCompose" created="Sun, 28 Dec 2025 22:28:59 GMT"/>
+          <outline text="Brief instructions in README.md" created="Sun, 28 Dec 2025 22:29:49 GMT">
+            <outline text="Download the repo" created="Sun, 28 Dec 2025 22:30:24 GMT"/>
+            <outline text="Copy .env.example to .env and enter the values" created="Sun, 28 Dec 2025 22:32:12 GMT"/>
+            <outline text="Run docker compose up" created="Sun, 28 Dec 2025 22:32:38 GMT">
+              <outline text="That generates config.json, initializes the database, and starts the servers" created="Sun, 28 Dec 2025 22:33:39 GMT"/>
+            </outline>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="December 27" created="Sat, 27 Dec 2025 15:27:03 GMT" type="calendarDay" name="27">
+        <outline text="First version of config.template.json works" created="Sat, 27 Dec 2025 21:02:23 GMT" type="outline">
+          <outline text="Set all instances of hostname to ${FEEDLAND_HOST} set in .env" created="Sat, 27 Dec 2025 21:02:44 GMT"/>
+          <outline text="Shell script in compose file to generate config.json " created="Sat, 27 Dec 2025 21:03:30 GMT"/>
+          <outline text="Now added ${MYSQL_USER_PASSWORD} for the database section " created="Sat, 27 Dec 2025 22:03:25 GMT">
+            <outline text="All other values for database can be static under Docker" created="Sat, 27 Dec 2025 22:04:17 GMT"/>
+          </outline>
+        </outline>
+        <outline text="Looking at the default config.json" created="Sat, 27 Dec 2025 15:27:04 GMT" type="outline">
+          <outline text="Copied from /scripting.com/code/feedland/install/" created="Sat, 27 Dec 2025 15:29:32 GMT">
+            <outline text="config.json" created="Wed, 04 Jan 2023 16:04:01 GMT">
+              <outline text="{" created="Wed, 04 Jan 2023 16:04:03 GMT">
+                <outline text="&quot;whatIsThis&quot;: &quot;A simple example config.json file for a FeedLand installation, with none of the extra features turned on.&quot;," created="Tue, 21 Feb 2023 16:49:06 GMT"/>
+                <outline text="" created="Tue, 21 Feb 2023 16:54:30 GMT"/>
+                <outline text="&quot;port&quot;: 1452,"/>
+                <outline text="" created="Sun, 12 Feb 2023 17:09:00 GMT"/>
+                <outline text="&quot;flWebsocketEnabled&quot;: true,"/>
+                <outline text="&quot;websocketPort&quot;: 1462,"/>
+                <outline text="&quot;urlWebsocketServerForClient&quot;: &quot;ws://mydomain.com:1462/&quot;," created="Mon, 13 Feb 2023 22:30:43 GMT"/>
+                <outline text="" created="Fri, 20 Jan 2023 17:07:26 GMT"/>
+                <outline text="&quot;myDomain&quot;: &quot;mydomain.com&quot;,"/>
+                <outline text="&quot;urlFeedlandApp&quot;: &quot;http://mydomain.com/&quot;," created="Mon, 20 Mar 2023 16:19:40 GMT"/>
+                <outline text="" created="Mon, 23 Jan 2023 20:55:55 GMT"/>
+                <outline text="&quot;smtpHost&quot;: &quot;smtp.mailhost.com&quot;,"/>
+                <outline text="&quot;smtpPort&quot;: 587,"/>
+                <outline text="&quot;smtpUsername&quot;: &quot;bullman&quot;,"/>
+                <outline text="&quot;smtpPassword&quot;: &quot;getoutahere&quot;,"/>
+                <outline text="" created="Mon, 16 Jan 2023 15:33:21 GMT"/>
+                <outline text="&quot;mailSender&quot;: &quot;bullmancuso@thefamily.org&quot;," created="Fri, 04 Nov 2022 14:52:49 GMT"/>
+                <outline text="&quot;confirmEmailSubject&quot;: &quot;FeedLand confirmation&quot;," created="Wed, 04 Jan 2023 16:10:53 GMT"/>
+                <outline text="&quot;confirmationExpiresAfter&quot;: 86400," created="Mon, 16 Jan 2023 15:34:36 GMT"/>
+                <outline text="&quot;urlServerForEmail&quot;: &quot;http://mydomain.com/&quot;,"/>
+                <outline text="&quot;flUseDatabaseForConfirmations&quot;: true," created="Wed, 16 Aug 2023 09:48:10 GMT"/>
+                <outline text="" created="Tue, 17 Jan 2023 17:43:43 GMT"/>
+                <outline text="&quot;database&quot;: {">
+                  <outline text="&quot;host&quot;: &quot;mydatabaseprovider.com&quot;,"/>
+                  <outline text="&quot;port&quot;: 40303,"/>
+                  <outline text="&quot;user&quot;: &quot;admin&quot;,"/>
+                  <outline text="&quot;password&quot;: &quot;xxx&quot;,"/>
+                  <outline text="&quot;charset&quot;: &quot;utf8mb4&quot;,"/>
+                  <outline text="&quot;connectionLimit&quot;: 100,"/>
+                  <outline text="&quot;database&quot;: &quot;feedland&quot;,"/>
+                  <outline text="&quot;debug&quot;: false,"/>
+                  <outline text="&quot;flLogQueries&quot;: false,"/>
+                  <outline text="&quot;flQueueAllRequests&quot;: false,"/>
+                  <outline text="&quot;flUseMySql2&quot;: true" created="Thu, 07 Aug 2025 17:42:27 GMT"/>
+                  <outline text="},"/>
+                </outline>
+                <outline text="" created="Mon, 16 Jan 2023 15:33:58 GMT"/>
+                <outline text="&quot;flUseTwitterIdentity&quot;: false,"/>
+                <outline text="&quot;flEnableNewUsers&quot;: true,"/>
+                <outline text="&quot;flBackupOnStartup&quot;: false,"/>
+                <outline text="" created="Fri, 20 Jan 2023 20:05:11 GMT"/>
+                <outline text="&quot;flNewsProducts&quot;: false,"/>
+                <outline text="&quot;flUserFeeds&quot;: false,"/>
+                <outline text="&quot;flLikesFeeds&quot;: false,"/>
+                <outline text="" created="Fri, 13 Jan 2023 18:59:47 GMT"/>
+                <outline text="&quot;urlForFeeds&quot;: &quot;http://data.mydomain.com/feeds/&quot;,"/>
+                <outline text="&quot;s3PathForFeeds&quot;: &quot;/data.mydomain.com/feeds/&quot;,"/>
+                <outline text="&quot;s3LikesPath&quot;: &quot;/data.mydomain.com/likes/&quot;, "/>
+                <outline text="&quot;urlNewsProducts&quot;: &quot;http://newsproducts.mydomain.com&quot;," created="Tue, 17 Jan 2023 17:43:44 GMT"/>
+                <outline text="" created="Wed, 11 Jan 2023 19:18:04 GMT"/>
+                <outline text="&quot;maxRiverItems&quot;: 175,"/>
+                <outline text="&quot;maxNewFeedSubscriptions&quot;: 250,"/>
+                <outline text=""/>
+                <outline text="&quot;flUpdateFeedsInBackground&quot;: true,"/>
+                <outline text="&quot;minSecsBetwFeedChecks&quot;: 15,"/>
+                <outline text="" created="Wed, 04 Jan 2023 16:11:33 GMT"/>
+                <outline text="&quot;productName&quot;: &quot;FeedLand&quot;,"/>
+                <outline text="&quot;productNameForDisplay&quot;: &quot;FeedLand&quot;,"/>
+                <outline text=""/>
+                <outline text="&quot;urlServerHomePageSource&quot;: &quot;http://scripting.com/code/feedland/home/index.html&quot;,"/>
+                <outline text="" created="Wed, 13 Sep 2023 14:39:27 GMT"/>
+                <outline text="&quot;flUseRiverCache&quot;: true,"/>
+                <outline text="&quot;ctSecsLifeRiverCache&quot;: 300,"/>
+                <outline text=""/>
+                <outline text="&quot;githubBackup&quot;: {">
+                  <outline text="&quot;enabled&quot;: false,"/>
+                  <outline text="&quot;username&quot;: &quot;mygithubaccount&quot;,"/>
+                  <outline text="&quot;password&quot;: &quot;mygithubpassword&quot;,"/>
+                  <outline text="&quot;repo&quot;: &quot;feedlandServer&quot;,"/>
+                  <outline text="&quot;basepath&quot;: &quot;backups/&quot;,"/>
+                  <outline text="&quot;committer&quot;: {">
+                    <outline text="&quot;name&quot;: &quot;Jane Doe&quot;,"/>
+                    <outline text="&quot;email&quot;: &quot;jane.doe@gmail.com&quot;"/>
+                    <outline text="},"/>
+                  </outline>
+                  <outline text="&quot;message&quot;: &quot;.&quot;"/>
+                  <outline text="}"/>
+                </outline>
+                <outline text="}" created="Wed, 04 Jan 2023 16:04:05 GMT"/>
+              </outline>
+            </outline>
+          </outline>
+          <outline text="For the Docker template, I'd delete everything that we don't need for a basic install" created="Sat, 27 Dec 2025 15:30:57 GMT"/>
+          <outline text="The install will produce a config.json that can be edited and added to later." created="Sat, 27 Dec 2025 15:33:01 GMT">
+            <outline text="Docker should never overwrite an existing config.json." created="Sat, 27 Dec 2025 15:42:24 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="December 26" created="Fri, 26 Dec 2025 15:32:03 GMT" type="calendarDay" name="26">
+        <outline text="Dave, my goal is to have a 3 step install" created="Fri, 26 Dec 2025 17:17:33 GMT" type="outline">
+          <outline text="Download a GitHup repository with maybe 4 files" created="Fri, 26 Dec 2025 17:18:28 GMT"/>
+          <outline text="Edit the .env file to add a hostname" created="Fri, 26 Dec 2025 17:18:57 GMT"/>
+          <outline text="Run docker compose up " created="Fri, 26 Dec 2025 17:19:09 GMT"/>
+        </outline>
+        <outline text="Moving along with FeedLand Docker install" created="Fri, 26 Dec 2025 15:32:04 GMT" type="outline">
+          <outline text="Pushed the images to the Docker Hub account scotthansonde " created="Fri, 26 Dec 2025 15:32:23 GMT">
+            <outline text="https://hub.docker.com/r/scotthansonde/feedland/tags" created="Fri, 26 Dec 2025 15:32:46 GMT"/>
+          </outline>
+          <outline text="Added optional service for caddy to the compose file" created="Fri, 26 Dec 2025 15:36:41 GMT">
+            <outline text="&quot;docker compose up&quot; will not start caddy" created="Fri, 26 Dec 2025 15:39:57 GMT"/>
+            <outline text="Add the profile option  to activate: &quot;docker compose --profile caddy up&quot;" created="Fri, 26 Dec 2025 15:38:06 GMT"/>
+          </outline>
+          <outline text="Install setup.sql if there is no feedland database" created="Fri, 26 Dec 2025 15:47:39 GMT">
+            <outline text="The official mysql image has a feature to run an sql file on first start" created="Fri, 26 Dec 2025 15:57:00 GMT"/>
+            <outline text="Went back and forth with ChatGPT to get a shell script that fetches setup.sql from feedlandInstall on GitHub" created="Fri, 26 Dec 2025 17:12:16 GMT">
+              <outline text="https://raw.githubusercontent.com/scripting/feedlandInstall/refs/heads/main/docs/setup.sql" created="Fri, 26 Dec 2025 17:14:31 GMT"/>
+            </outline>
+            <outline text="It then creates a feedland user and grants it privleges on the feedland database" created="Fri, 26 Dec 2025 17:15:16 GMT"/>
+          </outline>
+          <outline text="It's almost working. setup.sql is download, but the feedland database isn't created. " created="Fri, 26 Dec 2025 17:48:20 GMT">
+            <outline text="Turned out to be a permissions problem. Now works." created="Fri, 26 Dec 2025 20:47:44 GMT"/>
+          </outline>
+          <outline text="Today's goal achieved! ���" created="Fri, 26 Dec 2025 17:48:54 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 24" created="Wed, 24 Dec 2025 14:54:57 GMT" type="calendarDay" name="24">
+        <outline text="That's all for today, we're in Minnesota with family for Christmas Eve 🎄" created="Wed, 24 Dec 2025 15:35:23 GMT" type="outline"/>
+        <outline text="FeedLand: Tore down the first test server, spun up a new one to install with Docker again" created="Wed, 24 Dec 2025 15:30:14 GMT" type="outline">
+          <outline text="It worked 👍" created="Wed, 24 Dec 2025 15:33:37 GMT">
+            <outline text="This time I used a different hostname: &quot;nisswa&quot; instead of &quot;feedtest&quot;" created="Wed, 24 Dec 2025 15:37:32 GMT">
+              <outline text="I kept confusing &quot;feedtest&quot; with my real instance &quot;feedland&quot;" created="Wed, 24 Dec 2025 15:38:11 GMT"/>
+              <outline text="There seems to be prior art for naming hosts after geographical locations " created="Wed, 24 Dec 2025 15:38:33 GMT"/>
+              <outline text="There are enough short and usual place names in the upper Midwest to keep me supplied" created="Wed, 24 Dec 2025 15:39:31 GMT"/>
+            </outline>
+          </outline>
+          <outline text="Ideas for improvements" created="Wed, 24 Dec 2025 15:31:11 GMT">
+            <outline text="Integrate installing setup.sql into docker compose" created="Wed, 24 Dec 2025 15:31:32 GMT"/>
+            <outline text="Optionally put caddy into a container and configure in docker compose" created="Wed, 24 Dec 2025 15:32:26 GMT"/>
+            <outline text="Use a template for config.json, read in the host name from an .env file" created="Wed, 24 Dec 2025 15:34:32 GMT"/>
+          </outline>
+        </outline>
+        <outline text="Dave: I've been thinking about the default config.json, I'll get back to you when I have concrete ideas." created="Wed, 24 Dec 2025 15:01:14 GMT" type="outline"/>
+        <outline text="Jake: thanks for the note about Docker on Synology" created="Wed, 24 Dec 2025 14:54:58 GMT" type="outline">
+          <outline text="I knew about it already, I run some apps on it myself 😃" created="Wed, 24 Dec 2025 14:55:12 GMT"/>
+          <outline text="But your note got me thinking it would be a good target for a FeedLand install" created="Wed, 24 Dec 2025 14:55:26 GMT">
+            <outline text="It could be a quick and easy way to put FeedLand on a home network if you have a NAS" created="Wed, 24 Dec 2025 14:56:18 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="December 23" created="Tue, 23 Dec 2025 22:55:32 GMT" type="calendarDay" name="23">
+        <outline text="FeedLand: Got things working with the Docker install" created="Tue, 23 Dec 2025 22:55:33 GMT" type="outline">
+          <outline text="It was a config.json issue. Copying and adapting my working config did not work.  " created="Tue, 23 Dec 2025 22:56:25 GMT"/>
+          <outline text="Starting with the default config.json from feedlandInstall, and adapting it did work." created="Tue, 23 Dec 2025 23:14:12 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 22" created="Mon, 22 Dec 2025 14:55:06 GMT" type="calendarDay" name="22">
+        <outline text="FeedLand: trying out Docker install from scratch (in progress)" created="Mon, 22 Dec 2025 14:55:07 GMT" type="outline">
+          <outline text="Fired up a small cloud server at Hetzner" created="Mon, 22 Dec 2025 14:55:32 GMT">
+            <outline text="Used a cloud-config script to set up my user and install Docker" created="Mon, 22 Dec 2025 14:57:05 GMT"/>
+            <outline text="https://gist.github.com/OnSive/21c9c12c73e8b230edef813958a7f433" created="Mon, 22 Dec 2025 14:59:17 GMT"/>
+            <outline text="I've never used cloud-config before, it looks pretty neat" created="Mon, 22 Dec 2025 14:59:19 GMT"/>
+          </outline>
+          <outline text="Setup Docker" created="Mon, 22 Dec 2025 14:59:51 GMT">
+            <outline text="Connect to github repository so we can store the image there" created="Mon, 22 Dec 2025 15:22:13 GMT">
+              <outline text="Create classic personal token under developer settings" created="Mon, 22 Dec 2025 15:22:35 GMT"/>
+              <outline text="echo YOUR_PAT | docker login ghcr.io -u YOUR_GITHUB_USERNAME --password-stdin " created="Mon, 22 Dec 2025 15:22:55 GMT"/>
+            </outline>
+            <outline text="Install node with nvm" created="Mon, 22 Dec 2025 15:11:56 GMT">
+              <outline text="https://github.com/nvm-sh/nvm" created="Mon, 22 Dec 2025 15:44:28 GMT"/>
+              <outline text="curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash" created="Mon, 22 Dec 2025 15:44:30 GMT"/>
+              <outline text="nvm install v24" created="Mon, 22 Dec 2025 15:45:08 GMT"/>
+            </outline>
+            <outline text="Create the feedland Docker image" created="Mon, 22 Dec 2025 15:47:14 GMT">
+              <outline text="Install my fork of cshotton/feedlandInstall" created="Mon, 22 Dec 2025 15:41:55 GMT">
+                <outline text="I've only made minimal changes" created="Mon, 22 Dec 2025 15:42:52 GMT"/>
+                <outline text="git clone https://github.com/scotthansonde/feedlandDockerInstall" created="Mon, 22 Dec 2025 15:42:29 GMT"/>
+              </outline>
+              <outline text="Build the image and push it to GitHub" created="Mon, 22 Dec 2025 15:55:39 GMT">
+                <outline text="docker buildx build --push --tag ghcr.io/scotthansonde/feedlandTest  . " created="Mon, 22 Dec 2025 15:48:10 GMT"/>
+              </outline>
+            </outline>
+            <outline text="Personalize docker-compose.yml and run" created="Mon, 22 Dec 2025 15:47:08 GMT">
+              <outline text="mkdir privateFiles " created="Mon, 22 Dec 2025 16:06:17 GMT"/>
+              <outline text="docker compose up" created="Mon, 22 Dec 2025 16:03:55 GMT"/>
+            </outline>
+            <outline text="It works, both containers are running!" created="Mon, 22 Dec 2025 16:12:12 GMT"/>
+          </outline>
+          <outline text="Finish setup" created="Mon, 22 Dec 2025 16:41:07 GMT">
+            <outline text="Set up database" created="Mon, 22 Dec 2025 15:41:52 GMT">
+              <outline text="https://github.com/scripting/feedlandInstall/blob/main/docs/setup.sql" created="Mon, 22 Dec 2025 16:35:16 GMT"/>
+            </outline>
+            <outline text="Point DNS to server" created="Mon, 22 Dec 2025 16:41:22 GMT">
+              <outline text="feedtest.shanson.de" created="Mon, 22 Dec 2025 16:41:29 GMT"/>
+              <outline text="" created="Mon, 22 Dec 2025 16:43:14 GMT"/>
+            </outline>
+            <outline text="Set up config.json" created="Mon, 22 Dec 2025 16:43:21 GMT"/>
+            <outline text="Install and set up caddy" created="Mon, 22 Dec 2025 16:50:33 GMT">
+              <outline text="https://github.com/scripting/feedlandInstall/blob/main/docs/https.md" created="Mon, 22 Dec 2025 16:52:39 GMT"/>
+            </outline>
+            <outline text="Had to fiddle with docker-compose.yml to recognize config.json as a file instead of a directory." created="Mon, 22 Dec 2025 18:30:24 GMT"/>
+          </outline>
+          <outline text="Status: Website shows the correct head, body is empty, a error in the console. Stopping for now. 😃" created="Mon, 22 Dec 2025 18:31:05 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 21" created="Sun, 21 Dec 2025 14:49:19 GMT" type="calendarDay" name="21">
+        <outline text="I've shut down social.masto.land. We'll see if anyone notices.  " created="Sun, 21 Dec 2025 22:56:05 GMT" type="outline">
+          <outline text="Dave asked: do we need social.masto.land for anything?" created="Sun, 21 Dec 2025 14:49:20 GMT" type="outline">
+            <outline text="If you don't need it for anything, then no, I don't think so" created="Sun, 21 Dec 2025 14:49:53 GMT"/>
+            <outline text="And it's a real pain to maintain 😃" created="Sun, 21 Dec 2025 14:50:42 GMT"/>
+            <outline text="I'd be happy to take it down" created="Sun, 21 Dec 2025 14:50:56 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="December 19" created="Fri, 19 Dec 2025 21:01:39 GMT" type="calendarDay" name="19">
+        <outline text="FeedLand: Nightly delete is working for me" created="Fri, 19 Dec 2025 21:01:40 GMT" type="outline">
+          <outline text="I finally got around to checking my items table after setting flDeleteOldItems to true" created="Fri, 19 Dec 2025 21:03:11 GMT"/>
+          <outline text="There are indeed no items with a whenCreated older than 365 days" created="Fri, 19 Dec 2025 21:04:12 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 16" created="Tue, 16 Dec 2025 15:59:04 GMT" type="calendarDay" name="16">
+        <outline text="Personal note: I will be away for the holidays Dec 18-29" created="Tue, 16 Dec 2025 15:59:05 GMT" type="outline"/>
+      </outline>
+      <outline text="December 15" created="Mon, 15 Dec 2025 08:15:49 GMT" type="calendarDay" name="15">
+        <outline text="Yes, I do read Jake's notes" created="Mon, 15 Dec 2025 08:32:12 GMT" type="outline">
+          <outline text="C code isn't in my wheelhouse, but I do know what it is like to fight with git and AI coding tools 😃" created="Mon, 15 Dec 2025 08:33:07 GMT"/>
+        </outline>
+        <outline text="Baseline: singular items, release notes updated " created="Mon, 15 Dec 2025 08:15:50 GMT" type="outline">
+          <outline text="Mentioned on Scripting News in 2017" created="Mon, 15 Dec 2025 08:16:10 GMT"/>
+          <outline text="http://scripting.com/2017/05/13.html#a010552" created="Mon, 15 Dec 2025 08:16:29 GMT"/>
+          <outline text="I'll start using the terminology in my commits so AI knows how to write the release notes." created="Mon, 15 Dec 2025 16:11:04 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 14" created="Sun, 14 Dec 2025 16:05:38 GMT" type="calendarDay" name="14">
+        <outline text="Baseline: singular vs titleless" created="Sun, 14 Dec 2025 16:05:39 GMT" type="outline">
+          <outline text="Got it, I'll update the notes tomorrow" created="Sun, 14 Dec 2025 16:05:53 GMT"/>
+          <outline text="I would like liked to &lt;i&gt;like&lt;/i&gt; this entry in Dave's outline 😃" created="Sun, 14 Dec 2025 16:07:00 GMT">
+            <outline text="Just to acknowledge I read it and will act on it " created="Sun, 14 Dec 2025 16:08:12 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="December 13" created="Sat, 13 Dec 2025 09:32:25 GMT" type="calendarDay" name="13">
+        <outline text="FeedLand flDeleteOldItems" created="Sat, 13 Dec 2025 09:32:26 GMT" type="outline">
+          <outline text="I hadn't tried this yet, so I just activated it. We'll see tomorrow how it works. " created="Sat, 13 Dec 2025 09:33:49 GMT"/>
+          <outline text="BTW I'm using Chuck Schotten's Docker instructions to maintain and run my FeedLand instance" created="Sat, 13 Dec 2025 09:39:32 GMT">
+            <outline text="https://github.com/cshotton/feedlandInstall" created="Sat, 13 Dec 2025 09:41:32 GMT"/>
+          </outline>
+          <outline text="I'm still learning Docker and how to manage images. Once I have a streamlined procedure for maintaining a FeedLand instance, I'll write it up to be shared." created="Sat, 13 Dec 2025 09:44:02 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 12" created="Fri, 12 Dec 2025 10:12:01 GMT" type="calendarDay" name="12">
+        <outline text="FeedLand v0.7.18" created="Fri, 12 Dec 2025 16:22:16 GMT" type="outline">
+          <outline text="Dave, yes I'm using it, no problems at all. 👍" created="Fri, 12 Dec 2025 16:22:29 GMT">
+            <outline text="MySQL: v8.4.6. FeedLand Database: v0.8.11. FeedLand: v0.7.18. Client: v0.7.0." created="Fri, 12 Dec 2025 16:22:51 GMT"/>
+          </outline>
+          <outline text="I have lost my prefs a few times in the past, so it would be cool if this is fixed." created="Fri, 12 Dec 2025 16:24:19 GMT"/>
+        </outline>
+        <outline text="Baseline: adjusted text and column text width styles" created="Fri, 12 Dec 2025 12:33:36 GMT" type="outline">
+          <outline text="Text size and spacing should now match Scripting News" created="Fri, 12 Dec 2025 12:34:04 GMT"/>
+          <outline text="Width of text column now fixed" created="Fri, 12 Dec 2025 12:35:12 GMT"/>
+          <outline text="Need to remember to change the version number on CSS changes, wordpress.com seems to agressively cache. 😃" created="Fri, 12 Dec 2025 16:25:31 GMT"/>
+        </outline>
+        <outline text="Baseline: merged and optimized CSS" created="Fri, 12 Dec 2025 10:12:02 GMT" type="outline">
+          <outline text="On daveverse we have 3 separate CSS files." created="Fri, 12 Dec 2025 10:12:15 GMT">
+            <outline text="baselinePlayground, the original prototype styles" created="Fri, 12 Dec 2025 10:12:31 GMT">
+              <outline text="https://github.com/scripting/baselinePlayground" created="Fri, 12 Dec 2025 10:12:52 GMT"/>
+            </outline>
+            <outline text="style.css, the standard WordPress theme stylesheet" created="Fri, 12 Dec 2025 10:13:48 GMT"/>
+            <outline text="testing.css, an external stylesheet Dave added to daveverse.org" created="Fri, 12 Dec 2025 10:14:43 GMT">
+              <outline text="https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.css" created="Fri, 12 Dec 2025 10:15:28 GMT"/>
+            </outline>
+          </outline>
+          <outline text="I've now merged and optimized the styles into a single file." created="Fri, 12 Dec 2025 10:16:45 GMT">
+            <outline text="They're in style.css." created="Fri, 12 Dec 2025 10:17:37 GMT"/>
+          </outline>
+          <outline text="I can now more easily adjust the styles, since everything is in one place." created="Fri, 12 Dec 2025 10:19:07 GMT"/>
+          <outline text="Dave can continue to add styles for daveverse to his testing.css." created="Fri, 12 Dec 2025 10:18:06 GMT">
+            <outline text="If we like his changes, we can merge them into baseline" created="Fri, 12 Dec 2025 10:20:24 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="December 11" created="Thu, 11 Dec 2025 14:30:32 GMT" type="calendarDay" name="11">
+        <outline text="Baseline: next on my list, CSS" created="Thu, 11 Dec 2025 14:30:33 GMT" type="outline">
+          <outline text="I had intended to start on CSS today, but my job interfered so not much time today." created="Thu, 11 Dec 2025 14:30:42 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 10" created="Wed, 10 Dec 2025 17:33:49 GMT" type="calendarDay" name="10">
+        <outline text="Blogrolls: volunteered to try it out a micro.blog" created="Wed, 10 Dec 2025 17:36:48 GMT" type="outline">
+          <outline text="https://github.com/scripting/Scripting-News/issues/345" created="Wed, 10 Dec 2025 17:38:16 GMT"/>
+          <outline text="Since I use both micro.blog and FeedLand, why not 😃" created="Wed, 10 Dec 2025 17:38:25 GMT"/>
+        </outline>
+        <outline text="Baseline: deployed the purple pound signs to daveverse.org" created="Wed, 10 Dec 2025 17:33:50 GMT" type="outline">
+          <outline text="https://github.com/scotthansonde/wordlandBaseline/issues/52" created="Wed, 10 Dec 2025 17:34:24 GMT"/>
+          <outline text="It's not perfect yet, Scripting News puts purple pound signs on every paragraph" created="Wed, 10 Dec 2025 17:35:00 GMT"/>
+          <outline text="If WordLand can put a unique id on paragraphs, than we can do it too" created="Wed, 10 Dec 2025 17:35:44 GMT"/>
+        </outline>
+      </outline>
+      <outline text="December 8" created="Mon, 08 Dec 2025 16:55:12 GMT" type="calendarDay" name="08">
+        <outline text="Reactivating the instant outline 💪" created="Mon, 08 Dec 2025 16:55:13 GMT" type="outline"/>
+      </outline>
+    </outline>
+    <outline text="May 2023" created="Wed, 24 May 2023 16:06:41 GMT" name="may2023" type="calendarMonth">
+      <outline text="May 24" created="Wed, 24 May 2023 16:06:42 GMT" type="calendarDay" name="24">
+        <outline text="In case you have a BlueSky invite and you would like help debugging your tools, I'd be happy to take it " created="Wed, 24 May 2023 16:06:59 GMT" type="outline">
+          <outline text="Otherwise I'll just wait until my spot on the waiting list comes up, no big deal" created="Wed, 24 May 2023 16:08:04 GMT"/>
+        </outline>
+        <outline text="Time to say hello here again 😃" created="Wed, 24 May 2023 16:06:43 GMT" type="outline"/>
+      </outline>
+    </outline>
+    <outline text="April 2023" created="Sun, 09 Apr 2023 07:05:28 GMT" name="april2023" type="calendarMonth">
+      <outline text="April 9" created="Sun, 09 Apr 2023 07:05:29 GMT" type="calendarDay" name="09">
+        <outline text="Installed Belter on my machine" created="Sun, 09 Apr 2023 07:06:48 GMT" type="outline">
+          <outline text="I had forgotten I was subscribed to this repository 😃" created="Sun, 09 Apr 2023 07:11:41 GMT"/>
+          <outline text="Install worked, `belt examples/hello.belt` worked" created="Sun, 09 Apr 2023 07:12:04 GMT"/>
+          <outline text="All the examples seem to work (some with minor pref adjustments)" created="Sun, 09 Apr 2023 07:30:34 GMT"/>
+          <outline text="Fun to try out a work in progress" created="Sun, 09 Apr 2023 07:35:02 GMT"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="March 2023" created="Thu, 02 Mar 2023 14:16:32 GMT" name="march2023" type="calendarMonth">
+      <outline text="March 28" created="Tue, 28 Mar 2023 18:27:19 GMT" type="calendarDay" name="28">
+        <outline text="Opening an URL on the command line" created="Tue, 28 Mar 2023 18:33:09 GMT" type="outline">
+          <outline text="I know that on MacOS, 'open http://scripting.com' will open a URL in the default browser" created="Tue, 28 Mar 2023 18:33:18 GMT"/>
+          <outline text="Found an page explaining this for various operating systems: https://dwheeler.com/essays/open-files-urls.html  " created="Tue, 28 Mar 2023 18:33:58 GMT"/>
+        </outline>
+        <outline text="The Scripting chatbot sounds very exciting!" created="Tue, 28 Mar 2023 18:27:20 GMT" type="outline">
+          <outline text="I'm happy a partner stepped up, and I'll be following the progress  " created="Tue, 28 Mar 2023 18:29:03 GMT"/>
+        </outline>
+      </outline>
+      <outline text="March 9" created="Thu, 09 Mar 2023 15:41:21 GMT" type="calendarDay" name="09">
+        <outline text="Downloaded the E/D version announced today " created="Thu, 09 Mar 2023 15:41:22 GMT" type="outline">
+          <outline text="Logging in with email works" created="Thu, 09 Mar 2023 15:42:04 GMT"/>
+          <outline text="Creating a public outline works" created="Thu, 09 Mar 2023 15:43:09 GMT">
+            <outline text="I wasn't aware or just assumed it wasn't possible for the old E/D to make public outlines" created="Thu, 09 Mar 2023 15:43:16 GMT"/>
+            <outline text="So this is a new feature for me 😃" created="Thu, 09 Mar 2023 15:44:27 GMT"/>
+          </outline>
+          <outline text="I can now create a E/D public outline and watch it on W/D, and vice versa" created="Thu, 09 Mar 2023 15:44:46 GMT"/>
+        </outline>
+      </outline>
+      <outline text="March 5" created="Sun, 05 Mar 2023 12:34:52 GMT" type="calendarDay" name="05">
+        <outline text="Tried out the March 4 edition of E/D" created="Sun, 05 Mar 2023 12:34:53 GMT" type="outline">
+          <outline text="I was already signed in, so I first signed off" created="Sun, 05 Mar 2023 12:35:12 GMT">
+            <outline text="The menus didn't change. My user name was still shown next to the person icon, and there was no menu item to sign in" created="Sun, 05 Mar 2023 12:39:22 GMT"/>
+          </outline>
+          <outline text="I then quit E/D and started it again" created="Sun, 05 Mar 2023 12:40:36 GMT">
+            <outline text="Now the person icon reads &quot;Sign on here&quot;, and the menu item &quot;Sign on Drummer&quot; is shown" created="Sun, 05 Mar 2023 12:41:02 GMT"/>
+            <outline text="Sign on worked as expected" created="Sun, 05 Mar 2023 12:43:32 GMT">
+              <outline text="Welcome to the camp!" created="Sun, 05 Mar 2023 12:45:45 GMT"/>
+            </outline>
+          </outline>
+        </outline>
+      </outline>
+      <outline text="March 3" created="Fri, 03 Mar 2023 10:39:08 GMT" type="calendarDay" name="03">
+        <outline text="I was now able to download the new E/D 👍" created="Fri, 03 Mar 2023 16:08:24 GMT" type="outline">
+          <outline text="Authentication worked exactly as described in the February 27 entry " created="Fri, 03 Mar 2023 16:09:37 GMT"/>
+        </outline>
+        <outline text="I'm getting AccessDenied on the E/D download" created="Fri, 03 Mar 2023 10:39:09 GMT" type="outline">
+          <outline text="To make sure I have the URL right..." created="Fri, 03 Mar 2023 10:39:49 GMT"/>
+          <outline text="https://s3.amazonaws.com/scripting.com/publicfolder/downloads/electricDrummer.zip" created="Fri, 03 Mar 2023 10:39:29 GMT"/>
+        </outline>
+      </outline>
+      <outline text="March 2" created="Thu, 02 Mar 2023 14:16:33 GMT" type="calendarDay" name="02">
+        <outline text="Automatic certificate renewal on social.masto.land should work now" created="Thu, 02 Mar 2023 15:29:54 GMT" type="outline">
+          <outline text="We'll know for sure in May... the current cert expires on May 31, and should renew 30 days before that" created="Thu, 02 Mar 2023 16:39:36 GMT"/>
+          <outline text="I've also added my email address to the cert, so I get notified if the cert is about to expire" created="Thu, 02 Mar 2023 18:20:37 GMT"/>
+          <outline text="Kind of an amateur mistake to have the cert expire..." created="Thu, 02 Mar 2023 18:21:16 GMT">
+            <outline text="But I thought that if the install script installed the cert, it would set up the automatic renewal" created="Thu, 02 Mar 2023 18:22:09 GMT"/>
+            <outline text="I've been spoiled by Caddy, where you don't have to think of any of this. 😃" created="Thu, 02 Mar 2023 18:22:54 GMT"/>
+          </outline>
+        </outline>
+        <outline text="Dave, I'm back in Germany and would be happy to try out the new E/D" created="Thu, 02 Mar 2023 14:16:34 GMT" type="outline"/>
+      </outline>
+    </outline>
+    <outline text="Februar 2023" created="Sun, 26 Feb 2023 10:54:57 GMT" name="februar2023" type="calendarMonth">
+      <outline text="Februar 27" created="Mon, 27 Feb 2023 15:31:57 GMT" type="calendarDay" name="27">
+        <outline text="social.masto.land is back up" created="Mon, 27 Feb 2023 15:32:14 GMT" type="outline">
+          <outline text="The DO droplet apparently isn’t configured to automatically renew the SSL certificate" created="Mon, 27 Feb 2023 15:33:02 GMT"/>
+          <outline text="Then renewing from the command line `certbot renew` failed because Port 80 was not available " created="Mon, 27 Feb 2023 15:35:17 GMT"/>
+          <outline text="Shut down nginx, `certbot renew` then worked, start up nginx" created="Mon, 27 Feb 2023 15:36:08 GMT"/>
+          <outline text="To do when I’m back home: set up auto-renew" created="Mon, 27 Feb 2023 15:37:42 GMT"/>
+          <outline text="BTW Drummer works just fine on an iPad with a keyboard cover ;)" created="Mon, 27 Feb 2023 15:40:40 GMT"/>
+        </outline>
+      </outline>
+      <outline text="Februar 26" created="Sun, 26 Feb 2023 10:54:58 GMT" type="calendarDay" name="26">
+        <outline text="On a business trip to Skopje for a few days" created="Sun, 26 Feb 2023 10:54:59 GMT" type="outline">
+          <outline text="Be back Wednesday" created="Sun, 26 Feb 2023 10:55:27 GMT"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="February 2023" created="Sun, 12 Feb 2023 09:24:33 GMT" name="february2023" type="calendarMonth">
+      <outline text="February 25" created="Sat, 25 Feb 2023 07:37:00 GMT" type="calendarDay" name="25">
+        <outline text="How to Set Up Your S3 Bucket with HTTPS in an Hour " created="Sat, 25 Feb 2023 07:37:01 GMT" type="link" url="https://thenewstack.io/how-to-set-up-your-s3-bucket-with-https-in-an-hour/">
+          <outline text="I couldn't get it to work at first. Generated a certificate, set up CloudFront, but https doesn't answer " created="Sat, 25 Feb 2023 15:32:49 GMT"/>
+          <outline text="Maybe I need Route 53 (even though my DNS is elsewhere)?" created="Sat, 25 Feb 2023 15:34:21 GMT"/>
+          <outline text="Added Route 53 for the hostname... it's just a normal A entry for CloudFront" created="Sat, 25 Feb 2023 16:44:20 GMT"/>
+          <outline text="Ah, now it works. I needed my DNS (Cloudflare) to CNAME to CloudFront, not S3" created="Sat, 25 Feb 2023 16:11:12 GMT">
+            <outline text="Namely to the &quot;Distribution domain name&quot; shown in the General tab for the distribution" created="Sat, 25 Feb 2023 16:15:50 GMT"/>
+            <outline text="No Route 53 needed" created="Sat, 25 Feb 2023 16:16:32 GMT"/>
+          </outline>
+          <outline text="I don't really need this, I just wanted to figure it out 😃" created="Sat, 25 Feb 2023 16:17:28 GMT"/>
+        </outline>
+      </outline>
+      <outline text="February 24" created="Fri, 24 Feb 2023 16:17:17 GMT" type="calendarDay" name="24">
+        <outline text="I was able to install and start ioBridge on my desktop machine... it works" created="Fri, 24 Feb 2023 17:24:35 GMT" type="outline">
+          <outline text="I changed the first four settings in config.json" created="Fri, 24 Feb 2023 17:26:04 GMT">
+            <outline text="&quot;watchFolder&quot;: &quot;/Users/shanson/Projects/outlines/&quot;," created="Fri, 24 Feb 2023 17:27:01 GMT"/>
+            <outline text="&quot;pathFileToWatch&quot;: &quot;/Users/shanson/Projects/outlines/SMHInstantOutline.opml&quot;," created="Fri, 24 Feb 2023 17:27:09 GMT"/>
+            <outline text="&quot;urlInstantOutline&quot;: &quot;http://outlines.papascott.de.s3-website-us-east-1.amazonaws.com/notes.opml&quot;," created="Fri, 24 Feb 2023 17:30:30 GMT"/>
+            <outline text="&quot;s3PathInstantOutline&quot;: &quot;/outlines.papascott.de/notes.opml&quot;," created="Fri, 24 Feb 2023 17:27:11 GMT"/>
+          </outline>
+          <outline text="node iobridge.js starts with no errors" created="Fri, 24 Feb 2023 17:27:20 GMT"/>
+          <outline text="I make a change to SMHInstantOutline in E/D " created="Fri, 24 Feb 2023 17:29:39 GMT"/>
+          <outline text="I see the change to http://outlines.papascott.de.s3-website-us-east-1.amazonaws.com/notes.opml in W/D " created="Fri, 24 Feb 2023 17:30:18 GMT"/>
+          <outline text="With a green arrow on updates" created="Fri, 24 Feb 2023 17:29:28 GMT"/>
+          <outline text="It's just a test outline for now... no content of value" created="Fri, 24 Feb 2023 17:31:24 GMT"/>
+        </outline>
+        <outline text="I see the update in DW/dev2, both web and electric" created="Fri, 24 Feb 2023 16:17:18 GMT" type="outline">
+          <outline text="And I see it update in real time, now I have the link to ioBridge 😃" created="Fri, 24 Feb 2023 16:19:07 GMT"/>
+        </outline>
+      </outline>
+      <outline text="February 16" created="Thu, 16 Feb 2023 17:14:03 GMT" type="calendarDay" name="16">
+        <outline text="February 15" created="Wed, 15 Feb 2023 17:37:38 GMT" type="calendarDay" name="15">
+          <outline text="Ran into the close icon &quot;bug&quot; on drummer.land today" created="Wed, 15 Feb 2023 17:47:51 GMT" type="outline">
+            <outline text="My settings were copied over from drummer.scripting.com, so when I opened drummer.land today, it opened the same outlines I had last had open on drummer.scripting.com " created="Wed, 15 Feb 2023 17:48:13 GMT"/>
+            <outline text="One of them was an instant online that is no longer available. The close icon was not shown." created="Wed, 15 Feb 2023 17:49:52 GMT"/>
+            <outline text="Of course I am now an ace with Dev Tools, so I could make the icon visible and close the tab. " created="Wed, 15 Feb 2023 17:50:35 GMT"/>
+          </outline>
+          <outline text="HTTPS doc for ParkPark https://github.com/scripting/pagePark/blob/master/docs/https.md" created="Wed, 15 Feb 2023 17:37:39 GMT" type="outline">
+            <outline text="I was going to copy my doc there but I see I'm not a contributor for PagePark yet" created="Wed, 15 Feb 2023 17:44:59 GMT"/>
+            <outline text="GitHub offered to let me make a pull request, but I didn't want to do that 😃" created="Wed, 15 Feb 2023 17:46:12 GMT"/>
+          </outline>
+        </outline>
+        <outline text="Set up S3 for saving feeds and likes" created="Thu, 16 Feb 2023 17:14:04 GMT" type="outline">
+          <outline text="It works, but I really hate configuring AWS" created="Thu, 16 Feb 2023 17:14:27 GMT"/>
+        </outline>
+      </outline>
+      <outline text="February 13" created="Mon, 13 Feb 2023 11:39:27 GMT" type="calendarDay" name="13">
+        <outline text="testing wss with socketconnect and pagepark" created="Mon, 13 Feb 2023 16:55:12 GMT" type="outline">
+          <outline text="I found my mistake. I needed to activate the pagepark cli by setting flCliPortEnabled to true " created="Mon, 13 Feb 2023 16:57:05 GMT"/>
+          <outline text="with the cli I saw that pagepark (or forever?) was redirecting the websocket port to 1670 (from 3232)" created="Mon, 13 Feb 2023 16:58:09 GMT">
+            <outline text="[0]: huey.scotthanson.omg.lol        1670   socketconnect.js  /tmp/logs/socketconnect.txt     0       1       Just now" created="Mon, 13 Feb 2023 16:59:09 GMT"/>
+          </outline>
+          <outline text="I updated Caddyfile to send the websocket requests to port 1670, then the test with the local index.html and code.js was successful  " created="Mon, 13 Feb 2023 16:59:32 GMT"/>
+        </outline>
+        <outline text="https setup docs" created="Mon, 13 Feb 2023 11:39:28 GMT" type="outline">
+          <outline text="Dave, you asked me to write up setup docs for HTTPS for feedlandInstall and for PagePark." created="Mon, 13 Feb 2023 11:39:45 GMT">
+            <outline text="https://github.com/scripting/feedlandInstall/blob/main/docs/https.md " created="Mon, 13 Feb 2023 11:40:45 GMT"/>
+            <outline text="https://github.com/scripting/pagePark/blob/master/docs/https.md " created="Mon, 13 Feb 2023 11:41:04 GMT"/>
+          </outline>
+          <outline text="I haven't forgotten 😃" created="Mon, 13 Feb 2023 11:40:30 GMT"/>
+        </outline>
+      </outline>
+      <outline text="February 12" created="Sun, 12 Feb 2023 09:24:34 GMT" type="calendarDay" name="12">
+        <outline text="This is my new instant outline on drummer.land!" created="Sun, 12 Feb 2023 09:24:35 GMT" type="outline">
+          <outline text="It seems to just work, I can open in E/D and follow my changes" created="Sun, 12 Feb 2023 10:13:39 GMT"/>
+          <outline text="This is a comment" created="Sun, 12 Feb 2023 10:16:12 GMT" isComment="true"/>
+        </outline>
+      </outline>
+    </outline>
+    <outline text="" created="Sun, 12 Feb 2023 09:22:31 GMT"/>
+  </body>
+</opml>
