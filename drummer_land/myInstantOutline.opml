@@ -7,12 +7,30 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 13 Jan 2026 17:16:30 GMT</dateModified>
-    <expansionState>1,2,3,6,9</expansionState>
-    <lastCursor>7</lastCursor>
+    <dateModified>Sun, 18 Jan 2026 17:55:35 GMT</dateModified>
+    <expansionState>1,2,3,8,10,12,15,16,19,22</expansionState>
+    <lastCursor>6</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 18" created="Sun, 18 Jan 2026 11:51:48 GMT" type="calendarDay" name="18">
+        <outline text="Comment icon for daveverse.org" created="Sun, 18 Jan 2026 17:44:11 GMT" type="outline">
+          <outline text="There's a comment icon included in WordPress, would that be OK?" created="Sun, 18 Jan 2026 17:44:37 GMT"/>
+          <outline text="https://developer.wordpress.org/resource/dashicons/#admin-comments" created="Sun, 18 Jan 2026 17:47:01 GMT"/>
+          <outline text="&lt;img src=&quot;https://f001.backblazeb2.com/file/scotthanson-images/outlines/comment-icon.png&quot;&gt;" created="Sun, 18 Jan 2026 17:48:32 GMT"/>
+          <outline text="It's a lot smaller than that, of course. 😃" created="Sun, 18 Jan 2026 17:54:24 GMT"/>
+        </outline>
+        <outline text="My test feedlandDockerCompose site was not updating feeds" created="Sun, 18 Jan 2026 11:51:49 GMT" type="outline">
+          <outline text="flUpdateFeedsInBackground was not set" created="Sun, 18 Jan 2026 11:52:30 GMT"/>
+          <outline text="Changed the template to include all settings from the recommended config.json from feedlandInstall" created="Sun, 18 Jan 2026 11:52:42 GMT">
+            <outline text="Do not omit any settings, even if the default seems to be correct" created="Sun, 18 Jan 2026 11:53:23 GMT"/>
+          </outline>
+          <outline text="How did flUpdateFeedsInBackground get set to false?" created="Sun, 18 Jan 2026 17:39:56 GMT">
+            <outline text="I don't know. I simply omitted it from config.json." created="Sun, 18 Jan 2026 17:40:15 GMT"/>
+            <outline text="It's not blocking me from anything, so I won't report it as a bug." created="Sun, 18 Jan 2026 17:40:31 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="January 11" created="Sun, 11 Jan 2026 15:40:34 GMT" type="calendarDay" name="11">
         <outline text="feedlandDockerInstall: build image with GitHub actions" created="Sun, 11 Jan 2026 15:40:35 GMT" type="outline">
           <outline text="https://github.com/scotthansonde/feedlandDockerInstall" created="Tue, 13 Jan 2026 15:31:39 GMT"/>
