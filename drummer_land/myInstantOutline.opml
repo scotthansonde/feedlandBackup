@@ -7,12 +7,15 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 19 Jan 2026 17:00:04 GMT</dateModified>
-    <expansionState>1,2,4,6,8,11,12,15,18</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Tue, 20 Jan 2026 08:16:54 GMT</dateModified>
+    <expansionState>1,2</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 20" created="Tue, 20 Jan 2026 08:16:29 GMT" type="calendarDay" name="20">
+        <outline text="Meetings all day today, I'll be back with ideas tomorrow" created="Tue, 20 Jan 2026 08:16:30 GMT" type="outline"/>
+      </outline>
       <outline text="January 18" created="Sun, 18 Jan 2026 11:51:48 GMT" type="calendarDay" name="18">
         <outline text="Comment icon for daveverse.org" created="Sun, 18 Jan 2026 17:44:11 GMT" type="outline">
           <outline text="There's a comment icon included in WordPress, would that be OK?" created="Sun, 18 Jan 2026 17:44:37 GMT"/>
