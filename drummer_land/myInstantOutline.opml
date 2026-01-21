@@ -7,12 +7,49 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 20 Jan 2026 08:16:54 GMT</dateModified>
-    <expansionState>1,2</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Wed, 21 Jan 2026 18:08:44 GMT</dateModified>
+    <expansionState>1,2,3,8</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 21" created="Wed, 21 Jan 2026 14:53:16 GMT" type="calendarDay" name="21">
+        <outline text="But now I do have data-postId inserted on every spPermalink 👍 " created="Wed, 21 Jan 2026 16:45:21 GMT" type="outline">
+          <outline text="It comes out as data-postid but I think camel-case doesn't work in HTML attributes." created="Wed, 21 Jan 2026 17:05:44 GMT"/>
+          <outline text="I'll get back to this on Friday or Saturday." created="Wed, 21 Jan 2026 17:07:10 GMT"/>
+          <outline text="And we can move the discussion to GitHub." created="Wed, 21 Jan 2026 17:08:04 GMT"/>
+          <outline text="I did the singular posts first, but they should be on all posts now." created="Wed, 21 Jan 2026 17:59:20 GMT"/>
+        </outline>
+        <outline text="I won't be able to insert siteId today" created="Wed, 21 Jan 2026 16:41:27 GMT" type="outline">
+          <outline text="ChatGPT said that it was in either WP_SITE_ID or WP_BLOG_ID, but neither one works." created="Wed, 21 Jan 2026 16:41:49 GMT"/>
+        </outline>
+        <outline text="&quot;if you have the site-id available when you build the page, you could add it as a data attribute to the divPageBody element&quot;" created="Wed, 21 Jan 2026 16:04:32 GMT" type="outline">
+          <outline text="Yes I can. Let me try that, I'll get back to you." created="Wed, 21 Jan 2026 16:04:42 GMT"/>
+          <outline text="That's probably better than injecting data into the javascript" created="Wed, 21 Jan 2026 16:05:09 GMT"/>
+        </outline>
+        <outline text="&quot;when you generate a purple poundsign, where did the 5806 in this link come from?&quot;" created="Wed, 21 Jan 2026 15:44:56 GMT" type="outline">
+          <outline text="The entire url is the output of the WordPress function the_permalink()" created="Wed, 21 Jan 2026 15:45:35 GMT"/>
+          <outline text="If there is no title, the integer at the end of the permalink is the postId" created="Wed, 21 Jan 2026 15:50:30 GMT"/>
+          <outline text="The code that produces the purple poundsign is at" created="Wed, 21 Jan 2026 15:53:57 GMT">
+            <outline text="https://github.com/scotthansonde/wordlandBaseline/blob/9023a45f495b27365f34be6bd62ea0219a4b7e80/template-parts/content.php#L13" created="Wed, 21 Jan 2026 15:54:17 GMT"/>
+          </outline>
+        </outline>
+        <outline text="js in daveverse.org" created="Wed, 21 Jan 2026 14:53:17 GMT" type="outline">
+          <outline text="Maybe I should try adding a script to my own site to see if it really works this way. 😃" created="Wed, 21 Jan 2026 15:16:55 GMT"/>
+          <outline text="I've already asked ChatGPT how you can get siteId and postId" created="Wed, 21 Jan 2026 14:53:25 GMT">
+            <outline text="WordPress can inject data into the js when it is enqueued  " created="Wed, 21 Jan 2026 14:54:01 GMT"/>
+            <outline text="For example, this would add a variable siteId to the beginning of the js" created="Wed, 21 Jan 2026 15:04:59 GMT">
+              <outline text="wp_add_inline_script(" created="Wed, 21 Jan 2026 15:04:22 GMT">
+                <outline text="'baseline-external-js',"/>
+                <outline text="'const siteId = ' . (int) get_current_blog_id() . ';" created="Wed, 21 Jan 2026 15:04:31 GMT"/>
+                <outline text="'before'" created="Wed, 21 Jan 2026 15:05:20 GMT"/>
+                <outline text=");" created="Wed, 21 Jan 2026 15:05:22 GMT"/>
+              </outline>
+            </outline>
+            <outline text="For postId, since there can be several posts on the page, it recommended adding it as an html attribute to each post, where the js can read it" created="Wed, 21 Jan 2026 15:08:34 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="January 20" created="Tue, 20 Jan 2026 08:16:29 GMT" type="calendarDay" name="20">
         <outline text="Meetings all day today, I'll be back with ideas tomorrow" created="Tue, 20 Jan 2026 08:16:30 GMT" type="outline"/>
       </outline>
