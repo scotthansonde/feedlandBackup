@@ -7,12 +7,16 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 21 Jan 2026 18:08:44 GMT</dateModified>
-    <expansionState>1,2,3,8</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Thu, 22 Jan 2026 07:46:21 GMT</dateModified>
+    <expansionState>1,2,5,6,11</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 22" created="Thu, 22 Jan 2026 06:49:56 GMT" type="calendarDay" name="22">
+        <outline text="I'm out-of-office until Friday afternoon" created="Thu, 22 Jan 2026 07:46:06 GMT" type="outline"/>
+        <outline text="Now the siteIds are really on all posts, not just singular posts. 😃" created="Thu, 22 Jan 2026 06:49:57 GMT" type="outline"/>
+      </outline>
       <outline text="January 21" created="Wed, 21 Jan 2026 14:53:16 GMT" type="calendarDay" name="21">
         <outline text="But now I do have data-postId inserted on every spPermalink 👍 " created="Wed, 21 Jan 2026 16:45:21 GMT" type="outline">
           <outline text="It comes out as data-postid but I think camel-case doesn't work in HTML attributes." created="Wed, 21 Jan 2026 17:05:44 GMT"/>
