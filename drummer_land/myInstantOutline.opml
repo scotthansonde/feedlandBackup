@@ -7,12 +7,63 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 22 Jan 2026 07:46:21 GMT</dateModified>
-    <expansionState>1,2,5,6,11</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Sat, 24 Jan 2026 16:54:30 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,13,15,20</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 24" created="Sat, 24 Jan 2026 08:34:37 GMT" type="calendarDay" name="24">
+        <outline text="Dave, it's not that hard" created="Sat, 24 Jan 2026 16:51:22 GMT" type="outline">
+          <outline text="The recipe from ChatGPT works, and in fact does use the WPCOM API to get the siteId" created="Sat, 24 Jan 2026 16:51:32 GMT">
+            <outline text="We don't want to hit the API for every page view, so it is cached" created="Sat, 24 Jan 2026 16:54:04 GMT"/>
+          </outline>
+          <outline text="I did want to document (for myself) how to set up the development environment for a WordPress plugin" created="Sat, 24 Jan 2026 16:52:28 GMT">
+            <outline text="I hadn't set up an environment for a plugin before" created="Sat, 24 Jan 2026 16:52:57 GMT"/>
+          </outline>
+          <outline text="I know you're not waiting for this, so I'm being careful and not rushing" created="Sat, 24 Jan 2026 16:53:17 GMT"/>
+        </outline>
+        <outline text="WordPress: Exposing the siteId for the javascript connection to WordLand " created="Sat, 24 Jan 2026 08:34:38 GMT" type="outline">
+          <outline text="ChatGPT gave me a recipe, I now have to put it into a plugin" created="Sat, 24 Jan 2026 08:35:35 GMT">
+            <outline text="This will be separate from the Baseline Theme" created="Sat, 24 Jan 2026 08:36:55 GMT"/>
+            <outline text="The connection should work with any theme, not just Baseline" created="Sat, 24 Jan 2026 08:37:40 GMT"/>
+          </outline>
+          <outline text="First step: set up a development environment with wp-env" created="Sat, 24 Jan 2026 08:37:54 GMT">
+            <outline text="https://developer.wordpress.org/block-editor/getting-started/devenv/get-started-with-wp-env/" created="Sat, 24 Jan 2026 08:40:19 GMT"/>
+            <outline text="This is apparently how real WordPress developers do their work 😃" created="Sat, 24 Jan 2026 08:40:23 GMT"/>
+          </outline>
+          <outline text="Download the data from daveverse.org to use in my test site" created="Sat, 24 Jan 2026 08:54:31 GMT">
+            <outline text="The standard WordPress import/export never seems to work" created="Sat, 24 Jan 2026 08:54:58 GMT"/>
+            <outline text="&quot;All-in-One WP Migration and Backup&quot; seems to work the best" created="Sat, 24 Jan 2026 08:55:15 GMT"/>
+            <outline text="It overwrites the entire test database, including the admin password" created="Sat, 24 Jan 2026 08:55:47 GMT"/>
+            <outline text="It can be reset with a MySQL query" created="Sat, 24 Jan 2026 08:56:10 GMT">
+              <outline text="UPDATE wp_users SET user_pass=MD5('new_password') WHERE user_login = 'admin'" created="Sat, 24 Jan 2026 08:58:08 GMT"/>
+            </outline>
+          </outline>
+          <outline text="How to debug" created="Sat, 24 Jan 2026 10:11:14 GMT">
+            <outline text="In .wp-env.json turn on debugging and map the log to local file system" created="Sat, 24 Jan 2026 10:11:27 GMT">
+              <outline text="&quot;config&quot;: {" created="Sat, 24 Jan 2026 10:12:13 GMT">
+                <outline text="&quot;WP_DEBUG&quot;: true,"/>
+                <outline text="&quot;WP_DEBUG_LOG&quot;: &quot;/var/www/html/wp-content/logs/debug.log&quot;,"/>
+                <outline text="&quot;WP_DEBUG_DISPLAY&quot;: false,"/>
+                <outline text="&quot;SCRIPT_DEBUG&quot;: true,"/>
+                <outline text="&quot;WP_ENVIRONMENT_TYPE&quot;: &quot;local&quot;"/>
+              </outline>
+              <outline text="},"/>
+              <outline text="&quot;mappings&quot;: {" created="Sat, 24 Jan 2026 10:12:37 GMT">
+                <outline text="&quot;wp-content/logs&quot;: &quot;./logs&quot;"/>
+              </outline>
+              <outline text="}"/>
+            </outline>
+          </outline>
+          <outline text="And after all this, the recipe works" created="Sat, 24 Jan 2026 10:14:34 GMT">
+            <outline text="Site info is fetched from the WP API, then cached" created="Sat, 24 Jan 2026 10:18:14 GMT"/>
+            <outline text="A hidden div is inserted on the page" created="Sat, 24 Jan 2026 10:14:52 GMT"/>
+            <outline text="&lt;div id=&quot;wordland-site&quot; data-global-site-id=&quot;237777565&quot; data-global-site-id-source=&quot;wpcom-api&quot; data-wp-blog-id=&quot;1&quot; hidden&gt;&lt;/div&gt;" created="Sat, 24 Jan 2026 10:15:43 GMT"/>
+          </outline>
+          <outline text="Next step, trim down the recipe to usable code, since ChatGPT tries to do way too much in the recipe" created="Sat, 24 Jan 2026 10:16:01 GMT"/>
+        </outline>
+      </outline>
       <outline text="January 22" created="Thu, 22 Jan 2026 06:49:56 GMT" type="calendarDay" name="22">
         <outline text="I'm out-of-office until Friday afternoon" created="Thu, 22 Jan 2026 07:46:06 GMT" type="outline"/>
         <outline text="Now the siteIds are really on all posts, not just singular posts. 😃" created="Thu, 22 Jan 2026 06:49:57 GMT" type="outline"/>
