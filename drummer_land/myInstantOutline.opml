@@ -7,12 +7,22 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 24 Jan 2026 16:54:30 GMT</dateModified>
-    <expansionState>1,2,3,4,6,9,13,15,20</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Sun, 25 Jan 2026 14:58:31 GMT</dateModified>
+    <expansionState>1,2,3,5,9,10,11,13,16,20,22</expansionState>
+    <lastCursor>26</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 25" created="Sun, 25 Jan 2026 10:17:03 GMT" type="calendarDay" name="25">
+        <outline text="The plugin to expose the siteId has been activated on daveverse.org" created="Sun, 25 Jan 2026 13:33:41 GMT" type="outline">
+          <outline text="https://github.com/scotthansonde/wordlandBaseline/issues/55#issuecomment-3796459823" created="Sun, 25 Jan 2026 13:34:45 GMT"/>
+        </outline>
+        <outline text="Re: https://daveverse.org/2026/01/24/6039/" created="Sun, 25 Jan 2026 10:17:04 GMT" type="outline">
+          <outline text="For singular posts we don't set the permalink to the post page, but to an anchor on the day page " created="Sun, 25 Jan 2026 10:17:08 GMT"/>
+          <outline text="In this case, https://daveverse.org/2026/01/24/#a6039" created="Sun, 25 Jan 2026 10:17:29 GMT"/>
+          <outline text="I think we did this because we thought a one-line singular post looks silly on a page all by itself" created="Sun, 25 Jan 2026 10:27:17 GMT"/>
+        </outline>
+      </outline>
       <outline text="January 24" created="Sat, 24 Jan 2026 08:34:37 GMT" type="calendarDay" name="24">
         <outline text="Dave, it's not that hard" created="Sat, 24 Jan 2026 16:51:22 GMT" type="outline">
           <outline text="The recipe from ChatGPT works, and in fact does use the WPCOM API to get the siteId" created="Sat, 24 Jan 2026 16:51:32 GMT">
