@@ -7,12 +7,33 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 27 Jan 2026 17:29:30 GMT</dateModified>
-    <expansionState>1,2,3,6,10,11,13</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Wed, 28 Jan 2026 15:46:07 GMT</dateModified>
+    <expansionState>1,2,3,8,10</expansionState>
+    <lastCursor>12</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 28" created="Wed, 28 Jan 2026 09:53:57 GMT" type="calendarDay" name="28">
+        <outline text="WordPress Dashboard" created="Wed, 28 Jan 2026 15:40:19 GMT" type="outline">
+          <outline text="The dashboard is all the settings for the site, everything under /wp-admin" created="Wed, 28 Jan 2026 14:42:05 GMT"/>
+          <outline text="See https://daveverse.org/wp-admin/" created="Wed, 28 Jan 2026 15:40:34 GMT"/>
+          <outline text="If the site is by invitation only, then leaving the settings open won't be an issue" created="Wed, 28 Jan 2026 15:41:22 GMT"/>
+          <outline text="I've never tried multisite. I'll fire one up to see what it looks like." created="Wed, 28 Jan 2026 15:45:29 GMT"/>
+        </outline>
+        <outline text="Hosting WordPress multisite sites for WordLand" created="Wed, 28 Jan 2026 09:53:58 GMT" type="outline">
+          <outline text="I asked ChatGPT about this" created="Wed, 28 Jan 2026 09:54:10 GMT">
+            <outline text="If we were to start a WordPress hosting service, is there any software available (in addition to WordPress itself) to get us started?" created="Wed, 28 Jan 2026 09:54:21 GMT"/>
+            <outline text="We would prefer open-source tools." created="Wed, 28 Jan 2026 09:54:40 GMT"/>
+            <outline text="What are the pros and cons of using WordPress Multisite for such a service?" created="Wed, 28 Jan 2026 09:54:56 GMT"/>
+            <outline text="https://chatgpt.com/share/6979dc43-7668-8009-88ac-f9173052aaef" created="Wed, 28 Jan 2026 09:53:59 GMT"/>
+          </outline>
+          <outline text="It suggests that multisite would be a good fit for this use case" created="Wed, 28 Jan 2026 09:55:08 GMT">
+            <outline text="It sounds like we would manage all the sites ourselves. The users should have no access to the WordPress dashboard, right?" created="Wed, 28 Jan 2026 09:56:18 GMT"/>
+            <outline text="We could use the WordPress CLI to automate site setup https://wp-cli.org/ " created="Wed, 28 Jan 2026 09:58:55 GMT"/>
+          </outline>
+          <outline text="" created="Wed, 28 Jan 2026 14:43:03 GMT"/>
+        </outline>
+      </outline>
       <outline text="January 27" created="Tue, 27 Jan 2026 17:19:11 GMT" type="calendarDay" name="27">
         <outline text="Hosting WordPress multisite sites for WordLand" created="Tue, 27 Jan 2026 17:25:43 GMT" type="outline">
           <outline text="It's certainly possible, there are tons of commercial WordPress hosters" created="Tue, 27 Jan 2026 17:25:56 GMT"/>
