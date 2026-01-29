@@ -7,12 +7,24 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 28 Jan 2026 15:46:07 GMT</dateModified>
-    <expansionState>1,2,3,8,10</expansionState>
-    <lastCursor>12</lastCursor>
+    <dateModified>Thu, 29 Jan 2026 16:42:32 GMT</dateModified>
+    <expansionState>1,2,3,4,11,12,17,19</expansionState>
+    <lastCursor>9</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 29" created="Thu, 29 Jan 2026 16:37:01 GMT" type="calendarDay" name="29">
+        <outline text="Have a barebones multisite WordPress running" created="Thu, 29 Jan 2026 16:37:02 GMT" type="outline">
+          <outline text="You start with a basic WordPress installation, add settings in wp-config.php with a text editor, and add lines to .htaccess" created="Thu, 29 Jan 2026 16:40:29 GMT">
+            <outline text="https://developer.wordpress.org/advanced-administration/multisite/create-network/" created="Thu, 29 Jan 2026 16:41:19 GMT"/>
+          </outline>
+          <outline text="Mainsite: https://multisite.shanson.de/" created="Thu, 29 Jan 2026 16:37:24 GMT"/>
+          <outline text="First user site: https://user1.multisite.shanson.de/" created="Thu, 29 Jan 2026 16:38:03 GMT"/>
+          <outline text="It looks like the user sites have to be either a subdomain of the main site or a subdirectory (ie https://multisite.shanson.de/user1)" created="Thu, 29 Jan 2026 16:38:27 GMT"/>
+          <outline text="CNAMEs can be mapped to the user sites, but I haven't tried that yet" created="Thu, 29 Jan 2026 16:39:36 GMT"/>
+          <outline text="That's all for today. It's a whole new world to explore." created="Thu, 29 Jan 2026 16:42:15 GMT"/>
+        </outline>
+      </outline>
       <outline text="January 28" created="Wed, 28 Jan 2026 09:53:57 GMT" type="calendarDay" name="28">
         <outline text="WordPress Dashboard" created="Wed, 28 Jan 2026 15:40:19 GMT" type="outline">
           <outline text="The dashboard is all the settings for the site, everything under /wp-admin" created="Wed, 28 Jan 2026 14:42:05 GMT"/>
