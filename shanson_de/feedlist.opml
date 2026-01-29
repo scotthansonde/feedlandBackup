@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Wed, 28 Jan 2026 18:05:05 GMT</dateModified>
+    <dateModified>Thu, 29 Jan 2026 06:11:50 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
