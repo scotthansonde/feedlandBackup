@@ -7,12 +7,105 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 30 Jan 2026 16:35:02 GMT</dateModified>
-    <expansionState>1,2,3,9,10,11</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Sat, 31 Jan 2026 14:21:38 GMT</dateModified>
+    <expansionState>1,2,3,14,19,22,25</expansionState>
+    <lastCursor>25</lastCursor>
   </head>
   <body>
     <outline text="January 2026" created="Thu, 01 Jan 2026 14:32:29 GMT" name="january2026" type="calendarMonth">
+      <outline text="January 31" created="Sat, 31 Jan 2026 09:13:13 GMT" type="calendarDay" name="31">
+        <outline text="Reinstalling WordPress multisite, take notes on the process" created="Sat, 31 Jan 2026 09:21:44 GMT" type="outline">
+          <outline text="Deploy the WordPress service on coolify" created="Sat, 31 Jan 2026 09:23:21 GMT">
+            <outline text="This installs Wordpress and MySQL containers and automatically connects them" created="Sat, 31 Jan 2026 09:24:15 GMT"/>
+            <outline text="I won't necessarily run the production site on coolify, but it's the quickest way to get a test site up and running" created="Sat, 31 Jan 2026 09:23:45 GMT"/>
+          </outline>
+          <outline text="Fill out the WordPress one-step install screen (sitename, user, password, etc.)" created="Sat, 31 Jan 2026 09:24:59 GMT"/>
+          <outline text="From the dashboard, install and test a SMTP plugin (FluentSMTP should work on multisite)" created="Sat, 31 Jan 2026 09:26:29 GMT">
+            <outline text="SMTP is necessary to send password resets, but is not included on the docker image" created="Sat, 31 Jan 2026 09:48:05 GMT"/>
+            <outline text="A plugin is much easier than setting up a mail server on coolify" created="Sat, 31 Jan 2026 09:45:20 GMT"/>
+            <outline text="Unrelated comment: so many &quot;free&quot; WordPress plugins feel really spammy, trying to sell upgrades" created="Sat, 31 Jan 2026 09:47:20 GMT">
+              <outline text="At least this one doesn't have a &quot;premium&quot; version, it's just advertises paid plugins from the developer " created="Sat, 31 Jan 2026 09:52:15 GMT"/>
+            </outline>
+          </outline>
+          <outline text="Install and configure Jetpack" created="Sat, 31 Jan 2026 09:56:19 GMT">
+            <outline text="Onboarding screen: &quot;Start with Jetpack for free&quot; click &quot;Supercharge my site&quot;" created="Sat, 31 Jan 2026 09:56:56 GMT"/>
+            <outline text="Let it connect to my WordPress.com account" created="Sat, 31 Jan 2026 09:58:07 GMT"/>
+            <outline text="Success, the new site appears under https://wordpress.com/sites" created="Sat, 31 Jan 2026 10:00:16 GMT"/>
+          </outline>
+          <outline text="Install Baseline theme (as installed on daveverse.org)" created="Sat, 31 Jan 2026 10:40:46 GMT">
+            <outline text="Enqueue https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.js " created="Sat, 31 Jan 2026 10:41:23 GMT">
+              <outline text="My own plugin &quot;Baseline CSS and JS Loader&quot;" created="Sat, 31 Jan 2026 10:46:14 GMT"/>
+            </outline>
+            <outline text="With data-postId and data-siteId" created="Sat, 31 Jan 2026 10:42:09 GMT">
+              <outline text="My own plugin &quot;WordLand Site ID&quot;" created="Sat, 31 Jan 2026 10:46:31 GMT"/>
+            </outline>
+            <outline text="Delete default &quot;Twenty&quot; themes and unused default plugins " created="Sat, 31 Jan 2026 10:49:49 GMT"/>
+          </outline>
+          <outline text="Activate multisite" created="Sat, 31 Jan 2026 10:50:32 GMT">
+            <outline text="https://developer.wordpress.org/advanced-administration/multisite/create-network/" created="Sat, 31 Jan 2026 10:55:47 GMT" type="link" url="https://developer.wordpress.org/advanced-administration/multisite/create-network/"/>
+            <outline text="Setup sites as subdirectory (will this be easier to administer?)" created="Sat, 31 Jan 2026 11:09:29 GMT"/>
+            <outline text="Plugins activate for the network" created="Sat, 31 Jan 2026 11:07:52 GMT"/>
+            <outline text="Jetpack needs to be setup for multisite" created="Sat, 31 Jan 2026 11:06:43 GMT"/>
+          </outline>
+          <outline text="Add first site" created="Sat, 31 Jan 2026 11:11:01 GMT">
+            <outline text="https://multisite.shanson.de/thedude" created="Sat, 31 Jan 2026 11:11:07 GMT"/>
+            <outline text="Errors" created="Sat, 31 Jan 2026 11:15:59 GMT">
+              <outline text="https://multisite.shanson.de/thedude/wp-admin/ Browser error:  " created="Sat, 31 Jan 2026 11:11:54 GMT">
+                <outline text="This page isn’t working" created="Sat, 31 Jan 2026 11:12:01 GMT"/>
+                <outline text="multisite.shanson.de redirected you too many times." created="Sat, 31 Jan 2026 11:12:04 GMT"/>
+              </outline>
+              <outline text="https://multisite.shanson.de/thedude Wordpress error:" created="Sat, 31 Jan 2026 11:14:07 GMT">
+                <outline text="The theme directory &quot;twentytwentyfive&quot; does not exist." created="Sat, 31 Jan 2026 11:14:23 GMT"/>
+              </outline>
+            </outline>
+            <outline text="Delete site, reinstall twentytwentyfive, try again" created="Sat, 31 Jan 2026 11:16:11 GMT"/>
+          </outline>
+          <outline text="Getting redirect errors on the admin page of the new site" created="Sat, 31 Jan 2026 11:50:42 GMT">
+            <outline text="Went back and forth with ChatGPT, we couldn't find a fix" created="Sat, 31 Jan 2026 11:51:16 GMT"/>
+            <outline text="Try again tomorrow" created="Sat, 31 Jan 2026 11:51:36 GMT"/>
+          </outline>
+          <outline text="Stop, I think I found the error... for multisite we need to change the persistent storage for the Wordpress docker container" created="Sat, 31 Jan 2026 12:01:37 GMT">
+            <outline text="https://coolify.io/docs/knowledge-base/how-to/wordpress-multisite" created="Sat, 31 Jan 2026 12:02:23 GMT"/>
+            <outline text="We also need to replace the default .htaccess with the multisite version, not merge them" created="Sat, 31 Jan 2026 13:55:53 GMT"/>
+          </outline>
+          <outline text="Quickly reinstalled everything with this setup, the new site now appears correctly and I can access the admin page 👍" created="Sat, 31 Jan 2026 12:17:47 GMT"/>
+          <outline text="Throwaway test site: https://dudette.shanson.de/" created="Sat, 31 Jan 2026 13:50:52 GMT">
+            <outline text="Test post with WordLand successful" created="Sat, 31 Jan 2026 13:51:07 GMT"/>
+            <outline text="Hashmarks and reply icons are showing" created="Sat, 31 Jan 2026 14:00:47 GMT"/>
+            <outline text="Console error when clicking on reply icon" created="Sat, 31 Jan 2026 14:01:04 GMT">
+              <outline text="spReplyIcon.click" created="Sat, 31 Jan 2026 14:02:49 GMT"/>
+              <outline text="testing.js?t=1769867640:29 Uncaught ReferenceError: jsonStringify is not defined" created="Sat, 31 Jan 2026 14:03:02 GMT">
+                <outline text="sendToWordland @ testing.js?t=1769867640:29" created="Sat, 31 Jan 2026 14:02:56 GMT"/>
+                <outline text="(anonymous) @ testing.js?t=1769867640:137"/>
+                <outline text="dispatch @ jquery.min.js?ver=3.7.1:2"/>
+                <outline text="v.handle @ jquery.min.js?ver=3.7.1:2Understand this error" created="Sat, 31 Jan 2026 14:02:58 GMT"/>
+              </outline>
+            </outline>
+          </outline>
+          <outline text="Tomorrow: make sure the new sites pickup the Baseline theme and the necessary settings" created="Sat, 31 Jan 2026 12:26:57 GMT"/>
+        </outline>
+        <outline text="CNAME App isn't working for me" created="Sat, 31 Jan 2026 09:13:14 GMT" type="outline">
+          <outline text="I see the Log On with WordPress button " created="Sat, 31 Jan 2026 09:13:29 GMT"/>
+          <outline text="Sign on with WordPress, I get redirected to http://scripting.com/code/cnames/home/index.html#?wordpressaccesstoken=xxxx" created="Sat, 31 Jan 2026 09:14:22 GMT"/>
+          <outline text="Screen is blank, nothing happens" created="Sat, 31 Jan 2026 09:14:55 GMT">
+            <outline text="Screen has background-color rgb(245, 245, 245), so css is loading" created="Sat, 31 Jan 2026 09:17:01 GMT"/>
+            <outline text="Console messages: " created="Sat, 31 Jan 2026 09:17:46 GMT">
+              <outline text="startup" created="Sat, 31 Jan 2026 09:17:57 GMT"/>
+              <outline text="api.js:12 Uncaught URIError: URI malformed" created="Sat, 31 Jan 2026 09:18:18 GMT">
+                <outline text="base64UrlDecode @ api.js:12" created="Sat, 31 Jan 2026 09:18:18 GMT"/>
+                <outline text="gotToken @ code.js:676" created="Sat, 31 Jan 2026 09:18:30 GMT"/>
+                <outline text="handleAccesstoken @ code.js:692" created="Sat, 31 Jan 2026 09:18:02 GMT"/>
+                <outline text="startup @ code.js:727"/>
+                <outline text="(anonymous) @ index.html:60"/>
+                <outline text="c @ jquery-1.9.1.min.js:3"/>
+                <outline text="fireWith @ jquery-1.9.1.min.js:3"/>
+                <outline text="ready @ jquery-1.9.1.min.js:3"/>
+                <outline text="H @ jquery-1.9.1.min.js:3" created="Sat, 31 Jan 2026 09:18:02 GMT"/>
+              </outline>
+            </outline>
+          </outline>
+        </outline>
+      </outline>
       <outline text="January 30" created="Fri, 30 Jan 2026 16:10:13 GMT" type="calendarDay" name="30">
         <outline text="Mapping a domain to a multisite site" created="Fri, 30 Jan 2026 16:10:14 GMT" type="outline">
           <outline text="Docs: https://developer.wordpress.org/advanced-administration/multisite/domain-mapping/" created="Fri, 30 Jan 2026 16:10:32 GMT"/>
