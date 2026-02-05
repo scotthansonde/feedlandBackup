@@ -7,12 +7,18 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 02 Feb 2026 17:25:33 GMT</dateModified>
-    <expansionState>1,2,3,5,6,10,13,14,17,21,25,26,27,38,43,46,49</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Thu, 05 Feb 2026 15:19:07 GMT</dateModified>
+    <expansionState>1,2,3,6,7,9,10,14,17,18,21,25,29,30,31,42,47,50,53</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 5" created="Thu, 05 Feb 2026 08:40:42 GMT" type="calendarDay" name="05">
+        <outline text="&quot;scott, could we add source:markdown to daveverse.org/feed/&quot;" created="Thu, 05 Feb 2026 08:40:43 GMT" type="outline">
+          <outline text="It looks like Chuck already installed the plugin 😃" created="Thu, 05 Feb 2026 08:41:36 GMT"/>
+          <outline text="The plugin works on my own site too" created="Thu, 05 Feb 2026 08:44:33 GMT"/>
+        </outline>
+      </outline>
       <outline text="February 2" created="Mon, 02 Feb 2026 16:46:28 GMT" type="calendarDay" name="02">
         <outline text="Status of FeedLand Docker Install" created="Mon, 02 Feb 2026 16:46:29 GMT" type="outline">
           <outline text="It's basically done, I just need to write the docs and test it one more time" created="Mon, 02 Feb 2026 16:46:37 GMT"/>
