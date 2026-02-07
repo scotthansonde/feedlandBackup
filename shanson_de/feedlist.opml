@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Sat, 07 Feb 2026 06:09:46 GMT</dateModified>
+    <dateModified>Sat, 07 Feb 2026 18:04:12 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="Rubenerd" xmlUrl="http://rubenerd.com/feed/" htmlUrl="https://rubenerd.com/" category="all"/>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
     <outline type="rss" text="Scott's Test Fediverse Blog" xmlUrl="https://scottverse.wordpress.com/feed" htmlUrl="https://scottverse.wordpress.com/" category="all,testing"/>
