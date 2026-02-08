@@ -7,12 +7,34 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 05 Feb 2026 15:19:07 GMT</dateModified>
-    <expansionState>1,2,3,6,7,9,10,14,17,18,21,25,29,30,31,42,47,50,53</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Sun, 08 Feb 2026 15:42:30 GMT</dateModified>
+    <expansionState>1,2,3,5,7,9,11,13,15,16,19,20,22,23,27,30,31,34,38,42,43,44,55,60,63,66</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 8" created="Sun, 08 Feb 2026 08:55:18 GMT" type="calendarDay" name="08">
+        <outline text="First test of the install.sh script" created="Sun, 08 Feb 2026 15:37:31 GMT" type="outline">
+          <outline text="It seems to work 👍. Just enter a hostname for FEEDLAND_DOMAIN, and everything starts up." created="Sun, 08 Feb 2026 15:37:48 GMT"/>
+          <outline text="I need to think about edge cases." created="Sun, 08 Feb 2026 15:37:57 GMT">
+            <outline text="Do we want caddy to start by default? Probably not, but I need to think about it." created="Sun, 08 Feb 2026 15:38:13 GMT">
+              <outline text="You probably want a new caddy only if you are on a brand new server with a public IP with no other web apps " created="Sun, 08 Feb 2026 15:40:02 GMT"/>
+            </outline>
+            <outline text="If you don't enter a hostname at the prompt, it uses 'feedland.example.com' which guaranteed won't work." created="Sun, 08 Feb 2026 15:38:59 GMT">
+              <outline text="We need to document how to correct this." created="Sun, 08 Feb 2026 15:41:13 GMT"/>
+            </outline>
+          </outline>
+        </outline>
+        <outline text="Finalizing Feedland Docker Install" created="Sun, 08 Feb 2026 08:55:19 GMT" type="outline">
+          <outline text="https://github.com/scotthansonde/feedlandDockerCompose" created="Sun, 08 Feb 2026 09:02:47 GMT"/>
+          <outline text="My first idea was to have the user edit an .env file and enter FEEDLAND_DOMAIN and the MySQL passwords" created="Sun, 08 Feb 2026 09:12:07 GMT">
+            <outline text="That seems complicated, can we do a one- or two-step install" created="Sun, 08 Feb 2026 12:53:51 GMT"/>
+          </outline>
+          <outline text="How about an install.sh script that prompts for the domain name and generates the passwords?" created="Sun, 08 Feb 2026 09:13:15 GMT">
+            <outline text="ChatGPT suggested a workflow and scripts, let's see how it works" created="Sun, 08 Feb 2026 12:53:19 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="February 5" created="Thu, 05 Feb 2026 08:40:42 GMT" type="calendarDay" name="05">
         <outline text="&quot;scott, could we add source:markdown to daveverse.org/feed/&quot;" created="Thu, 05 Feb 2026 08:40:43 GMT" type="outline">
           <outline text="It looks like Chuck already installed the plugin 😃" created="Thu, 05 Feb 2026 08:41:36 GMT"/>
