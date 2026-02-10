@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Mon, 09 Feb 2026 18:14:52 GMT</dateModified>
+    <dateModified>Tue, 10 Feb 2026 06:22:10 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Rubenerd" xmlUrl="http://rubenerd.com/feed/" htmlUrl="https://rubenerd.com/" category="all"/>
@@ -70,7 +70,7 @@
     <outline type="rss" text="Open Source with Christopher Lydon" xmlUrl="https://radioopensource.org/feed/" htmlUrl="https://radioopensource.org/" category="all,podcasts,starters"/>
     <outline type="rss" text="NYT &gt; Most Recent Headlines" xmlUrl="http://nytimes.com/timeswire/feeds/" htmlUrl="https://www.nytimes.com/timeswire" category="all,nyt,starters"/>
     <outline type="rss" text="NYT &gt; Most Popular" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/MostEmailed.xml" htmlUrl="https://www.nytimes.com/" category="all,nyt,starters"/>
-    <outline type="rss" text="food-service.de - Märkte und Management" xmlUrl="https://www.food-service.de/maerkteundmanagement/feed/" htmlUrl="https://gvpraxis.food-service.de/" category="all"/>
+    <outline type="rss" text="food-service.de - Märkte und Management" xmlUrl="https://www.food-service.de/maerkteundmanagement/feed/" htmlUrl="https://www.food-service.de/" category="all"/>
     <outline type="rss" text="PBS NewsHour - Agents for Change" xmlUrl="https://www.pbs.org/newshour/feeds/rss/agents-for-change" htmlUrl="https://www.pbs.org/newshour/world/agents-for-change" category="all"/>
     <outline type="rss" text="CodePen Radio" xmlUrl="https://blog.codepen.io/feed/podcast/" htmlUrl="https://blog.codepen.io/series/codepen-radio/" category="all,podcasts"/>
     <outline type="rss" text="Remote Synthesis | Blog" xmlUrl="https://remotesynthesis.com/feed.xml" htmlUrl="https://remotesynthesis.com/" category="all,tech"/>
