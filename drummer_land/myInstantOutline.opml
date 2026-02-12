@@ -7,12 +7,37 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 11 Feb 2026 17:09:54 GMT</dateModified>
-    <expansionState>1,2,3</expansionState>
-    <lastCursor>12</lastCursor>
+    <dateModified>Thu, 12 Feb 2026 16:42:00 GMT</dateModified>
+    <expansionState>1,2,3,6,9,11,13,18</expansionState>
+    <lastCursor>16</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 12" created="Thu, 12 Feb 2026 11:37:18 GMT" type="calendarDay" name="12">
+        <outline text="Getting back to WordPress multisite" created="Thu, 12 Feb 2026 15:56:13 GMT" type="outline">
+          <outline text="Can we remotely setup secondary sites for user we approve?" created="Thu, 12 Feb 2026 15:56:24 GMT"/>
+          <outline text="Yes, but it's not in the WP API. We'd have to write our own API endpoint." created="Thu, 12 Feb 2026 15:56:59 GMT"/>
+          <outline text="There are examples of this on GitHub" created="Thu, 12 Feb 2026 15:57:38 GMT">
+            <outline text="&lt;a href=&quot;https://github.com/brettkrueger/multisite-rest-api&quot;&gt;https://github.com/brettkrueger/multisite-rest-api&lt;/a&gt;" created="Thu, 12 Feb 2026 16:30:29 GMT"/>
+          </outline>
+          <outline text="ChatGPT also gave me a blueprint" created="Thu, 12 Feb 2026 16:04:06 GMT">
+            <outline text="Screenshot 1" created="Thu, 12 Feb 2026 16:19:16 GMT">
+              <outline text="&lt;img src=&quot;https://f001.backblazeb2.com/file/scotthanson-images/outlines/creating-wp-mu-addsite-endpoint-1.png&quot;&gt;" created="Thu, 12 Feb 2026 16:15:28 GMT"/>
+            </outline>
+            <outline text="Screenshot 2" created="Thu, 12 Feb 2026 16:17:11 GMT">
+              <outline text="&lt;img src=&quot;https://f001.backblazeb2.com/file/scotthanson-images/outlines/creating-wp-mu-addsite-endpoint-2.png&quot;&gt;" created="Thu, 12 Feb 2026 16:19:45 GMT"/>
+            </outline>
+            <outline text="&lt;a href=&quot;https://f001.backblazeb2.com/file/scotthanson-images/outlines/creating-wp-mu-addsite-endpoint-plugin.txt&quot;&gt;Reference plugin code&lt;/a&gt;" created="Thu, 12 Feb 2026 16:24:08 GMT"/>
+            <outline text="The &lt;a href=&quot;https://chatgpt.com/share/698dfc54-23dc-8009-b75f-950317fbcd50&quot;&gt;entire chat&lt;/a&gt;, scroll down to my question &quot;I would like for a separate app to be able to instantiate MU subsites. How could that work, with the WP API?&quot; " created="Thu, 12 Feb 2026 16:04:15 GMT"/>
+          </outline>
+        </outline>
+        <outline text="Dave, thanks for the update on the status of FeedLand" created="Thu, 12 Feb 2026 11:37:19 GMT" type="outline">
+          <outline text="I'm pretty sure the Docker image won't work with the Automattic VIP infrastructure 😃" created="Thu, 12 Feb 2026 15:51:08 GMT"/>
+          <outline text="I got curious, it turns out the VIP infrastructure has public docs " created="Thu, 12 Feb 2026 15:51:51 GMT">
+            <outline text="https://docs.wpvip.com/infrastructure/" created="Thu, 12 Feb 2026 15:53:38 GMT" type="link" url="https://docs.wpvip.com/infrastructure/"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="February 11" created="Wed, 11 Feb 2026 16:34:26 GMT" type="calendarDay" name="11">
         <outline text="Initial release of FeedLand Docker Install for public testing" created="Wed, 11 Feb 2026 16:34:27 GMT" type="outline">
           <outline text="I finally had to just get this out 😃" created="Wed, 11 Feb 2026 16:37:01 GMT"/>
