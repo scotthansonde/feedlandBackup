@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Fri, 13 Feb 2026 18:10:11 GMT</dateModified>
+    <dateModified>Sat, 14 Feb 2026 06:10:43 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
@@ -100,7 +100,7 @@
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all,politics"/>
     <outline type="rss" text="AVC" xmlUrl="http://feeds.feedburner.com/avc" htmlUrl="https://avc.com/" category="all,tech,bloggers,starters"/>
     <outline type="rss" text="DER SPIEGEL - International" xmlUrl="http://www.spiegel.de/international/index.rss" htmlUrl="https://www.spiegel.de/" category="all,politics,starters"/>
-    <outline type="rss" text="Radiolab" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="https://www.wnycstudios.org/podcasts/radiolab/projects/podcasts" category="all,podcasts,starters"/>
+    <outline type="rss" text="Radiolab" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="https://www.radiolab.org/" category="all,podcasts,starters"/>
     <outline type="rss" text="Gizmodo" xmlUrl="http://gizmodo.com/index.xml" htmlUrl="https://gizmodo.com/" category="all,tech,starters"/>
     <outline type="rss" text="Paul Graham: Essays" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/" category="all,starters"/>
     <outline type="rss" text="Podnews Daily - podcast industry news" xmlUrl="https://podnews.net/rss" htmlUrl="https://podnews.net/" category="all,podcasts,starters"/>
