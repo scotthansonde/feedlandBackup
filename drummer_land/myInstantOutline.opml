@@ -7,18 +7,32 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 16 Feb 2026 08:35:10 GMT</dateModified>
-    <expansionState>1,2,4,8,9,12</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Tue, 17 Feb 2026 14:46:43 GMT</dateModified>
+    <expansionState>1,2,3,6,9,12,14</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 17" created="Tue, 17 Feb 2026 07:58:53 GMT" type="calendarDay" name="17">
+        <outline text="Request about links" created="Tue, 17 Feb 2026 14:38:07 GMT" type="outline">
+          <outline text="I'll try to remember that" created="Tue, 17 Feb 2026 14:38:20 GMT"/>
+          <outline text="I've fixed my links for the past couple of days" created="Tue, 17 Feb 2026 14:43:23 GMT"/>
+        </outline>
+        <outline text="We have stars and an issue on the &lt;a href=&quot;https://github.com/scotthansonde/feedlandDockerCompose&quot;&gt;feedlandDockerCompose&lt;/a&gt; repo 😃 " created="Tue, 17 Feb 2026 07:58:54 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose">
+          <outline text="https://github.com/scotthansonde/feedlandDockerCompose" created="Tue, 17 Feb 2026 14:39:49 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose"/>
+          <outline text="The install script doesn't work with HTTP, I've got to fix that." created="Tue, 17 Feb 2026 08:00:56 GMT"/>
+          <outline text="I didn't get any mails about the issue either  " created="Tue, 17 Feb 2026 14:35:57 GMT">
+            <outline text="I guess even the creator of the repo has to update the watch options to &quot;All Activity&quot;" created="Tue, 17 Feb 2026 14:36:33 GMT"/>
+          </outline>
+          <outline text="I've got a &lt;a href=&quot;https://github.com/scotthansonde/feedlandDockerCompose/issues/3#issuecomment-3915074019&quot;&gt;fix&lt;/a&gt; for localhost that &quot;works for me&quot;, let's see if it works for them too " created="Tue, 17 Feb 2026 14:43:49 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose/issues/3#issuecomment-3915074019"/>
+        </outline>
+      </outline>
       <outline text="February 15" created="Sun, 15 Feb 2026 09:03:10 GMT" type="calendarDay" name="15">
         <outline text="Taking a cue from Dave, I also moved past months into included outlines" created="Sun, 15 Feb 2026 16:23:36 GMT" type="outline"/>
         <outline text="daves3" created="Sun, 15 Feb 2026 09:03:11 GMT" type="outline">
-          <outline text="I created an &lt;a href=&quot;https://github.com/scripting/s3/issues/2&quot;&gt;issue&lt;/a&gt; to be able to configure S3 options" created="Sun, 15 Feb 2026 09:03:15 GMT"/>
+          <outline text="I created an &lt;a href=&quot;https://github.com/scripting/s3/issues/2&quot;&gt;issue&lt;/a&gt; to be able to configure S3 options" created="Sun, 15 Feb 2026 09:03:15 GMT" type="link" url="https://github.com/scripting/s3/issues/2"/>
           <outline text="Then we'd be able to use other S3 providers by setting the appropriate endpoint" created="Sun, 15 Feb 2026 09:04:29 GMT"/>
-          <outline text="Set up a &lt;a href=&quot;https://github.com/scripting/s3/issues/2#issuecomment-3904731522&quot;&gt;test with publicFolder&lt;/a&gt; on my machine" created="Sun, 15 Feb 2026 16:25:35 GMT"/>
+          <outline text="Set up a &lt;a href=&quot;https://github.com/scripting/s3/issues/2#issuecomment-3904731522&quot;&gt;test with publicFolder&lt;/a&gt; on my machine" created="Sun, 15 Feb 2026 16:25:35 GMT" type="link" url="https://github.com/scripting/s3/issues/2#issuecomment-3904731522"/>
         </outline>
       </outline>
       <outline text="February 12" created="Thu, 12 Feb 2026 11:37:18 GMT" type="calendarDay" name="12">
@@ -26,7 +40,7 @@
           <outline text="Can we remotely setup secondary sites for user we approve?" created="Thu, 12 Feb 2026 15:56:24 GMT"/>
           <outline text="Yes, but it's not in the WP API. We'd have to write our own API endpoint." created="Thu, 12 Feb 2026 15:56:59 GMT"/>
           <outline text="There are examples of this on GitHub" created="Thu, 12 Feb 2026 15:57:38 GMT">
-            <outline text="&lt;a href=&quot;https://github.com/brettkrueger/multisite-rest-api&quot;&gt;https://github.com/brettkrueger/multisite-rest-api&lt;/a&gt;" created="Thu, 12 Feb 2026 16:30:29 GMT"/>
+            <outline text="&lt;a href=&quot;https://github.com/brettkrueger/multisite-rest-api&quot;&gt;https://github.com/brettkrueger/multisite-rest-api&lt;/a&gt;" created="Thu, 12 Feb 2026 16:30:29 GMT" type="link" url="https://github.com/brettkrueger/multisite-rest-api"/>
           </outline>
           <outline text="ChatGPT also gave me a blueprint" created="Thu, 12 Feb 2026 16:04:06 GMT">
             <outline text="Screenshot 1" created="Thu, 12 Feb 2026 16:19:16 GMT">
