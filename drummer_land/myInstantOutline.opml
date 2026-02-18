@@ -7,12 +7,29 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 17 Feb 2026 14:46:43 GMT</dateModified>
-    <expansionState>1,2,3,6,9,12,14</expansionState>
-    <lastCursor>10</lastCursor>
+    <dateModified>Wed, 18 Feb 2026 17:14:35 GMT</dateModified>
+    <expansionState>1,2,3,7,11,15,16,19,22</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 18" created="Wed, 18 Feb 2026 16:45:49 GMT" type="calendarDay" name="18">
+        <outline text="&quot;what this means is i would need to access the RSS feed from the JS code embedded in the page&quot;" created="Wed, 18 Feb 2026 17:06:21 GMT" type="outline">
+          <outline text="&quot;the JS code embedded in the page&quot; is the testing.js file on your server, right?" created="Wed, 18 Feb 2026 17:06:36 GMT"/>
+          <outline text="&quot;access the RSS feed&quot; means it needs to know the wordpress url of the feed, right?" created="Wed, 18 Feb 2026 17:12:28 GMT"/>
+          <outline text="If so, this should be possible." created="Wed, 18 Feb 2026 17:13:39 GMT"/>
+        </outline>
+        <outline text="Got off on a tangent today" created="Wed, 18 Feb 2026 16:46:54 GMT" type="outline">
+          <outline text="Looking at publicFolder and its electron version made me think about Electric Drummer" created="Wed, 18 Feb 2026 16:47:12 GMT"/>
+          <outline text="I left Electric Drummer on the wayside since I wasn't sure how to get it to work with current versions of Electron" created="Wed, 18 Feb 2026 16:47:52 GMT"/>
+          <outline text="However, now we have AI..." created="Wed, 18 Feb 2026 16:48:34 GMT"/>
+          <outline text="So I decided to play with the electron app for publicFolder to see if we could bump the Electron version from 7 to 12" created="Wed, 18 Feb 2026 16:48:43 GMT">
+            <outline text="Electron 12 runs natively on arm64, i.e. M1 Macs" created="Wed, 18 Feb 2026 16:50:09 GMT"/>
+          </outline>
+          <outline text="It took over 30 iterations, but I finally got it going without any startup errors" created="Wed, 18 Feb 2026 16:52:33 GMT"/>
+        </outline>
+        <outline text="Got a success report on the localhost fix for feedlandDockerCompose 👍" created="Wed, 18 Feb 2026 16:45:50 GMT" type="outline"/>
+      </outline>
       <outline text="February 17" created="Tue, 17 Feb 2026 07:58:53 GMT" type="calendarDay" name="17">
         <outline text="Request about links" created="Tue, 17 Feb 2026 14:38:07 GMT" type="outline">
           <outline text="I'll try to remember that" created="Tue, 17 Feb 2026 14:38:20 GMT"/>
