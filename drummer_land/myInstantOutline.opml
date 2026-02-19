@@ -7,12 +7,50 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 18 Feb 2026 17:14:35 GMT</dateModified>
-    <expansionState>1,2,3,7,11,15,16,19,22</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Thu, 19 Feb 2026 16:37:26 GMT</dateModified>
+    <expansionState>1,2,3,4,9,12,17,21</expansionState>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 19" created="Thu, 19 Feb 2026 10:05:27 GMT" type="calendarDay" name="19">
+        <outline text="I'm fine with announcing the update to feedlandDockerCompose tomorrow 😃 " created="Thu, 19 Feb 2026 15:33:27 GMT" type="outline">
+          <outline text="Draft text" created="Thu, 19 Feb 2026 16:15:27 GMT">
+            <outline text="When I was creating the FeedLand Docker Compose file, I was thinking of it running on a VPS with a public hostname. There was another use case I was not thinking about: running on a local machine in a private network, without any hostname in DNS. This would be pretty common for someone just wanting to run FeedLand for themselves on their own laptop, without wanting to set up any SSL or proxy. " created="Thu, 19 Feb 2026 16:15:52 GMT"/>
+            <outline text="For this case I've added an option to run FeedLand as localhost. When the initial script is called as `./scripts/generate-env.sh --http-localhost`, the URL of FeedLand is set to http://localhost:1452, and the Caddy web proxy is not started."/>
+            <outline text="I've also added a script to easily determine the confirmation URL for a new user when email has not been configured." created="Thu, 19 Feb 2026 16:16:03 GMT"/>
+            <outline text="Thanks to John Johnston and Frank McPherson for suggesting and testing the localhost installation. This should make it even easier to explore FeedLand. " created="Thu, 19 Feb 2026 16:23:34 GMT"/>
+          </outline>
+        </outline>
+        <outline text="My personal server is currently down, so I can't write an announcement of the new feedlandDockerCompose just yet." created="Thu, 19 Feb 2026 13:12:53 GMT" type="outline">
+          <outline text="We could point to the latest release on GitHub" created="Thu, 19 Feb 2026 13:13:27 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose/releases/latest"/>
+          <outline text="10 minutes later my server is reachable again. I'll have an announcement in a couple of house later this afternoon." created="Thu, 19 Feb 2026 13:31:44 GMT"/>
+        </outline>
+        <outline text="feedlandDockerCompose: Add script to get pending confirmations " created="Thu, 19 Feb 2026 10:05:28 GMT" type="outline">
+          <outline text="Both users wrote that the instructions to validate a user without email were confusing" created="Thu, 19 Feb 2026 10:06:14 GMT"/>
+          <outline text="Since we have the database credentials in .env, we can query the database for the magicString" created="Thu, 19 Feb 2026 10:08:04 GMT"/>
+          <outline text="And we can print the full url for the user to copy and paste into the browser" created="Thu, 19 Feb 2026 10:08:52 GMT">
+            <outline text="✗ ./scripts/query-pending-confirmations.sh" created="Thu, 19 Feb 2026 10:09:34 GMT">
+              <outline text="*************************** 1. row ***************************" created="Thu, 19 Feb 2026 10:10:11 GMT"/>
+              <outline text="magicString: 2zw1prgwfp" created="Thu, 19 Feb 2026 10:09:38 GMT"/>
+              <outline text="email: papascott@gmail.com" created="Thu, 19 Feb 2026 10:09:51 GMT"/>
+              <outline text="flDeleted: 0"/>
+              <outline text="screenname: test" created="Thu, 19 Feb 2026 10:09:52 GMT"/>
+              <outline text="flNewUser: 1" created="Thu, 19 Feb 2026 10:09:53 GMT"/>
+              <outline text="urlRedirect: http://localhost:1452/" created="Thu, 19 Feb 2026 10:09:56 GMT"/>
+              <outline text="whenCreated: 2026-02-19 10:09:22" created="Thu, 19 Feb 2026 10:10:02 GMT"/>
+              <outline text="Confirmation URLs:" created="Thu, 19 Feb 2026 10:10:12 GMT"/>
+              <outline text="http://localhost:1452//userconfirms?emailConfirmCode=2zw1prgwfp" created="Thu, 19 Feb 2026 10:10:06 GMT"/>
+            </outline>
+          </outline>
+          <outline text="Created release v1.0.1 with these changes" created="Thu, 19 Feb 2026 10:33:57 GMT"/>
+        </outline>
+        <outline text="feedlandDockerCompose: Add option to configure for localhost" created="Thu, 19 Feb 2026 10:18:47 GMT" type="outline">
+          <outline text="Added an option:  ./scripts/generate-env.sh --http-localhost " created="Thu, 19 Feb 2026 10:19:53 GMT"/>
+          <outline text="This generates a config.json for http://localhost:1452/ with no SSL proxy" created="Thu, 19 Feb 2026 10:21:33 GMT"/>
+          <outline text="Both users reported success" created="Thu, 19 Feb 2026 10:19:08 GMT"/>
+        </outline>
+      </outline>
       <outline text="February 18" created="Wed, 18 Feb 2026 16:45:49 GMT" type="calendarDay" name="18">
         <outline text="&quot;what this means is i would need to access the RSS feed from the JS code embedded in the page&quot;" created="Wed, 18 Feb 2026 17:06:21 GMT" type="outline">
           <outline text="&quot;the JS code embedded in the page&quot; is the testing.js file on your server, right?" created="Wed, 18 Feb 2026 17:06:36 GMT"/>
