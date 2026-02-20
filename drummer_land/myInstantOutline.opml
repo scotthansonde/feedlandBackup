@@ -7,12 +7,21 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 19 Feb 2026 16:37:26 GMT</dateModified>
-    <expansionState>1,2,3,4,9,12,17,21</expansionState>
-    <lastCursor>7</lastCursor>
+    <dateModified>Fri, 20 Feb 2026 16:23:52 GMT</dateModified>
+    <expansionState>1,2,3,5</expansionState>
+    <lastCursor>6</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 20" created="Fri, 20 Feb 2026 09:49:08 GMT" type="calendarDay" name="20">
+        <outline text="Thanks for the heads up on Chuck's name" created="Fri, 20 Feb 2026 16:18:48 GMT" type="outline">
+          <outline text="I've been in Germany too long, I unconsciously Germanized his name  😃" created="Fri, 20 Feb 2026 16:19:00 GMT"/>
+        </outline>
+        <outline text="I announced the feedlandDockerCompose update" created="Fri, 20 Feb 2026 09:49:09 GMT" type="link" url="https://linkblog.scotthanson.de/2026/02/20/feedland-docker-compose-for-localhost/">
+          <outline text="I have been linking to the GitHub repo, but I can make it more explicit" created="Fri, 20 Feb 2026 16:23:00 GMT"/>
+          <outline text="" created="Fri, 20 Feb 2026 16:23:25 GMT"/>
+        </outline>
+      </outline>
       <outline text="February 19" created="Thu, 19 Feb 2026 10:05:27 GMT" type="calendarDay" name="19">
         <outline text="I'm fine with announcing the update to feedlandDockerCompose tomorrow 😃 " created="Thu, 19 Feb 2026 15:33:27 GMT" type="outline">
           <outline text="Draft text" created="Thu, 19 Feb 2026 16:15:27 GMT">
