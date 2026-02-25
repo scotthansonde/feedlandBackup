@@ -7,12 +7,17 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 24 Feb 2026 15:57:43 GMT</dateModified>
-    <expansionState>1,2,3,5</expansionState>
-    <lastCursor>0</lastCursor>
+    <dateModified>Wed, 25 Feb 2026 12:09:52 GMT</dateModified>
+    <expansionState>1,2,3,5,6,8</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="February 2026" created="Sun, 01 Feb 2026 08:32:26 GMT" name="february2026" type="calendarMonth">
+      <outline text="February 25" created="Wed, 25 Feb 2026 12:09:23 GMT" type="calendarDay" name="25">
+        <outline text="Vacation" created="Wed, 25 Feb 2026 12:09:24 GMT" type="outline">
+          <outline text="We'll be out of office and away from home until March 7" created="Wed, 25 Feb 2026 12:09:26 GMT"/>
+        </outline>
+      </outline>
       <outline text="February 23" created="Mon, 23 Feb 2026 14:50:33 GMT" type="calendarDay" name="23">
         <outline text="FeedLand http access in local network" created="Mon, 23 Feb 2026 14:50:34 GMT" type="outline">
           <outline text="Frank McPherson wanted to access his http-localhost Feedland on his local network" created="Mon, 23 Feb 2026 14:50:58 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose/issues/8"/>
