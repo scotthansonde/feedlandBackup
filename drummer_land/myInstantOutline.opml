@@ -7,12 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 02 Mar 2026 16:27:34 GMT</dateModified>
-    <expansionState>1,2,4,5,6</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Tue, 10 Mar 2026 16:41:06 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,11,12,14,16,19,24,28,31,34,35,38</expansionState>
+    <lastCursor>37</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
+      <outline text="March 10" created="Tue, 10 Mar 2026 16:30:22 GMT" type="calendarDay" name="10">
+        <outline text="Dave, thanks, I'm back and invigorated. 😃" created="Tue, 10 Mar 2026 16:30:23 GMT" type="outline">
+          <outline text="I'll look at the Docker project and see what I can enhance and announce " created="Tue, 10 Mar 2026 16:31:47 GMT">
+            <outline text="Or just take the last bug fix and call it an enhancement" created="Tue, 10 Mar 2026 16:34:45 GMT"/>
+          </outline>
+          <outline text="Wordpress hosting, I need to set up the API on the WordPress side to be able to create sites programmatically " created="Tue, 10 Mar 2026 16:35:00 GMT">
+            <outline text="I had found a solution but hadn't tried it out yet" created="Tue, 10 Mar 2026 16:38:43 GMT"/>
+            <outline text="I'll get right on it. " created="Tue, 10 Mar 2026 16:39:24 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="March 2" created="Mon, 02 Mar 2026 16:26:36 GMT" type="calendarDay" name="02">
         <outline text="I'm still following outlines, even on vacation 😃" created="Mon, 02 Mar 2026 16:26:37 GMT" type="outline"/>
       </outline>
