@@ -7,12 +7,42 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 10 Mar 2026 16:41:06 GMT</dateModified>
-    <expansionState>1,2,3,4,6,9,11,12,14,16,19,24,28,31,34,35,38</expansionState>
-    <lastCursor>37</lastCursor>
+    <dateModified>Fri, 13 Mar 2026 15:44:21 GMT</dateModified>
+    <expansionState>1,2,3,4,6,11,12,13,17,21</expansionState>
+    <lastCursor>20</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
+      <outline text="March 13" created="Fri, 13 Mar 2026 15:12:31 GMT" type="calendarDay" name="13">
+        <outline text="WordPress: Inconsistency for guids in feed vs wpcom " created="Fri, 13 Mar 2026 15:31:58 GMT" type="outline">
+          <outline text="Does this only affect free sites on wordpress.com? " created="Fri, 13 Mar 2026 15:32:11 GMT">
+            <outline text="Meaning: do only free sites on wordpress.com have http guids? All other sites have https guids?" created="Fri, 13 Mar 2026 15:35:02 GMT"/>
+            <outline text="My free site scottmhanson.wordpress.com has http guids" created="Fri, 13 Mar 2026 15:32:41 GMT">
+              <outline text="https://scottmhanson.wordpress.com/feed/" created="Fri, 13 Mar 2026 15:34:10 GMT" type="link" url="https://scottmhanson.wordpress.com/feed/"/>
+            </outline>
+            <outline text="daveverse.org (a paid wordpress.com site) has https guids" created="Fri, 13 Mar 2026 15:34:43 GMT"/>
+            <outline text="links.daveverse.org (a self-hosted wordpress site) has https guids" created="Fri, 13 Mar 2026 15:35:57 GMT"/>
+          </outline>
+          <outline text="I've found out working on Baseline that there are a lot of differences between open-source WordPress and the WordPress on wordpress.com" created="Fri, 13 Mar 2026 15:38:54 GMT"/>
+        </outline>
+        <outline text="What do we need for WordPress hosting, just to make sure I understand things correctly" created="Fri, 13 Mar 2026 15:12:32 GMT" type="outline">
+          <outline text="My list" created="Fri, 13 Mar 2026 15:41:11 GMT">
+            <outline text="Create new sites via API" created="Fri, 13 Mar 2026 15:12:52 GMT">
+              <outline text="Need to supply user email and a site url" created="Fri, 13 Mar 2026 15:13:46 GMT"/>
+            </outline>
+            <outline text="Users get sent their credentials automatically upon site creation" created="Fri, 13 Mar 2026 15:13:10 GMT"/>
+            <outline text="Sites get the Baseline theme" created="Fri, 13 Mar 2026 15:13:36 GMT"/>
+            <outline text="Sites get the Jetpack plugin so WordLand can connect " created="Fri, 13 Mar 2026 15:14:13 GMT">
+              <outline text="User will have to connect Jetpack to their wordpress.com account manually" created="Fri, 13 Mar 2026 15:15:01 GMT"/>
+            </outline>
+            <outline text="All sites have a common domain?" created="Fri, 13 Mar 2026 15:15:34 GMT"/>
+            <outline text="Where will it be hosted? It's own server on DigitalOcean?" created="Fri, 13 Mar 2026 15:15:50 GMT"/>
+          </outline>
+          <outline text="Dave, it looks like I do understand things correctly. 😃 " created="Fri, 13 Mar 2026 15:41:28 GMT">
+            <outline text="I can use a domain of my own for setup and testing. Once we have our own server we can use your domain." created="Fri, 13 Mar 2026 15:43:29 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="March 10" created="Tue, 10 Mar 2026 16:30:22 GMT" type="calendarDay" name="10">
         <outline text="Dave, thanks, I'm back and invigorated. 😃" created="Tue, 10 Mar 2026 16:30:23 GMT" type="outline">
           <outline text="I'll look at the Docker project and see what I can enhance and announce " created="Tue, 10 Mar 2026 16:31:47 GMT">
