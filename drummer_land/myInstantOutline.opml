@@ -7,9 +7,9 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 16 Mar 2026 17:19:17 GMT</dateModified>
-    <expansionState>1,2,3,4,7,8,15,18,21,22,23,30</expansionState>
-    <lastCursor>15</lastCursor>
+    <dateModified>Tue, 17 Mar 2026 16:02:58 GMT</dateModified>
+    <expansionState>1,2,4,5,6,13</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
@@ -30,7 +30,7 @@
             <outline text="We'd want to omit PATH and PASSWORD" created="Mon, 16 Mar 2026 15:28:48 GMT"/>
           </outline>
           <outline text="Tried it out and it worked!" created="Mon, 16 Mar 2026 15:29:26 GMT">
-            <outline text="domain=slavobot.shanson.de&amp;title=Slavobot&amp;email=papascott@gmail.com" created="Mon, 16 Mar 2026 15:35:07 GMT"/>
+            <outline text="domain=slavobot.shanson.de&amp;amp;title=Slavobot&amp;amp;email=papascott@gmail.com" created="Mon, 16 Mar 2026 15:35:07 GMT"/>
             <outline text="SSL cert is not being issued, but that's a caddy/coolify issue, not a WordPress issue" created="Mon, 16 Mar 2026 15:35:52 GMT"/>
             <outline text="Theme issues" created="Mon, 16 Mar 2026 15:33:25 GMT">
               <outline text="Even though Baseline is installed, the only themes available for the new site are Twenty Twenty-Four and Twenty Twenty-Three" created="Mon, 16 Mar 2026 15:37:30 GMT"/>
