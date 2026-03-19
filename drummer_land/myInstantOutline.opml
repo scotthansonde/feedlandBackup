@@ -7,12 +7,48 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 17 Mar 2026 16:02:58 GMT</dateModified>
-    <expansionState>1,2,4,5,6,13</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Thu, 19 Mar 2026 16:38:07 GMT</dateModified>
+    <expansionState>1,2,3,4,8,11,15,17,19,23,25</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
+      <outline text="March 19" created="Thu, 19 Mar 2026 14:49:30 GMT" type="calendarDay" name="19">
+        <outline text="Multisite WordPress, continuing to learn more" created="Thu, 19 Mar 2026 14:49:31 GMT" type="outline">
+          <outline text="I moved my test install from Coolify to a standalone VPS running docker" created="Thu, 19 Mar 2026 14:49:52 GMT">
+            <outline text="Coolify does a lot a magic mapping URLs to containers" created="Thu, 19 Mar 2026 14:50:17 GMT"/>
+            <outline text="But it can't really handle wildcard DNS entries" created="Thu, 19 Mar 2026 14:51:09 GMT"/>
+            <outline text="I found out later it's probably the wildcard SSL cert that was causing problems" created="Thu, 19 Mar 2026 14:51:32 GMT">
+              <outline text="I think Coolify doesn't do wildcard certs, but instead gets a cert for each individual hostname" created="Thu, 19 Mar 2026 15:13:47 GMT"/>
+            </outline>
+          </outline>
+          <outline text="There's an unofficial WordPress Docker image with Multisite already activated" created="Thu, 19 Mar 2026 14:52:22 GMT">
+            <outline text="From Bitnami (VMWare) " created="Thu, 19 Mar 2026 14:53:01 GMT" type="link" url="https://hub.docker.com/r/bitnami/wordpress"/>
+            <outline text="I'm trying it, but I'm not convinced it's any easier than the official WordPress image" created="Thu, 19 Mar 2026 14:53:35 GMT"/>
+          </outline>
+          <outline text="Trick to make persistent Docker files easier to edit" created="Thu, 19 Mar 2026 14:54:28 GMT">
+            <outline text="Mount them as a bind mount (subdirectory of the docker compose directory) rather than named volume" created="Thu, 19 Mar 2026 14:54:56 GMT"/>
+            <outline text="Named volumes store the files as root deep under /var/lib/docker/volumes, very hard to get to even with sudo" created="Thu, 19 Mar 2026 14:57:08 GMT"/>
+            <outline text="The files can then be edited normally (in my case, with VS Code and the SSH Remote extension)" created="Thu, 19 Mar 2026 16:19:49 GMT"/>
+          </outline>
+          <outline text="Caveat for wildcard SSL certs with LetsEncrypt" created="Thu, 19 Mar 2026 14:57:59 GMT">
+            <outline text="It is not enough to have a wildcard DNS entry pointing to the proper IP" created="Thu, 19 Mar 2026 14:58:38 GMT">
+              <outline text="&quot;A wildcard DNS record like *.example.com -&gt; your server is necessary for routing traffic, but it is not sufficient for wildcard TLS issuance. For the certificate, Caddy must be able to create and remove the ACME TXT record under _acme-challenge.example.com, which means enabling the DNS challenge with credentials for your DNS provider. Caddy’s docs also note that wildcard automation requires ACME DNS validation.&quot;" created="Thu, 19 Mar 2026 14:59:50 GMT"/>
+              <outline text="Caddy needs a module to be able to create the TXT record. The module is specific to the DNS provider." created="Thu, 19 Mar 2026 15:01:56 GMT">
+                <outline text="My DNS is at cloudflare, so I needed a &quot;Cloudflare DNS module&quot; as well as an API key to let it create records." created="Thu, 19 Mar 2026 15:03:44 GMT"/>
+              </outline>
+            </outline>
+          </outline>
+          <outline text="The default theme for new sites is set in wp-config.php, and needs to be the directory name of the theme" created="Thu, 19 Mar 2026 15:05:37 GMT">
+            <outline text="I was using the name configured in styles.css, which was incorrect" created="Thu, 19 Mar 2026 15:06:18 GMT"/>
+          </outline>
+          <outline text="Tested starting a new site with the api with a new user" created="Thu, 19 Mar 2026 16:10:50 GMT">
+            <outline text="Site was created" created="Thu, 19 Mar 2026 16:11:20 GMT"/>
+            <outline text="Theme is Baseline" created="Thu, 19 Mar 2026 16:11:26 GMT"/>
+            <outline text="User received an email with login details" created="Thu, 19 Mar 2026 16:11:31 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="March 16" created="Mon, 16 Mar 2026 15:12:52 GMT" type="calendarDay" name="16">
         <outline text="Hosting, finally getting a chance to test creating a site" created="Mon, 16 Mar 2026 15:12:53 GMT" type="outline">
           <outline text="Installed the &quot;Multisite REST API&quot; " created="Mon, 16 Mar 2026 15:13:15 GMT" type="link" url="https://github.com/brettkrueger/multisite-rest-api/">
