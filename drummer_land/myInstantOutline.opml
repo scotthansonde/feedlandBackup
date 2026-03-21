@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 20 Mar 2026 16:49:05 GMT</dateModified>
-    <expansionState>1,2,3,6,7,8,12,15,19,21,23,27,29</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Sat, 21 Mar 2026 16:50:24 GMT</dateModified>
+    <expansionState>1,2,3,4,7,8,11,12,13,17,20,24,26,28,32,34</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
+      <outline text="March 21" created="Sat, 21 Mar 2026 16:29:20 GMT" type="calendarDay" name="21">
+        <outline text="Problem with the daveverse feed" created="Sat, 21 Mar 2026 16:29:21 GMT" type="outline">
+          <outline text="Someone from Automattic (I believe) installed a plugin on daveverse to add source:markdown to the feed" created="Sat, 21 Mar 2026 16:29:30 GMT">
+            <outline text="https://github.com/a8cteam51/team51-markdown-rss" created="Sat, 21 Mar 2026 16:30:13 GMT" type="link" url="https://github.com/a8cteam51/team51-markdown-rss"/>
+          </outline>
+          <outline text="If you like, I can write a new issue on the plugin's repo" created="Sat, 21 Mar 2026 16:31:21 GMT"/>
+        </outline>
+      </outline>
       <outline text="March 20" created="Fri, 20 Mar 2026 16:47:40 GMT" type="calendarDay" name="20">
         <outline text="Multisite WordPress, installed Jetpack" created="Fri, 20 Mar 2026 16:47:41 GMT" type="outline">
           <outline text="Activated for the main site, was able to post from legacy WordLand" created="Fri, 20 Mar 2026 16:47:56 GMT" type="link" url="https://wpzz.de/2026/03/20/test-post/"/>
