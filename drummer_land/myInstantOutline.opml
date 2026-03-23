@@ -7,16 +7,17 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 22 Mar 2026 09:21:34 GMT</dateModified>
-    <expansionState>1,2,3,6,9,10,11</expansionState>
+    <dateModified>Mon, 23 Mar 2026 15:37:35 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,10,11</expansionState>
     <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
       <outline text="March 22" created="Sun, 22 Mar 2026 08:21:32 GMT" type="calendarDay" name="22">
         <outline text="Minor update to Baseline theme" created="Sun, 22 Mar 2026 09:09:57 GMT" type="outline">
-          <outline text="Merged in CSS updates from https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.css" created="Sun, 22 Mar 2026 09:10:07 GMT"/>
-          <outline text="v0.2.6, installed on daveverse and the test hosting site" created="Sun, 22 Mar 2026 09:10:37 GMT" type="link" url="https://github.com/scotthansonde/wordlandBaseline/releases/tag/v0.2.6"/>
+          <outline text="Merged in CSS updates from https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.css" created="Sun, 22 Mar 2026 09:10:07 GMT">
+            <outline text="v0.2.6, installed on daveverse and the test hosting site" created="Sun, 22 Mar 2026 09:10:37 GMT" type="link" url="https://github.com/scotthansonde/wordlandBaseline/releases/tag/v0.2.6"/>
+          </outline>
         </outline>
         <outline text="Problem with the daveverse feed" created="Sun, 22 Mar 2026 08:21:33 GMT" type="outline">
           <outline text="I passed on the issue to the team51-markdown-rss repo " created="Sun, 22 Mar 2026 08:22:03 GMT"/>
