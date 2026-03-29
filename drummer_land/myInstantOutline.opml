@@ -7,12 +7,28 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 26 Mar 2026 14:59:58 GMT</dateModified>
-    <expansionState>1,2,3,7,10,13,14,15,17,20,21,22</expansionState>
-    <lastCursor>1</lastCursor>
+    <dateModified>Sat, 28 Mar 2026 18:52:21 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,13,14,18,21,24,25,26,28,31,32,33</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
+      <outline text="March 28" created="Sat, 28 Mar 2026 18:39:15 GMT" type="calendarDay" name="28">
+        <outline text="CSS on daveverse.org - how should Dave make updates" created="Sat, 28 Mar 2026 18:39:16 GMT" type="outline">
+          <outline text="Short answer - just keep editing https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.css  " created="Sat, 28 Mar 2026 18:40:07 GMT">
+            <outline text="Nothing should break (knock on wood and Murphy willing)" created="Sat, 28 Mar 2026 18:44:40 GMT"/>
+          </outline>
+          <outline text="Long answer - I merged the testing.css file into the CSS of the Baseline theme" created="Sat, 28 Mar 2026 18:41:52 GMT">
+            <outline text="This way the theme has your changes without having to link to testing.css" created="Sat, 28 Mar 2026 18:42:40 GMT"/>
+            <outline text="And everyone who has the latest version of the theme will have the CSS updates" created="Sat, 28 Mar 2026 18:43:21 GMT"/>
+            <outline text="I'd prefer to have your CSS in the theme itself, that's why I merged in testing.css" created="Sat, 28 Mar 2026 18:44:34 GMT">
+              <outline text="It would have been better to check in with you before merging... sorry about that." created="Sat, 28 Mar 2026 18:50:35 GMT"/>
+              <outline text="It can always be undone, thank git 😃" created="Sat, 28 Mar 2026 18:52:04 GMT"/>
+            </outline>
+            <outline text="Go ahead and keep updating testing.css. " created="Sat, 28 Mar 2026 18:50:06 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="March 26" created="Thu, 26 Mar 2026 13:35:13 GMT" type="calendarDay" name="26">
         <outline text="linkblog is back up!" created="Thu, 26 Mar 2026 14:36:22 GMT" type="outline">
           <outline text="MySQL had crashed somehow" created="Thu, 26 Mar 2026 14:36:55 GMT"/>
