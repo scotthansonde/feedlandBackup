@@ -7,12 +7,17 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 28 Mar 2026 18:52:21 GMT</dateModified>
-    <expansionState>1,2,3,4,6,9,13,14,18,21,24,25,26,28,31,32,33</expansionState>
-    <lastCursor>10</lastCursor>
+    <dateModified>Mon, 30 Mar 2026 15:12:15 GMT</dateModified>
+    <expansionState>1,2,3,5,6,7,9,12,16,17,21,24,27,28,29,31,34,35,36</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
+      <outline text="March 30" created="Mon, 30 Mar 2026 15:11:25 GMT" type="calendarDay" name="30">
+        <outline text="re the source namespace declaration, what should we do?" created="Sun, 29 Mar 2026 14:44:32 GMT" type="outline">
+          <outline text="I see Fernando beat us to it 😃" created="Mon, 30 Mar 2026 15:11:49 GMT"/>
+        </outline>
+      </outline>
       <outline text="March 28" created="Sat, 28 Mar 2026 18:39:15 GMT" type="calendarDay" name="28">
         <outline text="CSS on daveverse.org - how should Dave make updates" created="Sat, 28 Mar 2026 18:39:16 GMT" type="outline">
           <outline text="Short answer - just keep editing https://s3.amazonaws.com/scripting.com/code/baselineplayground/testing.css  " created="Sat, 28 Mar 2026 18:40:07 GMT">
