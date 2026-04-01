@@ -7,11 +7,22 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 30 Mar 2026 15:12:15 GMT</dateModified>
-    <expansionState>1,2,3,5,6,7,9,12,16,17,21,24,27,28,29,31,34,35,36</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Wed, 01 Apr 2026 15:27:11 GMT</dateModified>
+    <expansionState>1,2,3,9,10,11,13,14,15,17,20,24,25,29,32,35,36,37,39,42,43,44</expansionState>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
+    <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 1" created="Wed, 01 Apr 2026 14:31:56 GMT" type="calendarDay" name="01">
+        <outline text="MCP and WordPress" created="Wed, 01 Apr 2026 14:31:57 GMT" type="outline">
+          <outline text="Yes, I got Dave's mail. And the mail from WordPress.com " created="Wed, 01 Apr 2026 14:32:02 GMT"/>
+          <outline text="My first thought was that it looks like it's working over WP COM API, so it will probably work with Jetpack on self-hosted sites" created="Wed, 01 Apr 2026 14:33:01 GMT"/>
+          <outline text="I'm not sure why I'd want to do that. If I can already tell the API exactly what I want, why should I have have AI try to guess what I want. Especially since it often guesses wrong. " created="Wed, 01 Apr 2026 14:34:03 GMT"/>
+          <outline text="On the other hand, I get the marketing value. And that I don't immediately see the use case may be a lack of imagination on my part. 😃" created="Wed, 01 Apr 2026 14:36:41 GMT"/>
+          <outline text="I'll take a look at it and see if we can use it." created="Wed, 01 Apr 2026 14:38:10 GMT"/>
+        </outline>
+      </outline>
+    </outline>
     <outline text="March 2026" created="Mon, 02 Mar 2026 16:26:35 GMT" name="march2026" type="calendarMonth">
       <outline text="March 30" created="Mon, 30 Mar 2026 15:11:25 GMT" type="calendarDay" name="30">
         <outline text="re the source namespace declaration, what should we do?" created="Sun, 29 Mar 2026 14:44:32 GMT" type="outline">
@@ -291,7 +302,7 @@
           <outline text="I'll try to remember that" created="Tue, 17 Feb 2026 14:38:20 GMT"/>
           <outline text="I've fixed my links for the past couple of days" created="Tue, 17 Feb 2026 14:43:23 GMT"/>
         </outline>
-        <outline text="We have stars and an issue on the &lt;a href=&quot;https://github.com/scotthansonde/feedlandDockerCompose&quot;&gt;feedlandDockerCompose&lt;/a&gt; repo 😃 " created="Tue, 17 Feb 2026 07:58:54 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose">
+        <outline text="We have stars and an issue on the &lt;a href=&quot;https://github.com/scotthansonde/feedlandDockerCompose&quot;&gt;feedlandDockerCompose&lt;/a&gt; repo ���� " created="Tue, 17 Feb 2026 07:58:54 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose">
           <outline text="https://github.com/scotthansonde/feedlandDockerCompose" created="Tue, 17 Feb 2026 14:39:49 GMT" type="link" url="https://github.com/scotthansonde/feedlandDockerCompose"/>
           <outline text="The install script doesn't work with HTTP, I've got to fix that." created="Tue, 17 Feb 2026 08:00:56 GMT"/>
           <outline text="I didn't get any mails about the issue either  " created="Tue, 17 Feb 2026 14:35:57 GMT">
