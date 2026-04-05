@@ -7,12 +7,36 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 03 Apr 2026 17:50:13 GMT</dateModified>
-    <expansionState>1,2,3,9,10,11,13,14,15,17,20,24,25,29,32,35,36,37,39,42,43,44</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Sun, 05 Apr 2026 11:14:59 GMT</dateModified>
+    <expansionState>1,2,3,4,10,12,16,17,23,24,25,27,28,29,31,34,38,39,43,46,49,50,51,53,56,57,58</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 5" created="Sun, 05 Apr 2026 10:16:41 GMT" type="calendarDay" name="05">
+        <outline text="Multisite WordPress" created="Sun, 05 Apr 2026 11:04:25 GMT" type="outline">
+          <outline text="I'd like to start setting up the production server" created="Sun, 05 Apr 2026 11:04:58 GMT">
+            <outline text="That will be quicker than setting up full test server, then moving everything over" created="Sun, 05 Apr 2026 11:14:34 GMT"/>
+          </outline>
+          <outline text="8 GB RAM and 2 CPUs should be good for up to 20 sites" created="Sun, 05 Apr 2026 11:05:36 GMT">
+            <outline text="Says ChatGPT" created="Sun, 05 Apr 2026 11:06:04 GMT"/>
+          </outline>
+          <outline text="I can set up a server from IONOS for 6€/month (12 month commitment)" created="Sun, 05 Apr 2026 11:06:13 GMT">
+            <outline text="https://www.ionos.com/servers/vps" created="Sun, 05 Apr 2026 11:08:53 GMT" type="link" url="https://www.ionos.com/servers/vps"/>
+            <outline text="But it's cheaper to order from Germany 😃" created="Sun, 05 Apr 2026 11:09:14 GMT"/>
+          </outline>
+          <outline text="Dave, if that's OK I'll order the server and start setting it up" created="Sun, 05 Apr 2026 11:10:05 GMT"/>
+          <outline text="We can then later move https://links.daveverse.org/ to the new server, then we don't need the jamaica server at DigitalOcean anymore" created="Sun, 05 Apr 2026 11:11:23 GMT"/>
+        </outline>
+        <outline text="Baseline: data-postid attributes " created="Sun, 05 Apr 2026 10:16:42 GMT" type="outline">
+          <outline text="I'm glad things are working, I'll close the issue" created="Sun, 05 Apr 2026 10:17:49 GMT"/>
+          <outline text="The current implementation in Baseline is difficult to maintain" created="Sun, 05 Apr 2026 10:18:04 GMT">
+            <outline text="The attributes are currently added directly in the layout templates" created="Sun, 05 Apr 2026 10:18:37 GMT"/>
+            <outline text="It would be better if they were added in a separate function" created="Sun, 05 Apr 2026 10:19:28 GMT"/>
+            <outline text="Then we can work on the layout without having to worry about breaking the attributes" created="Sun, 05 Apr 2026 10:19:47 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="April 1" created="Wed, 01 Apr 2026 14:31:56 GMT" type="calendarDay" name="01">
         <outline text="MCP and WordPress" created="Wed, 01 Apr 2026 14:31:57 GMT" type="outline">
           <outline text="Yes, I got Dave's mail. And the mail from WordPress.com " created="Wed, 01 Apr 2026 14:32:02 GMT"/>
