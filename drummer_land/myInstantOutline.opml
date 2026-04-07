@@ -7,12 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 06 Apr 2026 08:32:28 GMT</dateModified>
-    <expansionState>1,2,3,7,8,9,15,17,21,22,28,29,30,32,33,34,36,39,43,44,48,51,54,55,56,58,61,62,63</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Tue, 07 Apr 2026 16:53:50 GMT</dateModified>
+    <expansionState>1,2,3,11,12,16,17,18,24,26,30,31,37,38,39,41,42,43,45,48,52,53,57,60,63,64,65,67,70,71,72</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 7" created="Tue, 07 Apr 2026 16:30:44 GMT" type="calendarDay" name="07">
+        <outline text="Multisite WordPress" created="Tue, 07 Apr 2026 16:30:45 GMT" type="outline">
+          <outline text="ChatGPT gave me a detailed compose file" created="Tue, 07 Apr 2026 16:31:48 GMT"/>
+          <outline text="It was a little too detailed. The containers started but I can’t connect with the browser " created="Tue, 07 Apr 2026 16:32:26 GMT"/>
+          <outline text="I see the problem, I can look at it again tomorrow (WordPress config needs adjusting) " created="Tue, 07 Apr 2026 16:33:36 GMT"/>
+          <outline text="Dave, what domain did you have in mind for the sites?" created="Tue, 07 Apr 2026 16:34:30 GMT"/>
+          <outline text="Wildcard certs are a little tricky with LetsEncrypt, as opposed to single sites" created="Tue, 07 Apr 2026 16:35:19 GMT"/>
+          <outline text="Caddy needs an API key to write temporary DNS records, not all DNS providers support that " created="Tue, 07 Apr 2026 16:37:23 GMT"/>
+          <outline text="Cloudflare works well, I’ve been using it in my test" created="Tue, 07 Apr 2026 16:39:11 GMT"/>
+        </outline>
+      </outline>
       <outline text="April 6" created="Mon, 06 Apr 2026 07:07:52 GMT" type="calendarDay" name="06">
         <outline text="VPS Server ordered for Multisite WordPress" created="Mon, 06 Apr 2026 07:07:53 GMT" type="outline">
           <outline text="162.222.205.250, ionos.shanson.de" created="Mon, 06 Apr 2026 08:27:23 GMT"/>
