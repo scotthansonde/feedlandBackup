@@ -7,12 +7,19 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 07 Apr 2026 19:34:37 GMT</dateModified>
-    <expansionState>1,2,3,6,14,15,19,20,21,27,29,33,34,40,41,42,44,45,46,48,51,55,56,60,63,66,67,68,70,73,74,75</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Wed, 08 Apr 2026 16:36:22 GMT</dateModified>
+    <expansionState>1,2,3,7,8,11,19,20,24,25,26,32,34,38,39,45,46,47,49,50,51,53,56,60,61,65,68,71,72,73,75,78,79,80</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 8" created="Wed, 08 Apr 2026 16:34:31 GMT" type="calendarDay" name="08">
+        <outline text="Basic functionality for Multisite WordPress is working" created="Wed, 08 Apr 2026 16:34:32 GMT" type="outline">
+          <outline text="Main site: https://wpzz.de" created="Wed, 08 Apr 2026 16:34:48 GMT" type="link" url="https://wpzz.de"/>
+          <outline text="First subsite: https://firstpost.wpzz.de" created="Wed, 08 Apr 2026 16:35:19 GMT" type="link" url="https://firstpost.wpzz.de"/>
+          <outline text="Next step: Install Baseline and needed plugins" created="Wed, 08 Apr 2026 16:35:48 GMT"/>
+        </outline>
+      </outline>
       <outline text="April 7" created="Tue, 07 Apr 2026 16:30:44 GMT" type="calendarDay" name="07">
         <outline text="This evening: I fixed the Docker setup for the WordPress config" created="Tue, 07 Apr 2026 19:27:31 GMT" type="outline">
           <outline text="So I could connect to the site and do the one-click WordPress install" created="Tue, 07 Apr 2026 19:27:48 GMT"/>
