@@ -7,13 +7,17 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 07 Apr 2026 16:53:50 GMT</dateModified>
-    <expansionState>1,2,3,11,12,16,17,18,24,26,30,31,37,38,39,41,42,43,45,48,52,53,57,60,63,64,65,67,70,71,72</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Tue, 07 Apr 2026 19:34:37 GMT</dateModified>
+    <expansionState>1,2,3,6,14,15,19,20,21,27,29,33,34,40,41,42,44,45,46,48,51,55,56,60,63,66,67,68,70,73,74,75</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
       <outline text="April 7" created="Tue, 07 Apr 2026 16:30:44 GMT" type="calendarDay" name="07">
+        <outline text="This evening: I fixed the Docker setup for the WordPress config" created="Tue, 07 Apr 2026 19:27:31 GMT" type="outline">
+          <outline text="So I could connect to the site and do the one-click WordPress install" created="Tue, 07 Apr 2026 19:27:48 GMT"/>
+          <outline text="ChatGPT set it up 95% correctly, but that last 5% is the fun part 😃" created="Tue, 07 Apr 2026 19:29:02 GMT"/>
+        </outline>
         <outline text="Multisite WordPress" created="Tue, 07 Apr 2026 16:30:45 GMT" type="outline">
           <outline text="ChatGPT gave me a detailed compose file" created="Tue, 07 Apr 2026 16:31:48 GMT"/>
           <outline text="It was a little too detailed. The containers started but I can’t connect with the browser " created="Tue, 07 Apr 2026 16:32:26 GMT"/>
