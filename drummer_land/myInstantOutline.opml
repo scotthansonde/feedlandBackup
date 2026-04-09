@@ -7,12 +7,31 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 08 Apr 2026 16:36:22 GMT</dateModified>
-    <expansionState>1,2,3,7,8,11,19,20,24,25,26,32,34,38,39,45,46,47,49,50,51,53,56,60,61,65,68,71,72,73,75,78,79,80</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Thu, 09 Apr 2026 16:37:16 GMT</dateModified>
+    <expansionState>1,2,3,4,9,12,16,17</expansionState>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 9" created="Thu, 09 Apr 2026 15:36:56 GMT" type="calendarDay" name="09">
+        <outline text="I get an error trying to listen to the voicemail" created="Thu, 09 Apr 2026 15:55:52 GMT" type="outline">
+          <outline text="The error message" created="Thu, 09 Apr 2026 15:58:02 GMT">
+            <outline text="The recording could not be found. Try using another account if you think this is an error." created="Thu, 09 Apr 2026 15:56:18 GMT"/>
+            <outline text="You're currently signed in as papascott@gmail.com" created="Thu, 09 Apr 2026 15:56:29 GMT"/>
+          </outline>
+          <outline text="I would be very interested in hearing this" created="Thu, 09 Apr 2026 15:58:17 GMT"/>
+          <outline text="Update: it's working, I'm listening right now 😃" created="Thu, 09 Apr 2026 15:58:37 GMT"/>
+        </outline>
+        <outline text="Setting the Baseline theme for new sites" created="Thu, 09 Apr 2026 15:36:57 GMT" type="outline">
+          <outline text="It's not as straightforward as I had hoped" created="Thu, 09 Apr 2026 15:37:11 GMT"/>
+          <outline text="The setting WP_DEFAULT_THEME needs to match the theme directory name exactly " created="Thu, 09 Apr 2026 15:37:32 GMT"/>
+          <outline text="If we install release files from github, the directory is named after the zip file name" created="Thu, 09 Apr 2026 15:38:04 GMT">
+            <outline text="Which includes the version number, so the directory name will change each time" created="Thu, 09 Apr 2026 15:38:41 GMT"/>
+          </outline>
+          <outline text="Luckily ChatGPT proposed a plugin to use the theme named &quot;Wordland Baseline&quot; set in styles.css" created="Thu, 09 Apr 2026 15:39:24 GMT"/>
+          <outline text="We just have to be careful we don't install multiple versions of the theme" created="Thu, 09 Apr 2026 15:40:17 GMT"/>
+        </outline>
+      </outline>
       <outline text="April 8" created="Wed, 08 Apr 2026 16:34:31 GMT" type="calendarDay" name="08">
         <outline text="Basic functionality for Multisite WordPress is working" created="Wed, 08 Apr 2026 16:34:32 GMT" type="outline">
           <outline text="Main site: https://wpzz.de" created="Wed, 08 Apr 2026 16:34:48 GMT" type="link" url="https://wpzz.de"/>
