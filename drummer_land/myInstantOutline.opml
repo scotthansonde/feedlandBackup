@@ -7,12 +7,48 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 09 Apr 2026 16:37:16 GMT</dateModified>
-    <expansionState>1,2,3,4,9,12,16,17</expansionState>
-    <lastCursor>7</lastCursor>
+    <dateModified>Fri, 10 Apr 2026 15:52:19 GMT</dateModified>
+    <expansionState>1,2,3,5,11,12,13,18,21</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 10" created="Fri, 10 Apr 2026 13:03:47 GMT" type="calendarDay" name="10">
+        <outline text="Next step, site creation API" created="Fri, 10 Apr 2026 13:03:48 GMT" type="outline">
+          <outline text="ChatGPT suggested writing our own API in nodejs that connects to WP-CLI to create sites" created="Fri, 10 Apr 2026 13:04:08 GMT">
+            <outline text="https://wp-cli.org/" created="Fri, 10 Apr 2026 13:05:45 GMT" type="link" url="https://wp-cli.org/"/>
+            <outline text="&quot;WP-CLI is the command-line interface for WordPress. You can update plugins, configure multisite installations and much more, without using a web browser.&quot;" created="Fri, 10 Apr 2026 13:06:26 GMT"/>
+            <outline text="WP-CLI is basically WordPress running from the command line, so it needs access to the same files and database as the web app. It can only run remotely via ssh. " created="Fri, 10 Apr 2026 13:12:32 GMT"/>
+            <outline text="Actually ChatGPT suggested an API in python. I asked it to do it in nodejs instead." created="Fri, 10 Apr 2026 15:51:29 GMT"/>
+          </outline>
+          <outline text="Together we wrote a small nodejs app for an api that adds new sites via WP-CLI" created="Fri, 10 Apr 2026 13:13:18 GMT">
+            <outline text="Example request" created="Fri, 10 Apr 2026 13:18:56 GMT">
+              <outline text="curl -X POST http://127.0.0.1:8080/sites \" created="Fri, 10 Apr 2026 13:19:07 GMT">
+                <outline text="-H &quot;Authorization: Bearer YOUR_API_TOKEN&quot; \"/>
+                <outline text="-H &quot;Content-Type: application/json&quot; \"/>
+                <outline text="-d '{" created="Fri, 10 Apr 2026 13:19:22 GMT">
+                  <outline text="&quot;slug&quot;: &quot;client1&quot;,"/>
+                  <outline text="&quot;title&quot;: &quot;Client 1&quot;,"/>
+                  <outline text="&quot;email&quot;: &quot;admin@example.com&quot;"/>
+                </outline>
+                <outline text="}'" created="Fri, 10 Apr 2026 13:19:16 GMT"/>
+              </outline>
+            </outline>
+            <outline text="Response on success" created="Fri, 10 Apr 2026 13:19:51 GMT">
+              <outline text="{" created="Fri, 10 Apr 2026 13:20:14 GMT">
+                <outline text="&quot;success&quot;: true,"/>
+                <outline text="&quot;domain&quot;: &quot;client1.example.com&quot;,"/>
+                <outline text="&quot;siteId&quot;: &quot;2&quot;,"/>
+                <outline text="&quot;message&quot;: &quot;Site created successfully&quot;"/>
+              </outline>
+              <outline text="}" created="Fri, 10 Apr 2026 13:20:34 GMT"/>
+            </outline>
+          </outline>
+          <outline text="curl call works on localhost (created https://client2.wpzz.de/)" created="Fri, 10 Apr 2026 13:42:46 GMT"/>
+          <outline text="set up https://provisioner.wpzz.de/ in Caddy and it works from anywhere (created https://client3.wpzz.de/)" created="Fri, 10 Apr 2026 13:43:03 GMT"/>
+          <outline text="https://provisioner.wpzz.de/health returns ok, even without auth" created="Fri, 10 Apr 2026 13:43:41 GMT" type="link" url="https://provisioner.wpzz.de/health"/>
+        </outline>
+      </outline>
       <outline text="April 9" created="Thu, 09 Apr 2026 15:36:56 GMT" type="calendarDay" name="09">
         <outline text="I get an error trying to listen to the voicemail" created="Thu, 09 Apr 2026 15:55:52 GMT" type="outline">
           <outline text="The error message" created="Thu, 09 Apr 2026 15:58:02 GMT">
