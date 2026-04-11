@@ -7,12 +7,33 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 10 Apr 2026 15:52:19 GMT</dateModified>
-    <expansionState>1,2,3,5,11,12,13,18,21</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Sat, 11 Apr 2026 16:21:30 GMT</dateModified>
+    <expansionState>1,2,3,6,8,12,14,17,18,20,26,27,28,33,36</expansionState>
+    <lastCursor>9</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 11" created="Sat, 11 Apr 2026 16:12:38 GMT" type="calendarDay" name="11">
+        <outline text="Setting up plugins for MultiSite" created="Sat, 11 Apr 2026 16:12:39 GMT" type="outline">
+          <outline text="Plugins can either be required for all subsites (&quot;Network Activated&quot;) or optional" created="Sat, 11 Apr 2026 16:12:52 GMT"/>
+          <outline text="Subsites cannot install their own plugins" created="Sat, 11 Apr 2026 16:19:40 GMT"/>
+          <outline text="Proposed required plugins" created="Sat, 11 Apr 2026 16:13:25 GMT">
+            <outline text="Jetpack" created="Sat, 11 Apr 2026 16:13:35 GMT"/>
+            <outline text="Baseline CSS and JS Loader" created="Sat, 11 Apr 2026 16:13:37 GMT">
+              <outline text="This pulls testing.css and testing.js from https://s3.amazonaws.com/scripting.com/code/baselineplayground/" created="Sat, 11 Apr 2026 16:15:02 GMT"/>
+            </outline>
+            <outline text="RSS Cloud External Ping" created="Sat, 11 Apr 2026 16:15:58 GMT"/>
+            <outline text="Markdown RSS" created="Sat, 11 Apr 2026 16:19:09 GMT"/>
+            <outline text="Wordland Site ID" created="Sat, 11 Apr 2026 16:16:35 GMT">
+              <outline text="This adds the siteid to the dom" created="Sat, 11 Apr 2026 16:16:46 GMT"/>
+            </outline>
+          </outline>
+          <outline text="Proposed optional plugins" created="Sat, 11 Apr 2026 16:19:22 GMT">
+            <outline text="Activity Pub" created="Sat, 11 Apr 2026 16:20:14 GMT"/>
+            <outline text="FeedLand Blogroll" created="Sat, 11 Apr 2026 16:20:59 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="April 10" created="Fri, 10 Apr 2026 13:03:47 GMT" type="calendarDay" name="10">
         <outline text="Next step, site creation API" created="Fri, 10 Apr 2026 13:03:48 GMT" type="outline">
           <outline text="ChatGPT suggested writing our own API in nodejs that connects to WP-CLI to create sites" created="Fri, 10 Apr 2026 13:04:08 GMT">
