@@ -7,16 +7,30 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 11 Apr 2026 16:21:30 GMT</dateModified>
-    <expansionState>1,2,3,6,8,12,14,17,18,20,26,27,28,33,36</expansionState>
-    <lastCursor>9</lastCursor>
+    <dateModified>Sun, 12 Apr 2026 16:00:58 GMT</dateModified>
+    <expansionState>1,2,3,6,8,12,13,16,18,22,24,27,28,30,36,37,38,43,46</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 12" created="Sun, 12 Apr 2026 15:13:17 GMT" type="calendarDay" name="12">
+        <outline text="Inspired by Dave's experience with coding agents, I've installed a local agent for the first time" created="Sun, 12 Apr 2026 15:13:18 GMT" type="outline">
+          <outline text="Codex, since I already have a OpenAI subscription" created="Sun, 12 Apr 2026 15:14:44 GMT"/>
+          <outline text="Until now I've been using the chat window in VS Code, I also tried out Windsurf for a few months" created="Sun, 12 Apr 2026 15:15:21 GMT"/>
+          <outline text="My first project was to make the WordLand Site ID plugin into a properly documented GitHub repo" created="Sun, 12 Apr 2026 15:21:57 GMT">
+            <outline text="It was just a one-off PHP file that was only installed on https://daveverse.org" created="Sun, 12 Apr 2026 15:23:00 GMT"/>
+          </outline>
+          <outline text="I then pointed it to https://this.how/wordland/, and asked for a one-liner to explain how the siteID related to WordLand" created="Sun, 12 Apr 2026 15:29:28 GMT">
+            <outline text="It suggested: The site ID is used by [WordLand](https://this.how/wordland/) to connect WordPress sites to WordLand experiences. " created="Sun, 12 Apr 2026 15:30:14 GMT"/>
+            <outline text="That's not a bad suggestion 😃" created="Sun, 12 Apr 2026 15:30:52 GMT"/>
+          </outline>
+          <outline text="Repo now up at https://github.com/scotthansonde/wordland-site-id" created="Sun, 12 Apr 2026 15:54:14 GMT" type="link" url="https://github.com/scotthansonde/wordland-site-id"/>
+        </outline>
+      </outline>
       <outline text="April 11" created="Sat, 11 Apr 2026 16:12:38 GMT" type="calendarDay" name="11">
         <outline text="Setting up plugins for MultiSite" created="Sat, 11 Apr 2026 16:12:39 GMT" type="outline">
           <outline text="Plugins can either be required for all subsites (&quot;Network Activated&quot;) or optional" created="Sat, 11 Apr 2026 16:12:52 GMT"/>
-          <outline text="Subsites cannot install their own plugins" created="Sat, 11 Apr 2026 16:19:40 GMT"/>
+          <outline text="Subsites cannot install their own plugins, that's a restriction of Multisite" created="Sat, 11 Apr 2026 16:19:40 GMT"/>
           <outline text="Proposed required plugins" created="Sat, 11 Apr 2026 16:13:25 GMT">
             <outline text="Jetpack" created="Sat, 11 Apr 2026 16:13:35 GMT"/>
             <outline text="Baseline CSS and JS Loader" created="Sat, 11 Apr 2026 16:13:37 GMT">
@@ -24,7 +38,7 @@
             </outline>
             <outline text="RSS Cloud External Ping" created="Sat, 11 Apr 2026 16:15:58 GMT"/>
             <outline text="Markdown RSS" created="Sat, 11 Apr 2026 16:19:09 GMT"/>
-            <outline text="Wordland Site ID" created="Sat, 11 Apr 2026 16:16:35 GMT">
+            <outline text="WordLand Site ID" created="Sat, 11 Apr 2026 16:16:35 GMT">
               <outline text="This adds the siteid to the dom" created="Sat, 11 Apr 2026 16:16:46 GMT"/>
             </outline>
           </outline>
