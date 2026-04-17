@@ -7,12 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 12 Apr 2026 16:00:58 GMT</dateModified>
-    <expansionState>1,2,3,6,8,12,13,16,18,22,24,27,28,30,36,37,38,43,46</expansionState>
-    <lastCursor>10</lastCursor>
+    <dateModified>Fri, 17 Apr 2026 16:15:22 GMT</dateModified>
+    <expansionState>1,2,3,4,5,9,10,13,15</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 17" created="Fri, 17 Apr 2026 16:05:34 GMT" type="calendarDay" name="17">
+        <outline text="Dave, thanks for the mention on Scripting News!" created="Fri, 17 Apr 2026 16:05:35 GMT" type="outline">
+          <outline text="This was actually my first time working with Codex" created="Fri, 17 Apr 2026 16:05:49 GMT">
+            <outline text="I already had the basic code to put the site-id into the dom in a WordPress site" created="Fri, 17 Apr 2026 16:08:01 GMT">
+              <outline text="With help for the standard ChatGPT app" created="Fri, 17 Apr 2026 16:13:59 GMT"/>
+              <outline text="It's pretty good with PHP and WordPress, since both have a long documented history " created="Fri, 17 Apr 2026 16:14:21 GMT"/>
+            </outline>
+            <outline text="Codex helped to package the code into a GitHub repo that others can use" created="Fri, 17 Apr 2026 16:08:49 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="April 12" created="Sun, 12 Apr 2026 15:13:17 GMT" type="calendarDay" name="12">
         <outline text="Inspired by Dave's experience with coding agents, I've installed a local agent for the first time" created="Sun, 12 Apr 2026 15:13:18 GMT" type="outline">
           <outline text="Codex, since I already have a OpenAI subscription" created="Sun, 12 Apr 2026 15:14:44 GMT"/>
