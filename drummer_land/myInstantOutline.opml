@@ -7,12 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 19 Apr 2026 10:54:55 GMT</dateModified>
-    <expansionState>1,2,3,4,9,20,21,22,23,27,28,31,33</expansionState>
-    <lastCursor>7</lastCursor>
+    <dateModified>Thu, 23 Apr 2026 16:26:41 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,10,11</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 23" created="Thu, 23 Apr 2026 15:23:58 GMT" type="calendarDay" name="23">
+        <outline text="Testing the site-id changes" created="Thu, 23 Apr 2026 15:23:59 GMT" type="outline">
+          <outline text="I don't run my local WordPress test environment often enough to remember how it works " created="Thu, 23 Apr 2026 15:24:09 GMT">
+            <outline text="Good thing Codex can remind me 😃" created="Thu, 23 Apr 2026 16:26:05 GMT"/>
+          </outline>
+        </outline>
+        <outline text="It's been quiet on here?" created="Thu, 23 Apr 2026 16:15:49 GMT" type="outline">
+          <outline text="I've just been really busy with the day job 🍔." created="Thu, 23 Apr 2026 16:15:59 GMT"/>
+          <outline text="For fun stuff like this I have to make time. Like now." created="Thu, 23 Apr 2026 16:17:10 GMT"/>
+        </outline>
+      </outline>
       <outline text="April 19" created="Sun, 19 Apr 2026 10:10:24 GMT" type="calendarDay" name="19">
         <outline text="Using Codex to optimize the site-id attributes in Baseline" created="Sun, 19 Apr 2026 10:10:25 GMT" type="outline">
           <outline text="The attributes are currently added directly in the PHP templates for the content" created="Sun, 19 Apr 2026 10:10:59 GMT">
