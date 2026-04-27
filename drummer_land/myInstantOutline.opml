@@ -7,12 +7,25 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 23 Apr 2026 16:26:41 GMT</dateModified>
-    <expansionState>1,2,3,4,6,9,10,11</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Mon, 27 Apr 2026 16:19:53 GMT</dateModified>
+    <expansionState>1,2,3,7,12,13,14,16,19,20,21</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 27" created="Mon, 27 Apr 2026 16:14:21 GMT" type="calendarDay" name="27">
+        <outline text="Andrew Shell" created="Mon, 27 Apr 2026 16:16:39 GMT" type="outline">
+          <outline text="I see he's working on the WordPress RSS Cloud plugin" created="Mon, 27 Apr 2026 16:18:04 GMT" type="link" url="https://andrewshell.org/2026/04/working-on-the-rss-cloud-wordpress-plugin/"/>
+          <outline text="The one we figured out a few months ago wasn't working, so I wrote a workaround for it 😃" created="Mon, 27 Apr 2026 16:18:23 GMT"/>
+          <outline text="I'll have to get in touch with him to see if we can collaborate" created="Mon, 27 Apr 2026 16:19:31 GMT"/>
+        </outline>
+        <outline text="Dave's podcast" created="Mon, 27 Apr 2026 16:14:22 GMT" type="outline">
+          <outline text="It's the end of my day here, so real quick..." created="Mon, 27 Apr 2026 16:14:36 GMT"/>
+          <outline text="Yeah, I think you can release it" created="Mon, 27 Apr 2026 16:14:50 GMT"/>
+          <outline text="It rambles, but all the pieces fit together" created="Mon, 27 Apr 2026 16:14:59 GMT"/>
+          <outline text="I like the part about AI reducing stress when coming back to a project, I haven't heard that anyplace else" created="Mon, 27 Apr 2026 16:15:10 GMT"/>
+        </outline>
+      </outline>
       <outline text="April 23" created="Thu, 23 Apr 2026 15:23:58 GMT" type="calendarDay" name="23">
         <outline text="Testing the site-id changes" created="Thu, 23 Apr 2026 15:23:59 GMT" type="outline">
           <outline text="I don't run my local WordPress test environment often enough to remember how it works " created="Thu, 23 Apr 2026 15:24:09 GMT">
