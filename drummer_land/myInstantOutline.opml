@@ -7,12 +7,18 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 27 Apr 2026 16:19:53 GMT</dateModified>
-    <expansionState>1,2,3,7,12,13,14,16,19,20,21</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Tue, 28 Apr 2026 15:58:13 GMT</dateModified>
+    <expansionState>1,2,3,6,7,11,16,17,18,20,23,24,25</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 28" created="Tue, 28 Apr 2026 15:34:15 GMT" type="calendarDay" name="28">
+        <outline text="I found Andrew Shell's repo for his RSS Cloud Plugin work, so I'll contact him there" created="Tue, 28 Apr 2026 15:34:16 GMT" type="outline">
+          <outline text="https://github.com/rsscloud/rsscloud-wp-plugin" created="Tue, 28 Apr 2026 15:34:53 GMT" type="link" url="https://github.com/rsscloud/rsscloud-wp-plugin"/>
+          <outline text="Dave, I tagged you in the issue, it's at https://github.com/rsscloud/rsscloud-wp-plugin/issues/12" created="Tue, 28 Apr 2026 15:57:50 GMT" type="link" url="https://github.com/rsscloud/rsscloud-wp-plugin/issues/12"/>
+        </outline>
+      </outline>
       <outline text="April 27" created="Mon, 27 Apr 2026 16:14:21 GMT" type="calendarDay" name="27">
         <outline text="Andrew Shell" created="Mon, 27 Apr 2026 16:16:39 GMT" type="outline">
           <outline text="I see he's working on the WordPress RSS Cloud plugin" created="Mon, 27 Apr 2026 16:18:04 GMT" type="link" url="https://andrewshell.org/2026/04/working-on-the-rss-cloud-wordpress-plugin/"/>
