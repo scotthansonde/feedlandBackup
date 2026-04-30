@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Wed, 29 Apr 2026 18:26:46 GMT</dateModified>
+    <dateModified>Thu, 30 Apr 2026 06:48:35 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
@@ -205,7 +205,7 @@
     <outline type="rss" text="@scotthanson.de - Scott Hanson" xmlUrl="https://bsky.app/profile/did:plc:gd5u5h7ymop2fwimy63h5e66/rss" htmlUrl="https://bsky.app/profile/scotthanson.de" category="all,me"/>
     <outline type="rss" text="Web3 is Going Just Great" xmlUrl="https://web3isgoinggreat.com/feed.xml" htmlUrl="https://web3isgoinggreat.com/" category="all"/>
     <outline type="rss" text="Epic Web Dev" xmlUrl="https://www.epicweb.dev/rss.xml" htmlUrl="https://www.epicweb.dev" category="all,tech"/>
-    <outline type="rss" text="Mediagazer" xmlUrl="http://mediagazer.com/feed.xml" htmlUrl="http://mediagazer.com/" category="all"/>
+    <outline type="rss" text="Mediagazer" xmlUrl="http://mediagazer.com/feed.xml" htmlUrl="https://mediagazer.com/" category="all"/>
     <outline type="rss" text="Yumi stap storian" xmlUrl="http://oldschool.scripting.com/mistersugar/rss.xml" htmlUrl="http://storian.org/" category="all"/>
     <outline type="rss" text="Uncle Davey's silliness!" xmlUrl="http://scripting.com/userfeeds/davewiner.xml" category="all"/>
     <outline type="rss" text="SCOTUSblog" xmlUrl="http://www.scotusblog.com/feed/" htmlUrl="https://www.scotusblog.com/" category="all"/>
