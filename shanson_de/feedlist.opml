@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Thu, 30 Apr 2026 06:48:34 GMT</dateModified>
+    <dateModified>Thu, 30 Apr 2026 18:26:07 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Rubenerd" xmlUrl="http://rubenerd.com/feed/" htmlUrl="https://www.rubenerd.au/" category="all"/>
@@ -63,7 +63,7 @@
     <outline type="rss" text="Dries Buytaert" xmlUrl="https://dri.es/rss.xml" htmlUrl="https://dri.es/" category="all,starters"/>
     <outline type="rss" text="WordPress News" xmlUrl="https://wordpress.org/news/feed/" htmlUrl="https://wordpress.org/news" category="all,tech,starters"/>
     <outline type="rss" text="Memex 1.1" xmlUrl="http://memex.naughtons.org/feed" htmlUrl="https://memex.naughtons.org/" category="all,bloggers,starters"/>
-    <outline type="rss" text="Techmeme" xmlUrl="http://www.techmeme.com/feed.xml" htmlUrl="http://www.techmeme.com/" category="all,tech,starters"/>
+    <outline type="rss" text="Techmeme" xmlUrl="http://www.techmeme.com/feed.xml" htmlUrl="https://www.techmeme.com/" category="all,tech,starters"/>
     <outline type="rss" text="Axios" xmlUrl="https://api.axios.com/feed/" htmlUrl="https://www.axios.com/" category="all,politics"/>
     <outline type="rss" text="Tech - Ars Technica" xmlUrl="https://feeds.arstechnica.com/arstechnica/gadgets" htmlUrl="https://arstechnica.com/" category="all,starters"/>
     <outline type="rss" text="The Omg Lol Times" xmlUrl="https://omglol.news/rss.xml" htmlUrl="https://omglol.news" category="all,main,tech"/>

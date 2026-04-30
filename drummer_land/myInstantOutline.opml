@@ -7,12 +7,25 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 28 Apr 2026 15:58:13 GMT</dateModified>
-    <expansionState>1,2,3,6,7,11,16,17,18,20,23,24,25</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Thu, 30 Apr 2026 13:56:07 GMT</dateModified>
+    <expansionState>1,2,4,5,12,13,16,17,21,26,27,28,30,33,34,35</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
+      <outline text="April 30" created="Thu, 30 Apr 2026 13:24:25 GMT" type="calendarDay" name="30">
+        <outline text="Posted at https://wordland.shanson.de/2026/04/30/sorry-i-blurted/" created="Thu, 30 Apr 2026 13:55:32 GMT" type="link" url="https://wordland.shanson.de/2026/04/30/sorry-i-blurted/"/>
+        <outline text="Sorry, I blurted" created="Thu, 30 Apr 2026 13:24:26 GMT" type="outline">
+          <outline text="I took a quick look at blurt, the new WordPress short-form blogging theme." created="Thu, 30 Apr 2026 13:24:33 GMT">
+            <outline text="https://scottblurt.wordpress.com/" created="Thu, 30 Apr 2026 13:26:40 GMT" type="link" url="https://scottblurt.wordpress.com/"/>
+          </outline>
+          <outline text="It's a theme, just like Baseline is a theme. Themes can alter the behavior of WordPress in almost any way imaginable. It's still just a theme, so if Blurt is not using too much wordpress.com magic, it should be able to used on a self-hosted site.  " created="Thu, 30 Apr 2026 13:27:02 GMT"/>
+          <outline text="The artificial 500-character limit is clunky. The compose box simply is disabled if there are too many characters. If you edit the post in the WordPress dashboard, when saved extra characters are silently dropped. " created="Thu, 30 Apr 2026 13:29:00 GMT"/>
+          <outline text="With WordLand I can post 600 characters, and they don't get cut off. If I try to edit that, the save fails. It's an early version, Blurt doesn't know how to handle posts coming from outside its UI. " created="Thu, 30 Apr 2026 13:40:04 GMT"/>
+          <outline text="I'm not sure why everyone thinks a character limit is a defining feature of social media. That should be up to the writer, not the platform. It should be a threshold, not a wall. micro.blog seems to handle this well." created="Thu, 30 Apr 2026 13:43:08 GMT"/>
+          <outline text="All in all, it's a cute idea, and I look forward to see how it develops. (Sorry for the fart joke title.) (Actually I'm not sorry. 😃)" created="Thu, 30 Apr 2026 13:44:50 GMT"/>
+        </outline>
+      </outline>
       <outline text="April 28" created="Tue, 28 Apr 2026 15:34:15 GMT" type="calendarDay" name="28">
         <outline text="I found Andrew Shell's repo for his RSS Cloud Plugin work, so I'll contact him there" created="Tue, 28 Apr 2026 15:34:16 GMT" type="outline">
           <outline text="https://github.com/rsscloud/rsscloud-wp-plugin" created="Tue, 28 Apr 2026 15:34:53 GMT" type="link" url="https://github.com/rsscloud/rsscloud-wp-plugin"/>
