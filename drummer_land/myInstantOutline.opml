@@ -7,11 +7,21 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 04 May 2026 10:08:52 GMT</dateModified>
-    <expansionState/>
-    <lastCursor>0</lastCursor>
+    <dateModified>Wed, 06 May 2026 15:40:23 GMT</dateModified>
+    <expansionState>1,2,3</expansionState>
+    <lastCursor>6</lastCursor>
   </head>
   <body>
+    <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
+      <outline text="May 6" created="Wed, 06 May 2026 15:36:42 GMT" type="calendarDay" name="06">
+        <outline text="Feedland Timeline as a WordPress plugin" created="Wed, 06 May 2026 15:36:43 GMT" type="outline">
+          <outline text="I'll take a look at it. " created="Wed, 06 May 2026 15:36:56 GMT"/>
+          <outline text="We have the blogroll plugin as an example of putting FeedLand content into WordPress." created="Wed, 06 May 2026 15:38:47 GMT"/>
+          <outline text="The timeline plugin would kind of be the same thing with different content." created="Wed, 06 May 2026 15:40:01 GMT"/>
+          <outline text="At least I hope it is that easy. 😃" created="Wed, 06 May 2026 15:38:32 GMT"/>
+        </outline>
+      </outline>
+    </outline>
     <outline text="April 2026" created="Wed, 01 Apr 2026 14:31:55 GMT" name="april2026" type="calendarMonth">
       <outline text="April 30" created="Thu, 30 Apr 2026 13:24:25 GMT" type="calendarDay" name="30">
         <outline text="Posted at https://wordland.shanson.de/2026/04/30/sorry-i-blurted/" created="Thu, 30 Apr 2026 13:55:32 GMT" type="link" url="https://wordland.shanson.de/2026/04/30/sorry-i-blurted/"/>
