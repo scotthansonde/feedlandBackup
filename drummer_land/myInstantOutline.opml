@@ -7,12 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 06 May 2026 15:40:23 GMT</dateModified>
-    <expansionState>1,2,3</expansionState>
-    <lastCursor>6</lastCursor>
+    <dateModified>Thu, 07 May 2026 17:34:34 GMT</dateModified>
+    <expansionState>1,2,5,8,10,11</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
+      <outline text="May 7" created="Thu, 07 May 2026 16:58:13 GMT" type="calendarDay" name="07">
+        <outline text="Claude and FeedLand" created="Thu, 07 May 2026 17:31:35 GMT" type="outline"/>
+        <outline text="Looking to seeing what Claude has to say about those 10 second queries 😀" created="Thu, 07 May 2026 17:32:15 GMT"/>
+        <outline text="John Johnston's shortcode plugin feedlandRiverInclude" created="Thu, 07 May 2026 16:58:14 GMT" type="outline">
+          <outline text="https://gist.github.com/troutcolor/fbde5015e2b3ebc3e08316c12fa52760" created="Thu, 07 May 2026 16:59:55 GMT" type="link" url="https://gist.github.com/troutcolor/fbde5015e2b3ebc3e08316c12fa52760"/>
+          <outline text="This was a very good start, it worked right away in a fresh WordPress install" created="Thu, 07 May 2026 16:59:27 GMT"/>
+          <outline text="The fonts were all messed up, but Codex and I were able to create some style overrides" created="Thu, 07 May 2026 17:00:39 GMT">
+            <outline text="See my comment on John's gist" created="Thu, 07 May 2026 17:02:03 GMT" type="link" url="https://gist.github.com/troutcolor/fbde5015e2b3ebc3e08316c12fa52760?permalink_comment_id=6138693#gistcomment-6138693"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="May 6" created="Wed, 06 May 2026 15:36:42 GMT" type="calendarDay" name="06">
         <outline text="Feedland Timeline as a WordPress plugin" created="Wed, 06 May 2026 15:36:43 GMT" type="outline">
           <outline text="I'll take a look at it. " created="Wed, 06 May 2026 15:36:56 GMT"/>
