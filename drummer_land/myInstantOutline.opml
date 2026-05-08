@@ -7,15 +7,25 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 08 May 2026 05:56:03 GMT</dateModified>
-    <expansionState>1,2,5,8,10,11</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Fri, 08 May 2026 15:35:59 GMT</dateModified>
+    <expansionState>1,2,3,9,10,12,15,17,18</expansionState>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
     <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
+      <outline text="May 8" created="Fri, 08 May 2026 15:29:31 GMT" type="calendarDay" name="08">
+        <outline text="Screen shot from 10/24/25" created="Fri, 08 May 2026 15:29:32 GMT" type="outline">
+          <outline text="That's a very good summary of what we changed and how it did and didn't work" created="Fri, 08 May 2026 15:30:03 GMT"/>
+          <outline text="The FORCE INDEX works very well for large sets where 175 items for the river can be found quickly" created="Fri, 08 May 2026 15:30:37 GMT"/>
+          <outline text="It doesn't work well for small sets where perhaps many months and millions of items have be searched to get 175 items" created="Fri, 08 May 2026 15:31:29 GMT"/>
+          <outline text="I'm not sure how to determine whether the set will be large or small without performing the query first" created="Fri, 08 May 2026 15:33:25 GMT"/>
+          <outline text="" created="Fri, 08 May 2026 15:35:19 GMT"/>
+        </outline>
+      </outline>
       <outline text="May 7" created="Thu, 07 May 2026 16:58:13 GMT" type="calendarDay" name="07">
-        <outline text="Claude and FeedLand" created="Thu, 07 May 2026 17:31:35 GMT" type="outline"/>
-        <outline text="Looking to seeing what Claude has to say about those 10 second queries 😀" created="Thu, 07 May 2026 17:32:15 GMT"/>
+        <outline text="Claude and FeedLand" created="Thu, 07 May 2026 17:31:35 GMT" type="outline">
+          <outline text="Looking to seeing what Claude has to say about those 10 second queries 😀" created="Thu, 07 May 2026 17:32:15 GMT"/>
+        </outline>
         <outline text="John Johnston's shortcode plugin feedlandRiverInclude" created="Thu, 07 May 2026 16:58:14 GMT" type="outline">
           <outline text="https://gist.github.com/troutcolor/fbde5015e2b3ebc3e08316c12fa52760" created="Thu, 07 May 2026 16:59:55 GMT" type="link" url="https://gist.github.com/troutcolor/fbde5015e2b3ebc3e08316c12fa52760"/>
           <outline text="This was a very good start, it worked right away in a fresh WordPress install" created="Thu, 07 May 2026 16:59:27 GMT"/>
