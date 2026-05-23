@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Fri, 22 May 2026 18:33:00 GMT</dateModified>
+    <dateModified>Sat, 23 May 2026 06:51:14 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Rubenerd" xmlUrl="http://rubenerd.com/feed/" htmlUrl="https://www.rubenerd.au/" category="all"/>
@@ -185,7 +185,6 @@
     <outline type="rss" text="ProPublica" xmlUrl="https://newsie.social/@ProPublica.rss" htmlUrl="https://newsie.social/@ProPublica" category="all,blogroll"/>
     <outline type="rss" text="A History of Rock Music in 500 Songs" xmlUrl="https://500songs.com/feed/podcast/" htmlUrl="https://500songs.com/series/a-history-of-rock-music-in-500-songs/" category="all,blogroll,podcasts"/>
     <outline type="rss" text="Poynter" xmlUrl="http://www.poynter.org/feed/" htmlUrl="https://www.poynter.org/" category="all,blogroll,tech,politics"/>
-    <outline type="rss" text="Ars Technica - All content" xmlUrl="http://feeds.arstechnica.com/arstechnica/index/" htmlUrl="https://arstechnica.com/" category="all,blogroll"/>
     <outline type="rss" text="PRINT Magazine" xmlUrl="https://www.printmag.com/feed" htmlUrl="https://www.printmag.com/" category="all,blogroll"/>
     <outline type="rss" text="kottke.org" xmlUrl="http://feeds.kottke.org/main" htmlUrl="https://kottke.org/" category="all,blogroll,bloggers"/>
     <outline type="rss" text="Political Wire" xmlUrl="https://politicalwire.com/feed/" htmlUrl="https://politicalwire.com/" category="all,blogroll,politics"/>
