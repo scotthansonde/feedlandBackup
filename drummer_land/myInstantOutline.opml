@@ -7,12 +7,36 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 26 May 2026 16:12:45 GMT</dateModified>
-    <expansionState>1,2,3,5,10,12,13,14,16,20,24,25</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Wed, 27 May 2026 16:44:12 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,12,15,19,20,22,27,29,30,31,33,37,41,42</expansionState>
+    <lastCursor>17</lastCursor>
   </head>
   <body>
     <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
+      <outline text="May 27" created="Wed, 27 May 2026 14:27:04 GMT" type="calendarDay" name="27">
+        <outline text="Trying out Claude Code" created="Wed, 27 May 2026 14:27:05 GMT" type="outline">
+          <outline text="Our company's IT director (me) chose Claude for a project" created="Wed, 27 May 2026 14:27:14 GMT">
+            <outline text="So I can piggy-back Claude Code on that subscription" created="Wed, 27 May 2026 14:27:58 GMT"/>
+          </outline>
+          <outline text="I was hesitant to try Claude Code, since I had heard that it burns through tokens very quickly" created="Wed, 27 May 2026 14:44:17 GMT">
+            <outline text="So far with a pro subscription I haven't hit any limits" created="Wed, 27 May 2026 14:44:45 GMT"/>
+            <outline text="Maybe my needs are modest" created="Wed, 27 May 2026 14:45:10 GMT"/>
+          </outline>
+          <outline text="There are some subtle differences in the workflow between Codex and Claude Code " created="Wed, 27 May 2026 14:28:57 GMT">
+            <outline text="I had been using the Codex app for code work with Codex" created="Wed, 27 May 2026 14:30:28 GMT"/>
+            <outline text="The Claude app has a code tab, but it doesn't connect to the actual Claude Code" created="Wed, 27 May 2026 14:30:47 GMT"/>
+          </outline>
+          <outline text="I'm having Claude Code look at the issues on the Baseline theme to check if we have anything open" created="Wed, 27 May 2026 14:33:38 GMT">
+            <outline text="I haven't looked at this in a while, I've forgotten where we are at 😃" created="Wed, 27 May 2026 14:41:52 GMT"/>
+            <outline text="It did a very good job of summarizing the issues, and I can go through and clean them up" created="Wed, 27 May 2026 15:14:35 GMT"/>
+          </outline>
+          <outline text="We were even able to take of the mobile issue that fmfernandes mentioned a while ago" created="Wed, 27 May 2026 16:39:05 GMT">
+            <outline text="https://github.com/scotthansonde/wordlandBaseline/issues/54#issuecomment-3655511418" created="Wed, 27 May 2026 16:39:58 GMT" type="link" url="https://github.com/scotthansonde/wordlandBaseline/issues/54#issuecomment-3655511418"/>
+            <outline text="The fix was pretty simple, just had to add a couple of breakpoints" created="Wed, 27 May 2026 16:40:22 GMT"/>
+            <outline text="I had always heard that AI was not good at CSS, but it seems to be better than I am! " created="Wed, 27 May 2026 16:43:48 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="May 23" created="Sat, 23 May 2026 07:01:06 GMT" type="calendarDay" name="23">
         <outline text="Reboot of WordPress" created="Sat, 23 May 2026 07:01:07 GMT" type="outline">
           <outline text="I'm kind of wondering how this would work, in a practical sense" created="Sat, 23 May 2026 07:02:01 GMT"/>
