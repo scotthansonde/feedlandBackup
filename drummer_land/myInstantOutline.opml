@@ -7,12 +7,22 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 27 May 2026 16:44:12 GMT</dateModified>
-    <expansionState>1,2,3,4,6,9,12,15,19,20,22,27,29,30,31,33,37,41,42</expansionState>
-    <lastCursor>17</lastCursor>
+    <dateModified>Thu, 28 May 2026 14:46:44 GMT</dateModified>
+    <expansionState>1,2,3,7,9,10,11,13,16,19,22,26,27,29,34,36,37,38,40,44,48,49</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
+      <outline text="May 28" created="Thu, 28 May 2026 14:15:46 GMT" type="calendarDay" name="28">
+        <outline text="Jake, Dave, thanks for the advice re: Claude" created="Thu, 28 May 2026 14:43:50 GMT" type="outline">
+          <outline text="I'm going to try to learn some fundamentals, I was just informed of a free course (sponsored by Anthropic 😃)" created="Thu, 28 May 2026 14:44:07 GMT"/>
+          <outline text="https://frontendmasters.com/courses/claude-code/" created="Thu, 28 May 2026 14:44:55 GMT" type="link" url="https://frontendmasters.com/courses/claude-code/"/>
+          <outline text="2 hours long, the first 30 minutes have been very informative" created="Thu, 28 May 2026 14:45:33 GMT"/>
+        </outline>
+        <outline text="Updated the baseline theme on daveverse.org" created="Thu, 28 May 2026 14:15:47 GMT" type="outline">
+          <outline text="Mobile should look better now, let me know if we should change anything 😃" created="Thu, 28 May 2026 14:15:59 GMT"/>
+        </outline>
+      </outline>
       <outline text="May 27" created="Wed, 27 May 2026 14:27:04 GMT" type="calendarDay" name="27">
         <outline text="Trying out Claude Code" created="Wed, 27 May 2026 14:27:05 GMT" type="outline">
           <outline text="Our company's IT director (me) chose Claude for a project" created="Wed, 27 May 2026 14:27:14 GMT">
