@@ -7,12 +7,18 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 28 May 2026 14:46:44 GMT</dateModified>
-    <expansionState>1,2,3,7,9,10,11,13,16,19,22,26,27,29,34,36,37,38,40,44,48,49</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Sun, 31 May 2026 13:54:53 GMT</dateModified>
+    <expansionState>1,2,3,6,7,11,13,14,15,17,20,23,26,30,31,33,38,40,41,42,44,48,52,53</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
+      <outline text="May 31" created="Sun, 31 May 2026 13:54:00 GMT" type="calendarDay" name="31">
+        <outline text="I'm on the road the next two weeks" created="Sun, 31 May 2026 13:54:01 GMT" type="outline">
+          <outline text="Las Vegas this week, Minnesota next week" created="Sun, 31 May 2026 13:54:14 GMT"/>
+          <outline text="I'll probably have some time for our projects, though" created="Sun, 31 May 2026 13:54:26 GMT"/>
+        </outline>
+      </outline>
       <outline text="May 28" created="Thu, 28 May 2026 14:15:46 GMT" type="calendarDay" name="28">
         <outline text="Jake, Dave, thanks for the advice re: Claude" created="Thu, 28 May 2026 14:43:50 GMT" type="outline">
           <outline text="I'm going to try to learn some fundamentals, I was just informed of a free course (sponsored by Anthropic 😃)" created="Thu, 28 May 2026 14:44:07 GMT"/>
