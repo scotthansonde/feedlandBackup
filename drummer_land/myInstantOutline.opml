@@ -7,11 +7,16 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 31 May 2026 13:54:53 GMT</dateModified>
-    <expansionState>1,2,3,6,7,11,13,14,15,17,20,23,26,30,31,33,38,40,41,42,44,48,52,53</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Tue, 16 Jun 2026 12:38:39 GMT</dateModified>
+    <expansionState>1,2,4,5,6,9,10,14,16,17,18,20,23,26,29,33,34,36,41,43,44,45,47,51,55,56</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
+    <outline text="June 2026" created="Tue, 16 Jun 2026 12:38:22 GMT" name="june2026" type="calendarMonth">
+      <outline text="June 16" created="Tue, 16 Jun 2026 12:38:23 GMT" type="calendarDay" name="16">
+        <outline text="I'm back. Still jet-lagged, so not very productive yet." created="Tue, 16 Jun 2026 12:38:24 GMT" type="outline"/>
+      </outline>
+    </outline>
     <outline text="May 2026" created="Wed, 06 May 2026 15:36:41 GMT" name="may2026" type="calendarMonth">
       <outline text="May 31" created="Sun, 31 May 2026 13:54:00 GMT" type="calendarDay" name="31">
         <outline text="I'm on the road the next two weeks" created="Sun, 31 May 2026 13:54:01 GMT" type="outline">
