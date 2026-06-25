@@ -3,10 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Wed, 24 Jun 2026 18:32:50 GMT</dateModified>
+    <dateModified>Thu, 25 Jun 2026 07:06:14 GMT</dateModified>
   </head>
   <body>
-    <outline type="rss" text="All posts on rss.chat" xmlUrl="https://users.rss.network/rss.xml" htmlUrl="http://rss.chat/" category="all,chat"/>
+    <outline type="rss" text="rss.chat: All posts" xmlUrl="https://users.rss.network/rss.xml" htmlUrl="http://rss.chat/" category="all,chat"/>
     <outline type="rss" text="Jake Savin" xmlUrl="https://jakesav.in/feed/" htmlUrl="https://jakesav.in/" category="all,bloggers,main"/>
     <outline type="rss" text="Rubenerd" xmlUrl="http://rubenerd.com/feed/" htmlUrl="https://www.rubenerd.au/" category="all"/>
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
