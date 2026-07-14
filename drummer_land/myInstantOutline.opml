@@ -7,12 +7,36 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 02 Jul 2026 15:44:21 GMT</dateModified>
-    <expansionState>1,2,3,6,7,9,11,12,13,16,17,21,23,24,25,27,30,33,36,40,41,43,48,50,51,52,54,58,62,63</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Tue, 14 Jul 2026 11:38:15 GMT</dateModified>
+    <expansionState>1,2,3,4,6,9,11,14</expansionState>
+    <lastCursor>17</lastCursor>
   </head>
   <body>
     <outline text="July 2026" created="Thu, 02 Jul 2026 15:42:49 GMT" name="july2026" type="calendarMonth">
+      <outline text="July 14" created="Tue, 14 Jul 2026 11:19:15 GMT" type="calendarDay" name="14">
+        <outline text="Setting up test rss.chat instance using https://github.com/rmdes/rss.chat" created="Tue, 14 Jul 2026 11:20:06 GMT" type="outline">
+          <outline text="Set up a fresh server on ionos " created="Tue, 14 Jul 2026 11:20:33 GMT">
+            <outline text="Used cloud-init script to set up my user and install docker" created="Tue, 14 Jul 2026 11:21:06 GMT"/>
+          </outline>
+          <outline text="git clone https://github.com/rmdes/rss.chat.git" created="Tue, 14 Jul 2026 11:21:24 GMT">
+            <outline text="Noted in readme that make must be installed" created="Tue, 14 Jul 2026 11:21:51 GMT"/>
+            <outline text="sudo apt install build-essential" created="Tue, 14 Jul 2026 11:22:06 GMT"/>
+          </outline>
+          <outline text="Followed the instructions https://github.com/rmdes/rss.chat/blob/main/deploy/README.md" created="Tue, 14 Jul 2026 11:22:21 GMT">
+            <outline text="make install" created="Tue, 14 Jul 2026 11:23:32 GMT"/>
+            <outline text="edit deploy/.env" created="Tue, 14 Jul 2026 11:24:50 GMT">
+              <outline text="Set RSSCHAT_DOMAIN to chat.shanson.de" created="Tue, 14 Jul 2026 11:25:03 GMT"/>
+            </outline>
+            <outline text="make up" created="Tue, 14 Jul 2026 11:25:23 GMT"/>
+          </outline>
+          <outline text="Opened https://chat.shanson.de in browser" created="Tue, 14 Jul 2026 11:25:29 GMT">
+            <outline text="Created account" created="Tue, 14 Jul 2026 11:25:48 GMT"/>
+            <outline text="Opened https://chat.shanson.de/mail to see the sign in link  " created="Tue, 14 Jul 2026 11:26:01 GMT"/>
+            <outline text="It worked" created="Tue, 14 Jul 2026 11:27:37 GMT"/>
+          </outline>
+          <outline text="Turned on the whitelist to prevent new signons" created="Tue, 14 Jul 2026 11:37:56 GMT"/>
+        </outline>
+      </outline>
       <outline text="July 2" created="Thu, 02 Jul 2026 15:42:50 GMT" type="calendarDay" name="02">
         <outline text="I'm still here " created="Thu, 02 Jul 2026 15:42:51 GMT" type="outline">
           <outline text="Dave, I'd be willing to set up an second instance when you're ready" created="Thu, 02 Jul 2026 15:43:04 GMT"/>
