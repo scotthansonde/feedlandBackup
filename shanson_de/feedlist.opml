@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.8.14.</description>
-    <dateModified>Sat, 18 Jul 2026 06:35:43 GMT</dateModified>
+    <dateModified>Sat, 18 Jul 2026 18:15:57 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="rss.chat: all posts" xmlUrl="https://users.rss.network/rss.xml" htmlUrl="http://rss.chat/" category="all,chat"/>
