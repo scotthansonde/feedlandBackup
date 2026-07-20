@@ -7,12 +7,19 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 14 Jul 2026 11:38:15 GMT</dateModified>
-    <expansionState>1,2,3,4,6,9,11,14</expansionState>
-    <lastCursor>17</lastCursor>
+    <dateModified>Mon, 20 Jul 2026 14:47:18 GMT</dateModified>
+    <expansionState>1,2,3,7,8,9,11,14,16,19</expansionState>
+    <lastCursor>32</lastCursor>
   </head>
   <body>
     <outline text="July 2026" created="Thu, 02 Jul 2026 15:42:49 GMT" name="july2026" type="calendarMonth">
+      <outline text="July 20" created="Mon, 20 Jul 2026 14:45:35 GMT" type="calendarDay" name="20">
+        <outline text="Digital Ocean Team &quot;Mastoland&quot;" created="Mon, 20 Jul 2026 14:45:36 GMT" type="outline">
+          <outline text="Yes, we can delete it" created="Mon, 20 Jul 2026 14:45:53 GMT"/>
+          <outline text="Dave, you are the administrator of the team, you have to delete it yourself" created="Mon, 20 Jul 2026 14:46:03 GMT"/>
+          <outline text="&quot;Switch to the team in your DigitalOcean Control Panel, navigate to Settings → Edit Information, click Delete team, and confirm&quot;" created="Mon, 20 Jul 2026 14:47:10 GMT"/>
+        </outline>
+      </outline>
       <outline text="July 14" created="Tue, 14 Jul 2026 11:19:15 GMT" type="calendarDay" name="14">
         <outline text="Setting up test rss.chat instance using https://github.com/rmdes/rss.chat" created="Tue, 14 Jul 2026 11:20:06 GMT" type="outline">
           <outline text="Set up a fresh server on ionos " created="Tue, 14 Jul 2026 11:20:33 GMT">
