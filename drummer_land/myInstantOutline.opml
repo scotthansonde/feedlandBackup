@@ -7,12 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 20 Jul 2026 14:47:18 GMT</dateModified>
-    <expansionState>1,2,3,7,8,9,11,14,16,19</expansionState>
-    <lastCursor>32</lastCursor>
+    <dateModified>Wed, 22 Jul 2026 17:07:06 GMT</dateModified>
+    <expansionState>1,2,3,7,10,11,15,16,17,19,22,24,27</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="July 2026" created="Thu, 02 Jul 2026 15:42:49 GMT" name="july2026" type="calendarMonth">
+      <outline text="July 22" created="Wed, 22 Jul 2026 15:51:26 GMT" type="calendarDay" name="22">
+        <outline text="SQLite" created="Wed, 22 Jul 2026 17:05:55 GMT" type="outline">
+          <outline text="I see it's now part of davesql..." created="Wed, 22 Jul 2026 17:06:02 GMT"/>
+          <outline text="So theoretically we can just drop it in to FeedLand????" created="Wed, 22 Jul 2026 17:06:16 GMT"/>
+          <outline text="🤩" created="Wed, 22 Jul 2026 17:06:40 GMT"/>
+        </outline>
+        <outline text="Delayed posts on daveverse" created="Wed, 22 Jul 2026 15:51:27 GMT" type="outline">
+          <outline text="On the posts page on the dashboard, it shows 10 posts published between 12:21 and 12:36 pm on July 20." created="Wed, 22 Jul 2026 15:51:36 GMT"/>
+          <outline text="The Jetpack Activity Log shows the posts coming in at those times as well." created="Wed, 22 Jul 2026 16:07:00 GMT"/>
+        </outline>
+      </outline>
       <outline text="July 20" created="Mon, 20 Jul 2026 14:45:35 GMT" type="calendarDay" name="20">
         <outline text="Digital Ocean Team &quot;Mastoland&quot;" created="Mon, 20 Jul 2026 14:45:36 GMT" type="outline">
           <outline text="Yes, we can delete it" created="Mon, 20 Jul 2026 14:45:53 GMT"/>
