@@ -7,12 +7,18 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 22 Jul 2026 17:07:06 GMT</dateModified>
-    <expansionState>1,2,3,7,10,11,15,16,17,19,22,24,27</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Thu, 23 Jul 2026 05:59:32 GMT</dateModified>
+    <expansionState>1,2,3,6,7,11,14,15,19,20,21,23,26,28,31</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="July 2026" created="Thu, 02 Jul 2026 15:42:49 GMT" name="july2026" type="calendarMonth">
+      <outline text="July 23" created="Thu, 23 Jul 2026 05:58:12 GMT" type="calendarDay" name="23">
+        <outline text="Asking Claude about feedland and sqlite" created="Thu, 23 Jul 2026 05:58:13 GMT" type="outline">
+          <outline text="I already have a session that installed rss.chat with sqllite" created="Thu, 23 Jul 2026 05:58:29 GMT"/>
+          <outline text="" created="Thu, 23 Jul 2026 05:59:31 GMT"/>
+        </outline>
+      </outline>
       <outline text="July 22" created="Wed, 22 Jul 2026 15:51:26 GMT" type="calendarDay" name="22">
         <outline text="SQLite" created="Wed, 22 Jul 2026 17:05:55 GMT" type="outline">
           <outline text="I see it's now part of davesql..." created="Wed, 22 Jul 2026 17:06:02 GMT"/>
@@ -480,7 +486,7 @@
             <outline text="0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.8)  MySQL Community Server - GPL."/>
             <outline text="0 [System] [MY-015016] [Server] MySQL Server - end."/>
           </outline>
-          <outline text="Operator error! I had named mysql.idb incorrectly! It's supposed to be mysql.ibd. 🤦‍♂️" created="Thu, 26 Mar 2026 14:36:02 GMT"/>
+          <outline text="Operator error! I had named mysql.idb incorrectly! It's supposed to be mysql.ibd. ��‍♂️" created="Thu, 26 Mar 2026 14:36:02 GMT"/>
         </outline>
       </outline>
       <outline text="March 22" created="Sun, 22 Mar 2026 08:21:32 GMT" type="calendarDay" name="22">
