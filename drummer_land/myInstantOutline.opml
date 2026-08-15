@@ -7,11 +7,85 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 23 Jul 2026 12:44:07 GMT</dateModified>
-    <expansionState>1,2,3,6,7,11,14,15,19,20,21,23,26,28,31</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Sat, 15 Aug 2026 15:59:58 GMT</dateModified>
+    <expansionState>1,2,3,5,7,11,16</expansionState>
+    <lastCursor>18</lastCursor>
   </head>
   <body>
+    <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 15" created="Sat, 15 Aug 2026 07:21:59 GMT" type="calendarDay" name="15">
+        <outline text="Trying out a local FeedLand install with SQLite" created="Sat, 15 Aug 2026 07:22:00 GMT" type="outline">
+          <outline text="I cloned a few repos in a directory for Claude to look at" created="Sat, 15 Aug 2026 07:24:22 GMT">
+            <outline text="rss.chat" created="Sat, 15 Aug 2026 09:13:27 GMT"/>
+            <outline text="feedland" created="Sat, 15 Aug 2026 09:13:30 GMT"/>
+            <outline text="feedlandInstall" created="Sat, 15 Aug 2026 09:13:32 GMT"/>
+            <outline text="feedland DockerCompose" created="Sat, 15 Aug 2026 09:14:15 GMT"/>
+          </outline>
+          <outline text="I asked Claude to enable SQLite in feedland based on the implementation in rss.chat" created="Sat, 15 Aug 2026 09:14:21 GMT">
+            <outline text="In short, it works" created="Sat, 15 Aug 2026 09:33:40 GMT"/>
+            <outline text="Claude's summary: SQLite storage option for FeedLand (experimental) " created="Sat, 15 Aug 2026 09:36:15 GMT">
+              <outline text="Why" created="Sat, 15 Aug 2026 10:15:12 GMT">
+                <outline text="davesql (peer dep ^0.7.1) already supports SQLite, added for rss.chat's own migration"/>
+                <outline text="Same pattern as rss.chat: opt-in engine, MySQL stays the default"/>
+                <outline text="Intended for small/single-user instances, not feedland.social/.org/.com"/>
+              </outline>
+              <outline text="Files changed" created="Sat, 15 Aug 2026 10:15:00 GMT">
+                <outline text="database/database.js (+40 lines)"/>
+                <outline text="feedland.js (+12/-2 lines)"/>
+              </outline>
+              <outline text="database/database.js" created="Sat, 15 Aug 2026 10:15:19 GMT">
+                <outline text="New function: initNewDatabase(callback), exported" created="Sat, 15 Aug 2026 10:24:29 GMT">
+                  <outline text="SQLite equivalent of feedlandInstall/docs/setup.sql"/>
+                  <outline text="Runs create table/index if not exists for all 9 tables + 9 indexes"/>
+                  <outline text="No separate schema file needed -- SQLite creates its own tables on first boot"/>
+                </outline>
+                <outline text="Schema translation notes" created="Sat, 15 Aug 2026 10:15:22 GMT">
+                  <outline text="auto_increment -&gt; integer primary key"/>
+                  <outline text="boolean -&gt; integer" created="Sat, 15 Aug 2026 10:24:40 GMT"/>
+                  <outline text="json columns (items.metadata, users.apps, readinglists.feedUrls) -&gt; text" created="Sat, 15 Aug 2026 10:24:39 GMT">
+                    <outline text="no app changes needed -- code already does its own JSON.parse/stringify (parseJsontext()), nevefunctions"/>
+                  </outline>
+                  <outline text="collate nocase added on screenname, feedUrl, emailAddress, listName" created="Sat, 15 Aug 2026 10:15:24 GMT">
+                    <outline text="MySQL's utf8mb4_unicode_ci makes these lookups case-insensitive today"/>
+                    <outline text="app does plain &quot;=&quot; comparisons everywhere, no JS-side case normalization"/>
+                    <outline text="without this, SQLite's case-sensitive default would silently change matching behavior"/>
+                  </outline>
+                </outline>
+                <outline text="No changes needed for the ~11 upsert call sites" created="Sat, 15 Aug 2026 10:15:26 GMT">
+                  <outline text="all already use &quot;replace into ...&quot; -- valid SQLite syntax too (unlike MySQL's &quot;on duplicate key update&quot;"/>
+                </outline>
+                <outline text="No MySQL-only SQL functions found elsewhere (NOW(), GROUP_CONCAT, DATE_FORMAT, etc.)" created="Sat, 15 Aug 2026 10:15:31 GMT"/>
+              </outline>
+              <outline text="feedland.js" created="Sat, 15 Aug 2026 11:11:38 GMT">
+                <outline text="getMysqlVersion() branches to sqlite_version() when config.database.flUseSqlite"/>
+                <outline text="Startup sequence wraps existing getMysqlVersion -&gt; getFeedsHaveIds -&gt; database.start chain in afterDatabaseEngi">
+                  <outline text="MySQL path: called directly, unchanged"/>
+                  <outline text="SQLite path: called after database.initNewDatabase() completes, so schema exists before first query"/>
+                </outline>
+              </outline>
+              <outline text="Validated (live local test via Docker, davesql bumped 0.6.3 -&gt; 0.7.1 in the test container)" created="Sat, 15 Aug 2026 10:16:05 GMT">
+                <outline text="Fresh boot creates all 9 tables correctly"/>
+                <outline text="Signup -&gt; pendingConfirmations row -&gt; confirmation link -&gt; users row created correctly, ctStartups incrementing"/>
+                <outline text="29 feeds subscribed via default starter list, all checked and populated by background feed-checker over ~12 min"/>
+                <outline text="Liked a post -&gt; likes row written, items.ctLikes/items.likes updated correctly" created="Sat, 15 Aug 2026 10:22:37 GMT"/>
+                <outline text="Container restart: all data survived intact (users 1/1, feeds 29/29, items 653/653, subscriptions 29/29, likes 1/1)" created="Sat, 15 Aug 2026 10:22:27 GMT">
+                  <outline text="user row and like row verified byte-for-byte identical before/after"/>
+                  <outline text="initNewDatabase()'s &quot;if not exists&quot; guards correctly no-op against existing schema, no errors, no data loss"/>
+                  <outline text="clean reboot into flFeedsHaveIds == true, davesql picked sqlite again"/>
+                </outline>
+              </outline>
+              <outline text="Not yet tested" created="Sat, 15 Aug 2026 10:16:11 GMT">
+                <outline text="Write concurrency at real multi-tenant scale (only tested at 29-feed, single-user scale)" created="Sat, 15 Aug 2026 10:20:31 GMT"/>
+              </outline>
+            </outline>
+          </outline>
+          <outline text="It also found an issue with daveappserver, namely in the checkPendingConfirmations function" created="Sat, 15 Aug 2026 09:29:16 GMT">
+            <outline text="It runs a MySQL-only SQL query, rejected by SQLite" created="Sat, 15 Aug 2026 09:29:46 GMT"/>
+            <outline text="The error is not fatal, but on SQLite expired pendingConfirmations rows are never cleaned up " created="Sat, 15 Aug 2026 09:32:21 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+    </outline>
     <outline text="July 2026" created="Thu, 02 Jul 2026 15:42:49 GMT" name="july2026" type="calendarMonth">
       <outline text="July 23" created="Thu, 23 Jul 2026 12:29:16 GMT" type="calendarDay" name="23">
         <outline text="The new install of rss.chat went very smoothly" created="Thu, 23 Jul 2026 12:29:17 GMT" type="outline">
