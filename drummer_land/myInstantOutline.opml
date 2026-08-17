@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 15 Aug 2026 15:59:58 GMT</dateModified>
-    <expansionState>1,2,3,5,7,11,16</expansionState>
-    <lastCursor>18</lastCursor>
+    <dateModified>Sun, 16 Aug 2026 19:12:17 GMT</dateModified>
+    <expansionState>1,2,3,8,9,11,13,17,22</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 16" created="Sun, 16 Aug 2026 19:03:29 GMT" type="calendarDay" name="16">
+        <outline text="Funny that we both had the same idea for FeedLand 😃" created="Sun, 16 Aug 2026 19:03:30 GMT" type="outline">
+          <outline text="I personally would like to see I can get FeedLand working in electron" created="Sun, 16 Aug 2026 19:04:36 GMT"/>
+          <outline text="That would mean getting electronLand up to date with the current version of electron" created="Sun, 16 Aug 2026 19:06:14 GMT"/>
+          <outline text="I'm having Claude start with updating Public Folder to the latest electron" created="Sun, 16 Aug 2026 19:11:54 GMT"/>
+          <outline text="I think electron would be a good role for me when we work together on FeedLand" created="Sun, 16 Aug 2026 19:09:40 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 15" created="Sat, 15 Aug 2026 07:21:59 GMT" type="calendarDay" name="15">
         <outline text="Trying out a local FeedLand install with SQLite" created="Sat, 15 Aug 2026 07:22:00 GMT" type="outline">
           <outline text="I cloned a few repos in a directory for Claude to look at" created="Sat, 15 Aug 2026 07:24:22 GMT">
@@ -560,7 +568,7 @@
             <outline text="0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.4.8)  MySQL Community Server - GPL."/>
             <outline text="0 [System] [MY-015016] [Server] MySQL Server - end."/>
           </outline>
-          <outline text="Operator error! I had named mysql.idb incorrectly! It's supposed to be mysql.ibd. 🤦‍♂️" created="Thu, 26 Mar 2026 14:36:02 GMT"/>
+          <outline text="Operator error! I had named mysql.idb incorrectly! It's supposed to be mysql.ibd. ����‍♂️" created="Thu, 26 Mar 2026 14:36:02 GMT"/>
         </outline>
       </outline>
       <outline text="March 22" created="Sun, 22 Mar 2026 08:21:32 GMT" type="calendarDay" name="22">
