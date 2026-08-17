@@ -7,18 +7,38 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 16 Aug 2026 19:12:17 GMT</dateModified>
-    <expansionState>1,2,3,8,9,11,13,17,22</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Mon, 17 Aug 2026 14:22:23 GMT</dateModified>
+    <expansionState>1,2,3,7,14,15,20,21,23,25,29,34</expansionState>
+    <lastCursor>41</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 17" created="Mon, 17 Aug 2026 11:52:33 GMT" type="calendarDay" name="17">
+        <outline text="Electric Feedland" created="Mon, 17 Aug 2026 13:29:21 GMT" type="outline">
+          <outline text="I'm cool with your schedule. " created="Mon, 17 Aug 2026 13:30:09 GMT"/>
+          <outline text="My experiments are for my own learning and use. I'll keep notes here in the outline, and if they are useful for you, great. If not, that's also fine." created="Mon, 17 Aug 2026 13:29:33 GMT"/>
+          <outline text="Btw the wpcomvip/feedland repo is private. But I don't think there's any reason for me see it." created="Mon, 17 Aug 2026 13:31:09 GMT"/>
+        </outline>
+        <outline text="Public Folder electron app" created="Mon, 17 Aug 2026 11:52:34 GMT" type="outline">
+          <outline text="This seemed like a good first step to working with the current Electron (43.x)" created="Mon, 17 Aug 2026 11:53:03 GMT"/>
+          <outline text="I cloned some repos for Claude to learn from: electronLand, electricPork, publicfolder " created="Mon, 17 Aug 2026 11:53:20 GMT"/>
+          <outline text="I also copied in the current Public Folder app" created="Mon, 17 Aug 2026 11:54:27 GMT"/>
+          <outline text="I told Claude I wanted to build Public Folder with Electron 43 and let 'er rip" created="Mon, 17 Aug 2026 11:54:58 GMT"/>
+          <outline text="It found only 4 things to fix in electronLand for Electron 43 compatibility" created="Mon, 17 Aug 2026 11:58:06 GMT">
+            <outline text="1. electron.remote was removed from Electron core years ago — replaced with the @electron/remote polyfill, added as a dependency, initialized in the main process, and enabled per-window." created="Mon, 17 Aug 2026 12:06:02 GMT"/>
+            <outline text="2. That polyfill's initialize() has a side effect that must only run in the actual main process — but electronland.js eagerly requires both the main and renderer shell files into whichever process loads it, so it was firing (and crashing) inside the renderer too. Guarded it with process.type === &quot;browser&quot;."/>
+            <outline text="3. contextIsolation now defaults to true; the app relies on nodeIntegration + direct require(&quot;electron&quot;) in the renderer, so contextIsolation: false had to be set explicitly."/>
+            <outline text="4. electron.shell.openItem was removed — swapped for shell.openPath."/>
+          </outline>
+          <outline text="The result was a new Public Folder.app that looks and works just like the original, but built on current Electron, so it runs natively on Apple Silicon instead of under Rosetta, and benefits from ~6 years of Chromium/V8 improvements." created="Mon, 17 Aug 2026 12:03:50 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 16" created="Sun, 16 Aug 2026 19:03:29 GMT" type="calendarDay" name="16">
         <outline text="Funny that we both had the same idea for FeedLand 😃" created="Sun, 16 Aug 2026 19:03:30 GMT" type="outline">
-          <outline text="I personally would like to see I can get FeedLand working in electron" created="Sun, 16 Aug 2026 19:04:36 GMT"/>
-          <outline text="That would mean getting electronLand up to date with the current version of electron" created="Sun, 16 Aug 2026 19:06:14 GMT"/>
-          <outline text="I'm having Claude start with updating Public Folder to the latest electron" created="Sun, 16 Aug 2026 19:11:54 GMT"/>
-          <outline text="I think electron would be a good role for me when we work together on FeedLand" created="Sun, 16 Aug 2026 19:09:40 GMT"/>
+          <outline text="I personally would like to see I can get FeedLand working in Electron" created="Sun, 16 Aug 2026 19:04:36 GMT"/>
+          <outline text="That would mean getting electronLand up to date with the current version of Electron" created="Sun, 16 Aug 2026 19:06:14 GMT"/>
+          <outline text="I'm having Claude start with updating Public Folder to the latest Electron" created="Sun, 16 Aug 2026 19:11:54 GMT"/>
+          <outline text="I think Electron would be a good role for me when we work together on FeedLand" created="Sun, 16 Aug 2026 19:09:40 GMT"/>
         </outline>
       </outline>
       <outline text="August 15" created="Sat, 15 Aug 2026 07:21:59 GMT" type="calendarDay" name="15">
