@@ -7,12 +7,19 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 18 Aug 2026 06:16:15 GMT</dateModified>
-    <expansionState>1,2,3,7,14,15,20,21,23,25,29,34</expansionState>
-    <lastCursor>8</lastCursor>
+    <dateModified>Wed, 19 Aug 2026 05:12:16 GMT</dateModified>
+    <expansionState>1,2,3,7,8,12,19,20,25,26,28,30,34,39</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 19" created="Wed, 19 Aug 2026 04:37:13 GMT" type="calendarDay" name="19">
+        <outline text="First look at public folder" created="Wed, 19 Aug 2026 04:37:14 GMT" type="outline">
+          <outline text="Even though I'm familiar with the code, Claude gave me a nice summary of the functions and the workflow" created="Wed, 19 Aug 2026 04:37:22 GMT"/>
+          <outline text="It also thinks it found the &quot;re-upload thousands of unchanged files&quot; bug, but I want to reproduce it before I propose any changes" created="Wed, 19 Aug 2026 05:08:34 GMT"/>
+          <outline text="I'll go slow on this, I want to be absolutely sure before I change anythng" created="Wed, 19 Aug 2026 05:11:47 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 17" created="Mon, 17 Aug 2026 11:52:33 GMT" type="calendarDay" name="17">
         <outline text="Electric Feedland" created="Mon, 17 Aug 2026 13:29:21 GMT" type="outline">
           <outline text="I'm cool with your schedule. " created="Mon, 17 Aug 2026 13:30:09 GMT"/>
