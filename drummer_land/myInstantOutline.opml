@@ -7,13 +7,21 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 19 Aug 2026 05:12:16 GMT</dateModified>
-    <expansionState>1,2,3,7,8,12,19,20,25,26,28,30,34,39</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Wed, 19 Aug 2026 16:44:14 GMT</dateModified>
+    <expansionState>1,2,3,10</expansionState>
+    <lastCursor>13</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
       <outline text="August 19" created="Wed, 19 Aug 2026 04:37:13 GMT" type="calendarDay" name="19">
+        <outline text="The &quot;re-upload thousands of unchanged files&quot; bug (in my own words)  " created="Wed, 19 Aug 2026 15:24:37 GMT" type="outline">
+          <outline text="This seems to occur when the local folder scan takes too long and a second scan is (mistakenly) started  " created="Wed, 19 Aug 2026 15:25:58 GMT"/>
+          <outline text="The local folder scan keeps its progress in s3FileStats and localFileStats, which are declared above &quot;function getS3FileStats ()&quot; " created="Wed, 19 Aug 2026 15:28:01 GMT"/>
+          <outline text="This means that if two scans are running, they both write to these same variables, wiping out each others progress" created="Wed, 19 Aug 2026 15:32:38 GMT"/>
+          <outline text="How could two scans be running together in the first place? &quot;if (queue.length == 0 &amp;&amp; ctConcurrentThreads == 0 )&quot; was supposed to prevent this" created="Wed, 19 Aug 2026 15:43:48 GMT"/>
+          <outline text="However,  the scan adds items to the queue only at the end of the scan. If the scan takes longer than one minute, queue.length could be 0 even if the scan is still running " created="Wed, 19 Aug 2026 15:44:52 GMT"/>
+          <outline text="The check added on 7/14/26 (has the scan been running longer than 10 minutes) can miss a scan that is taking a long time but is still running, and is not stuck" created="Wed, 19 Aug 2026 15:44:08 GMT"/>
+        </outline>
         <outline text="First look at public folder" created="Wed, 19 Aug 2026 04:37:14 GMT" type="outline">
           <outline text="Even though I'm familiar with the code, Claude gave me a nice summary of the functions and the workflow" created="Wed, 19 Aug 2026 04:37:22 GMT"/>
           <outline text="It also thinks it found the &quot;re-upload thousands of unchanged files&quot; bug, but I want to reproduce it before I propose any changes" created="Wed, 19 Aug 2026 05:08:34 GMT"/>
