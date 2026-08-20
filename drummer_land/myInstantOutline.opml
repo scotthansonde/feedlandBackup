@@ -7,12 +7,17 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 19 Aug 2026 16:44:14 GMT</dateModified>
-    <expansionState>1,2,3,10</expansionState>
-    <lastCursor>13</lastCursor>
+    <dateModified>Thu, 20 Aug 2026 13:31:17 GMT</dateModified>
+    <expansionState>1,2,3,5,6,13</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 20" created="Thu, 20 Aug 2026 13:30:44 GMT" type="calendarDay" name="20">
+        <outline text="Fernando" created="Thu, 20 Aug 2026 13:30:45 GMT" type="outline">
+          <outline text="Sorry, I haven't contacted him yet. If you want to do so, go ahead." created="Thu, 20 Aug 2026 13:30:52 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 19" created="Wed, 19 Aug 2026 04:37:13 GMT" type="calendarDay" name="19">
         <outline text="The &quot;re-upload thousands of unchanged files&quot; bug (in my own words)  " created="Wed, 19 Aug 2026 15:24:37 GMT" type="outline">
           <outline text="This seems to occur when the local folder scan takes too long and a second scan is (mistakenly) started  " created="Wed, 19 Aug 2026 15:25:58 GMT"/>
