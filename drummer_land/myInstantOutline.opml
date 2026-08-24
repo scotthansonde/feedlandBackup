@@ -7,12 +7,24 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 22 Aug 2026 16:34:18 GMT</dateModified>
-    <expansionState>1,2,3,6,10,11,13,14,21</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Mon, 24 Aug 2026 15:46:35 GMT</dateModified>
+    <expansionState>1,2,3,5,8,10,11,14,18,19,21,22,29</expansionState>
+    <lastCursor>8</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 24" created="Mon, 24 Aug 2026 15:24:57 GMT" type="calendarDay" name="24">
+        <outline text="Aug 23 has a lot of points in Dave's outline for me 😃" created="Mon, 24 Aug 2026 15:24:58 GMT" type="outline">
+          <outline text="Mail to fernando, that's fine with me" created="Mon, 24 Aug 2026 15:25:20 GMT"/>
+          <outline text="rss.chat posting to daveverse" created="Mon, 24 Aug 2026 15:29:33 GMT">
+            <outline text="For posting, it would be very similar to WordLand, over the WP API, nothing to change on the Wordpress side" created="Mon, 24 Aug 2026 15:29:49 GMT"/>
+            <outline text="For discourse/replies we just have to figure out we just want to display the discourse, or create actual replies on the Wordpress side" created="Mon, 24 Aug 2026 15:30:35 GMT"/>
+          </outline>
+          <outline text="Showing rivers in Wordpress" created="Mon, 24 Aug 2026 15:45:49 GMT">
+            <outline text="A job for Claude... shouldn't be that difficult" created="Mon, 24 Aug 2026 15:46:00 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="August 22" created="Sat, 22 Aug 2026 14:11:21 GMT" type="calendarDay" name="22">
         <outline text="Reproduced the email error found on WP VIP FeedLand" created="Sat, 22 Aug 2026 16:31:27 GMT" type="outline">
           <outline text="Has nothing to do with timing or their architecture, but with having a wordpress block in config.json" created="Sat, 22 Aug 2026 16:31:57 GMT"/>
