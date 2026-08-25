@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Tue, 25 Aug 2026 06:27:38 GMT</dateModified>
+    <dateModified>Tue, 25 Aug 2026 18:23:38 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
@@ -103,7 +103,7 @@
     <outline type="rss" text="Radiolab" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="https://www.radiolab.org/" category="all,podcasts,starters"/>
     <outline type="rss" text="Gizmodo" xmlUrl="http://gizmodo.com/index.xml" htmlUrl="https://gizmodo.com/" category="all,tech,starters"/>
     <outline type="rss" text="Paul Graham: Essays" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/" category="all,starters"/>
-    <outline type="rss" text="Podnews Daily - podcast industry news" xmlUrl="https://podnews.net/rss" htmlUrl="https://podnews.net/" category="all,podcasts,starters"/>
+    <outline type="rss" text="Podnews Daily - podcast industry and podcasting news" xmlUrl="https://podnews.net/rss" htmlUrl="https://podnews.net/" category="all,podcasts,starters"/>
     <outline type="rss" text="CNET" xmlUrl="http://feeds.feedburner.com/cnet/tcoc" htmlUrl="https://www.cnet.com/" category="all,tech,starters"/>
     <outline type="rss" text="POLITICO" xmlUrl="https://www.politico.eu/feed/" htmlUrl="https://www.politico.eu/" category="all,politics"/>
     <outline type="rss" text="aka Ken Smith" xmlUrl="http://oldschool.scripting.com/KenSmith/rss.xml" htmlUrl="http://oldschool.scripting.com/KenSmith/" category="all,bloggers"/>

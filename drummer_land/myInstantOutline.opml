@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 24 Aug 2026 15:46:35 GMT</dateModified>
-    <expansionState>1,2,3,5,8,10,11,14,18,19,21,22,29</expansionState>
-    <lastCursor>8</lastCursor>
+    <dateModified>Tue, 25 Aug 2026 15:25:02 GMT</dateModified>
+    <expansionState>1,2,3,8,9,11,14,16,17,20,24,25,27,28,35</expansionState>
+    <lastCursor>6</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 25" created="Tue, 25 Aug 2026 14:13:55 GMT" type="calendarDay" name="25">
+        <outline text="Asking Claude about putting a FeedLand river in Wordpress" created="Tue, 25 Aug 2026 14:13:56 GMT" type="outline">
+          <outline text="Prompt: We're wondering how we might put FeedLand News Products into a Wordpress plugin, to be displayed on a page or a post. News Products are documented at https://docs.feedland.com/newsproducts.md. The feedland-blogroll plugin in this directory might be a model." created="Tue, 25 Aug 2026 14:14:29 GMT"/>
+          <outline text="Also gave http://scripting.com/?tab=news as an example" created="Tue, 25 Aug 2026 14:19:05 GMT"/>
+          <outline text="It took just 3 minutes to produce a first draft of a working plugin " created="Tue, 25 Aug 2026 14:31:12 GMT"/>
+          <outline text="The tricky part will be getting the CSS of the river to play nicely with the CSS of the site theme" created="Tue, 25 Aug 2026 14:56:33 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 24" created="Mon, 24 Aug 2026 15:24:57 GMT" type="calendarDay" name="24">
         <outline text="Aug 23 has a lot of points in Dave's outline for me 😃" created="Mon, 24 Aug 2026 15:24:58 GMT" type="outline">
           <outline text="Mail to fernando, that's fine with me" created="Mon, 24 Aug 2026 15:25:20 GMT"/>

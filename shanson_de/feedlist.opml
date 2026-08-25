@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Tue, 25 Aug 2026 06:27:37 GMT</dateModified>
+    <dateModified>Tue, 25 Aug 2026 18:23:37 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="rss.chat: all posts" xmlUrl="https://users.rss.network/rss.xml" htmlUrl="https://rss.chat/" category="all,chat"/>
@@ -119,7 +119,7 @@
     <outline type="rss" text="aka Ken Smith" xmlUrl="http://oldschool.scripting.com/KenSmith/rss.xml" htmlUrl="http://oldschool.scripting.com/KenSmith/" category="all,bloggers"/>
     <outline type="rss" text="The NPR Politics Podcast" xmlUrl="http://www.npr.org/rss/podcast.php?id=510310" htmlUrl="https://www.npr.org/podcasts/510310/npr-politics-podcast" category="all,politics"/>
     <outline type="rss" text="NPR Topics: Politics" xmlUrl="http://www.npr.org/rss/rss.php?id=1014" htmlUrl="https://www.npr.org/templates/story/story.php?storyId=1014" category="all,politics"/>
-    <outline type="rss" text="Podnews Daily - podcast industry news" xmlUrl="https://podnews.net/rss" htmlUrl="https://podnews.net/" category="all,podcasts,starters"/>
+    <outline type="rss" text="Podnews Daily - podcast industry and podcasting news" xmlUrl="https://podnews.net/rss" htmlUrl="https://podnews.net/" category="all,podcasts,starters"/>
     <outline type="rss" text="Politics" xmlUrl="https://rss.politico.com/politics-news.xml" htmlUrl="https://rss.politico.com/politics-news.xml" category="all,politics"/>
     <outline type="rss" text="POLITICO" xmlUrl="https://www.politico.eu/feed/" htmlUrl="https://www.politico.eu/" category="all,politics"/>
     <outline type="rss" text="AVC" xmlUrl="http://feeds.feedburner.com/avc" htmlUrl="https://avc.com/" category="all,tech,bloggers,starters"/>
