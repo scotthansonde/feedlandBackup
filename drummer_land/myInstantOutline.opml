@@ -7,12 +7,29 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 25 Aug 2026 15:25:02 GMT</dateModified>
-    <expansionState>1,2,3,8,9,11,14,16,17,20,24,25,27,28,35</expansionState>
-    <lastCursor>6</lastCursor>
+    <dateModified>Wed, 26 Aug 2026 16:28:24 GMT</dateModified>
+    <expansionState>1,2,3,5,7,10,14,15,20,21,23,26,28,29,32,36,37,39,40,47</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 26" created="Wed, 26 Aug 2026 14:53:20 GMT" type="calendarDay" name="26">
+        <outline text="Test preview of the FeedLand River plugin" created="Wed, 26 Aug 2026 16:24:35 GMT" type="outline">
+          <outline text="https://wordland.shanson.de/feedland-river-test/" created="Wed, 26 Aug 2026 16:24:46 GMT" type="link" url="https://wordland.shanson.de/feedland-river-test/"/>
+        </outline>
+        <outline text="Layout in a FeedLand River plugin for WordPress" created="Wed, 26 Aug 2026 14:53:21 GMT" type="outline">
+          <outline text="An iframe would work to isolate the layout from the WordPress theme" created="Wed, 26 Aug 2026 14:53:46 GMT"/>
+          <outline text="There's already a riverclient template file we can use as the basis of the layout" created="Wed, 26 Aug 2026 14:56:12 GMT">
+            <outline text="We can emulate FeedLand's templating scheme" created="Wed, 26 Aug 2026 14:58:02 GMT"/>
+            <outline text="And allow the site admin to override the template with their own URL" created="Wed, 26 Aug 2026 14:58:41 GMT"/>
+          </outline>
+          <outline text="We need to add a little javascript to it to be able to calculate the height of the iframe" created="Wed, 26 Aug 2026 14:56:48 GMT">
+            <outline text="Otherwise it has a fixed height with scroll bars." created="Wed, 26 Aug 2026 14:57:27 GMT"/>
+          </outline>
+          <outline text="We can't read in all the scripts and styles from the riverclient template, but we can emulate the functions we need locally" created="Wed, 26 Aug 2026 16:12:26 GMT"/>
+          <outline text="We keep referring to the river display in FeedLand as the example to emulate" created="Wed, 26 Aug 2026 16:13:31 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 25" created="Tue, 25 Aug 2026 14:13:55 GMT" type="calendarDay" name="25">
         <outline text="Asking Claude about putting a FeedLand river in Wordpress" created="Tue, 25 Aug 2026 14:13:56 GMT" type="outline">
           <outline text="Prompt: We're wondering how we might put FeedLand News Products into a Wordpress plugin, to be displayed on a page or a post. News Products are documented at https://docs.feedland.com/newsproducts.md. The feedland-blogroll plugin in this directory might be a model." created="Tue, 25 Aug 2026 14:14:29 GMT"/>
