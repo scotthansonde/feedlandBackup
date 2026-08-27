@@ -7,17 +7,23 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 26 Aug 2026 16:28:24 GMT</dateModified>
-    <expansionState>1,2,3,5,7,10,14,15,20,21,23,26,28,29,32,36,37,39,40,47</expansionState>
+    <dateModified>Thu, 27 Aug 2026 10:09:49 GMT</dateModified>
+    <expansionState>1,2,3,6,7,9,11,14,18,19,24,25,27,30,32,33,36,40,41,43,44,51</expansionState>
     <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 27" created="Thu, 27 Aug 2026 10:07:24 GMT" type="calendarDay" name="27">
+        <outline text="Initial release of the FeedLand Rivers plugin for WordPress " created="Thu, 27 Aug 2026 10:07:25 GMT" type="outline">
+          <outline text="https://github.com/scotthansonde/feedland-rivers" created="Thu, 27 Aug 2026 10:07:57 GMT" type="link" url="https://github.com/scotthansonde/feedland-rivers"/>
+          <outline text="Announcement on my WordLand blog: https://wordland.shanson.de/2026/08/27/feedland-rivers-for-wordpress/" created="Thu, 27 Aug 2026 10:08:16 GMT" type="link" url="https://wordland.shanson.de/2026/08/27/feedland-rivers-for-wordpress/"/>
+        </outline>
+      </outline>
       <outline text="August 26" created="Wed, 26 Aug 2026 14:53:20 GMT" type="calendarDay" name="26">
-        <outline text="Test preview of the FeedLand River plugin" created="Wed, 26 Aug 2026 16:24:35 GMT" type="outline">
+        <outline text="Test preview of the FeedLand Rivers plugin" created="Wed, 26 Aug 2026 16:24:35 GMT" type="outline">
           <outline text="https://wordland.shanson.de/feedland-river-test/" created="Wed, 26 Aug 2026 16:24:46 GMT" type="link" url="https://wordland.shanson.de/feedland-river-test/"/>
         </outline>
-        <outline text="Layout in a FeedLand River plugin for WordPress" created="Wed, 26 Aug 2026 14:53:21 GMT" type="outline">
+        <outline text="Layout in a FeedLand Rivers plugin for WordPress" created="Wed, 26 Aug 2026 14:53:21 GMT" type="outline">
           <outline text="An iframe would work to isolate the layout from the WordPress theme" created="Wed, 26 Aug 2026 14:53:46 GMT"/>
           <outline text="There's already a riverclient template file we can use as the basis of the layout" created="Wed, 26 Aug 2026 14:56:12 GMT">
             <outline text="We can emulate FeedLand's templating scheme" created="Wed, 26 Aug 2026 14:58:02 GMT"/>
