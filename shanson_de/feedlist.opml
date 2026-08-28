@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Fri, 28 Aug 2026 09:03:45 GMT</dateModified>
+    <dateModified>Fri, 28 Aug 2026 21:21:59 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="PBS News Hour - Nation" xmlUrl="https://www.pbs.org/newshour/feeds/rss/nation" htmlUrl="https://www.pbs.org/newshour/nation" category="all"/>
     <outline type="rss" text="rss.chat: all posts" xmlUrl="https://users.rss.network/rss.xml" htmlUrl="https://rss.chat/" category="all,chat"/>
     <outline type="rss" text="Jake Savin" xmlUrl="https://jakesav.in/feed/" htmlUrl="https://jakesav.in/" category="all,bloggers,main"/>
     <outline type="rss" text="Rubenerd" xmlUrl="http://rubenerd.com/feed/" htmlUrl="https://www.rubenerd.au/" category="all"/>
@@ -85,7 +86,6 @@
     <outline type="rss" text="PBS News Hour - Education" xmlUrl="https://www.pbs.org/newshour/feeds/rss/education" htmlUrl="https://www.pbs.org/newshour/education" category="all"/>
     <outline type="rss" text="PBS News Hour - The Latest" xmlUrl="https://www.pbs.org/newshour/feeds/rss/headlines" htmlUrl="https://www.pbs.org/newshour/" category="all"/>
     <outline type="rss" text="PBS News Hour - Health" xmlUrl="https://www.pbs.org/newshour/feeds/rss/health" htmlUrl="https://www.pbs.org/newshour/health" category="all"/>
-    <outline type="rss" text="PBS News Hour - Nation" xmlUrl="https://www.pbs.org/newshour/feeds/rss/nation" htmlUrl="https://www.pbs.org/newshour/nation" category="all"/>
     <outline type="rss" text="PBS News Hour - Science" xmlUrl="https://www.pbs.org/newshour/feeds/rss/science" htmlUrl="https://www.pbs.org/newshour/science" category="all"/>
     <outline type="rss" text="FeedLand" xmlUrl="http://data.feedland.org/changenotes/rss.xml" htmlUrl="http://data.feedland.org/changenotes/" category="all,bloggers"/>
     <outline type="rss" text="FeedLand likes for all users" xmlUrl="http://data.feedland.org/likes.xml" htmlUrl="http://feedland.org/?likes" category="all"/>
