@@ -7,12 +7,21 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 27 Aug 2026 10:09:49 GMT</dateModified>
-    <expansionState>1,2,3,6,7,9,11,14,18,19,24,25,27,30,32,33,36,40,41,43,44,51</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Fri, 28 Aug 2026 08:21:49 GMT</dateModified>
+    <expansionState>1,2,3,9,10,13,14,16,18,21,25,26,31,32,34,37,39,40,43,47,48,50,51,58</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 28" created="Fri, 28 Aug 2026 07:20:15 GMT" type="calendarDay" name="28">
+        <outline text="&quot;Instant&quot; updates for rivers in WordPress" created="Fri, 28 Aug 2026 07:20:16 GMT" type="outline">
+          <outline text="The plugin renders the rivers on the WordPress server, and outputs static HTML for the iframe" created="Fri, 28 Aug 2026 07:20:34 GMT"/>
+          <outline text="It fetches the river as JSON from FeedLand over the REST API " created="Fri, 28 Aug 2026 07:27:56 GMT"/>
+          <outline text="WordPress generally runs PHP per-request without a long-running process to listen to websockets, so listening to the FeedLand websocket isn't practical" created="Fri, 28 Aug 2026 07:21:16 GMT"/>
+          <outline text="We'll fake it by polling the REST API on FeedLand every three minutes, and re-render the iframe if there are any changes" created="Fri, 28 Aug 2026 07:26:11 GMT"/>
+          <outline text="We'll actually render a new iframe in the background and swap it in, to avoid a flash when updating the iframe" created="Fri, 28 Aug 2026 08:18:49 GMT"/>
+        </outline>
+      </outline>
       <outline text="August 27" created="Thu, 27 Aug 2026 10:07:24 GMT" type="calendarDay" name="27">
         <outline text="Initial release of the FeedLand Rivers plugin for WordPress " created="Thu, 27 Aug 2026 10:07:25 GMT" type="outline">
           <outline text="https://github.com/scotthansonde/feedland-rivers" created="Thu, 27 Aug 2026 10:07:57 GMT" type="link" url="https://github.com/scotthansonde/feedland-rivers"/>
