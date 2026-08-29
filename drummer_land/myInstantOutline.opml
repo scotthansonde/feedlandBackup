@@ -7,22 +7,27 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 28 Aug 2026 15:41:23 GMT</dateModified>
-    <expansionState>1,2,3,5,7,11,17,18,21,22,24,26,29,33,34,39,40,42,45,47,48,51,55,56,58,59,66</expansionState>
-    <lastCursor>9</lastCursor>
+    <dateModified>Sat, 29 Aug 2026 07:37:53 GMT</dateModified>
+    <expansionState>1,2,4,5,7,9,11,14,20,21,24,25,27,29,32,36,37,42,43,45,48,50,51,54,58,59,61,62,69</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
+      <outline text="August 29" created="Sat, 29 Aug 2026 07:35:40 GMT" type="calendarDay" name="29">
+        <outline text="Looking forward to Electric Frontier (whenever it's ready for the public) 😃" created="Sat, 29 Aug 2026 07:35:41 GMT" type="outline"/>
+      </outline>
       <outline text="August 28" created="Fri, 28 Aug 2026 07:20:15 GMT" type="calendarDay" name="28">
         <outline text="&quot;Scott - why not hook into the server via websockets&quot;" created="Fri, 28 Aug 2026 14:16:25 GMT" type="outline">
           <outline text="I'll have my agent look into that. 😛 " created="Fri, 28 Aug 2026 14:16:35 GMT"/>
-          <outline text="Our architecture is the the WordPress server gets the river from FeedLand, renders it, and sends it to the browser" created="Fri, 28 Aug 2026 14:22:18 GMT">
+          <outline text="Our architecture: the WordPress server gets the river from FeedLand, renders it, and sends it to the browser" created="Fri, 28 Aug 2026 14:22:18 GMT">
             <outline text="The browser talks only with the WordPress server, no one else" created="Fri, 28 Aug 2026 14:23:03 GMT"/>
           </outline>
           <outline text="The WordPress/PHP server can't really connect to a websocket, it doesn't have anything built in for that." created="Fri, 28 Aug 2026 14:17:36 GMT">
             <outline text="It doesn't have any long-running processes, PHP basically starts up on a request, serves it, and shuts back down." created="Fri, 28 Aug 2026 14:28:54 GMT"/>
           </outline>
-          <outline text="But the browser &lt;i&gt;can&lt;/i&gt; connect to the FeedLand websocket. It can read the entries, figure out if any apply to the river, and ask the WordPress server for an update." created="Fri, 28 Aug 2026 14:19:18 GMT"/>
+          <outline text="But the browser &lt;i&gt;can&lt;/i&gt; connect to the FeedLand websocket." created="Fri, 28 Aug 2026 14:19:18 GMT">
+            <outline text="It can read the entries, figure out if any apply to the river, and ask the WordPress server for an update," created="Sat, 29 Aug 2026 07:37:15 GMT"/>
+          </outline>
           <outline text="Implemented, tested, it works. It will go into the next release." created="Fri, 28 Aug 2026 15:41:00 GMT"/>
         </outline>
         <outline text="&quot;Instant&quot; updates for rivers in WordPress" created="Fri, 28 Aug 2026 07:20:16 GMT" type="outline">
