@@ -7,11 +7,19 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 30 Aug 2026 20:55:26 GMT</dateModified>
-    <expansionState>1,2,3,6,8,9,11,13,15,18,24,25,28,29,31,33,36,40,41,46,47,49,52,54,55,58,62,63,65,66,73</expansionState>
+    <dateModified>Fri, 04 Sep 2026 15:49:00 GMT</dateModified>
+    <expansionState>1,2,3,6,7,8,11,13,14,16,18,20,23,29,30,33,34,36,38,41,45,46,51,52,54,57,59,60,63,67,68,70,71,78</expansionState>
     <lastCursor>4</lastCursor>
   </head>
   <body>
+    <outline text="September 2026" created="Fri, 04 Sep 2026 15:21:55 GMT" name="september2026" type="calendarMonth">
+      <outline text="September 4" created="Fri, 04 Sep 2026 15:21:56 GMT" type="calendarDay" name="04">
+        <outline text="Submitted the Rivers plugin to the WordPress Plugin Directory " created="Fri, 04 Sep 2026 15:21:57 GMT" type="outline">
+          <outline text="They didn't &quot;FeedLand&quot; as the first word of the name, as it implies it's an official FeedLand plugin" created="Fri, 04 Sep 2026 15:48:01 GMT"/>
+          <outline text="I set the name to &quot;River Embed for FeedLand&quot; to get around this." created="Fri, 04 Sep 2026 15:48:41 GMT"/>
+        </outline>
+      </outline>
+    </outline>
     <outline text="August 2026" created="Sat, 15 Aug 2026 07:21:58 GMT" name="august2026" type="calendarMonth">
       <outline text="August 30" created="Sun, 30 Aug 2026 20:54:33 GMT" type="calendarDay" name="30">
         <outline text="Introduced Claude to the Baseline theme" created="Sun, 30 Aug 2026 20:54:34 GMT" type="outline">
