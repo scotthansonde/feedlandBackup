@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 04 Sep 2026 15:49:00 GMT</dateModified>
-    <expansionState>1,2,3,6,7,8,11,13,14,16,18,20,23,29,30,33,34,36,38,41,45,46,51,52,54,57,59,60,63,67,68,70,71,78</expansionState>
+    <dateModified>Sun, 06 Sep 2026 08:07:18 GMT</dateModified>
+    <expansionState>1,2,3,5,7,8,11,12,13,16,18,19,21,23,25,28,34,35,38,39,41,43,46,50,51,56,57,59,62,64,65,68,72,73,75,76,83</expansionState>
     <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="September 2026" created="Fri, 04 Sep 2026 15:21:55 GMT" name="september2026" type="calendarMonth">
+      <outline text="September 6" created="Sun, 06 Sep 2026 08:05:12 GMT" type="calendarDay" name="06">
+        <outline text="2nd WordPress review of the River Embed plugin" created="Sun, 06 Sep 2026 08:05:13 GMT" type="outline">
+          <outline text="Some documentation fixes" created="Sun, 06 Sep 2026 08:05:40 GMT"/>
+          <outline text="They complained we weren't using enqueue functions to inject css and js" created="Sun, 06 Sep 2026 08:05:53 GMT">
+            <outline text="Explained that enqueue functions don't work in an iframe, so we can't use them" created="Sun, 06 Sep 2026 08:06:32 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="September 4" created="Fri, 04 Sep 2026 15:21:56 GMT" type="calendarDay" name="04">
         <outline text="Submitted the Rivers plugin to the WordPress Plugin Directory " created="Fri, 04 Sep 2026 15:21:57 GMT" type="outline">
           <outline text="They didn't &quot;FeedLand&quot; as the first word of the name, as it implies it's an official FeedLand plugin" created="Fri, 04 Sep 2026 15:48:01 GMT"/>
