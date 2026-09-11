@@ -7,12 +7,19 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 08 Sep 2026 15:58:36 GMT</dateModified>
-    <expansionState>1,2,3,6,7,12,13,15,17,18,21,22,23,26,28,29,31,33,35,38,44,45,48,49,51,53,56,60,61,66,67,69,72,74,75,78,82,83,85,86,93</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Fri, 11 Sep 2026 14:50:01 GMT</dateModified>
+    <expansionState>1,2,3,7,8,11,12,17,18,20,22,23,26,27,28,31,33,34,36,38,40,43,49,50,53,54,56,58,61,65,66,71,72,74,77,79,80,83,87,88,90,91,98</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="September 2026" created="Fri, 04 Sep 2026 15:21:55 GMT" name="september2026" type="calendarMonth">
+      <outline text="September 11" created="Fri, 11 Sep 2026 14:47:52 GMT" type="calendarDay" name="11">
+        <outline text="Next review from the WordPress Plugin Directory" created="Fri, 11 Sep 2026 14:47:53 GMT" type="outline">
+          <outline text="They still complain that we don't wp_enqueue the JS and CSS " created="Fri, 11 Sep 2026 14:48:22 GMT"/>
+          <outline text="But the enqueue functions cannot enqueue into a srcdoc iframe that we are using" created="Fri, 11 Sep 2026 14:49:00 GMT"/>
+          <outline text="Have asked for clarification, a workaround would be complicated" created="Fri, 11 Sep 2026 14:49:42 GMT"/>
+        </outline>
+      </outline>
       <outline text="September 8" created="Tue, 08 Sep 2026 15:57:15 GMT" type="calendarDay" name="08">
         <outline text="Dave, thanks for the pointer to the plugin" created="Tue, 08 Sep 2026 15:57:16 GMT" type="outline">
           <outline text="It should take just a week or so to see if it gets accepted to the plugin directory" created="Tue, 08 Sep 2026 15:57:24 GMT"/>
