@@ -7,12 +7,32 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 28 Sep 2026 18:29:22 GMT</dateModified>
-    <expansionState>1,2,3,4,9,11,14,20,22,24,25,28,29,32,33,37,38,41,42,47,48,50,52,53,56,57,58,61,63,64,66,68,70,73,79,80,83,84,86,88,91,95,96,101,102,104,107,109,110,113,117,118,120,121,128</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Wed, 30 Sep 2026 14:24:41 GMT</dateModified>
+    <expansionState>1,2,3,4,5,12,17,18,19,24,26,29,35,37,39,40,43,44,47,48,52,53,56,57,62,63,65,67,68,71,72,73,76,78,79,81,83,85,88,94,95,98,99,101,103,106,110,111,116,117,119,122,124,125,128,132,133,135,136,143</expansionState>
+    <lastCursor>8</lastCursor>
   </head>
   <body>
     <outline text="September 2026" created="Fri, 04 Sep 2026 15:21:55 GMT" name="september2026" type="calendarMonth">
+      <outline text="September 30" created="Wed, 30 Sep 2026 14:21:34 GMT" type="calendarDay" name="30">
+        <outline text="The horizontal scrolling is just css 😃. It was mostly claude's idea.  " created="Wed, 30 Sep 2026 14:21:35 GMT" type="outline">
+          <outline text="@media screen and (max-width: 768px) {" created="Mon, 28 Sep 2026 15:17:34 GMT">
+            <outline text=".divRiverTabs .nav-tabs {" created="Mon, 28 Sep 2026 15:40:43 GMT">
+              <outline text="display: flex;" created="Wed, 30 Sep 2026 14:24:30 GMT"/>
+              <outline text="flex-wrap: nowrap;" created="Wed, 30 Sep 2026 14:24:28 GMT"/>
+              <outline text="overflow-x: auto;" created="Mon, 28 Sep 2026 15:40:44 GMT"/>
+              <outline text="-webkit-overflow-scrolling: touch;" created="Wed, 30 Sep 2026 14:24:40 GMT"/>
+              <outline text="white-space: nowrap;"/>
+            </outline>
+            <outline text="}" created="Wed, 30 Sep 2026 14:23:46 GMT"/>
+            <outline text=".divRiverTabs .nav-tabs &gt; li {" created="Mon, 28 Sep 2026 15:40:40 GMT">
+              <outline text="float: none;"/>
+              <outline text="flex: 0 0 auto;"/>
+            </outline>
+            <outline text="}" created="Wed, 30 Sep 2026 14:23:00 GMT"/>
+          </outline>
+          <outline text="}" created="Wed, 30 Sep 2026 14:23:53 GMT"/>
+        </outline>
+      </outline>
       <outline text="September 28" created="Mon, 28 Sep 2026 14:59:31 GMT" type="calendarDay" name="28">
         <outline text="The new tabs in words" created="Mon, 28 Sep 2026 18:20:59 GMT" type="outline">
           <outline text="By default FeedLand shows only 4 tabs on mobile." created="Mon, 28 Sep 2026 18:21:06 GMT">
@@ -39,20 +59,20 @@
             <outline text="Added some CSS for mobile so the tags appear in a single row I can scroll with my finger" created="Mon, 28 Sep 2026 15:16:10 GMT">
               <outline text="@media screen and (max-width: 768px) {" created="Mon, 28 Sep 2026 15:17:34 GMT">
                 <outline text=".divRiverTabs .nav-tabs {" created="Mon, 28 Sep 2026 15:40:43 GMT">
-                  <outline text="display: flex;"/>
-                  <outline text="flex-wrap: nowrap;"/>
+                  <outline text="display: flex;" created="Wed, 30 Sep 2026 14:24:30 GMT"/>
+                  <outline text="flex-wrap: nowrap;" created="Wed, 30 Sep 2026 14:24:28 GMT"/>
                   <outline text="overflow-x: auto;" created="Mon, 28 Sep 2026 15:40:44 GMT"/>
-                  <outline text="-webkit-overflow-scrolling: touch;"/>
+                  <outline text="-webkit-overflow-scrolling: touch;" created="Wed, 30 Sep 2026 14:24:40 GMT"/>
                   <outline text="white-space: nowrap;"/>
                 </outline>
               </outline>
-              <outline text="}"/>
+              <outline text="}" created="Wed, 30 Sep 2026 14:23:46 GMT"/>
               <outline text=".divRiverTabs .nav-tabs &gt; li {" created="Mon, 28 Sep 2026 15:40:40 GMT">
                 <outline text="float: none;"/>
                 <outline text="flex: 0 0 auto;"/>
               </outline>
-              <outline text="}"/>
-              <outline text="}"/>
+              <outline text="}" created="Wed, 30 Sep 2026 14:23:00 GMT"/>
+              <outline text="}" created="Wed, 30 Sep 2026 14:22:40 GMT"/>
             </outline>
           </outline>
           <outline text="View https://feedland.shanson.de/?river=true&amp;screenname=shanson on mobile to see how it looks" created="Mon, 28 Sep 2026 15:17:44 GMT" type="link" url="https://feedland.shanson.de/?river=true&amp;screenname=shanson"/>
