@@ -7,11 +7,16 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 02 Oct 2026 08:18:25 GMT</dateModified>
-    <expansionState>1,2,3,4,5,8,12,17,18,19,24,26,29,35,37,39,40,43,44,47,48,52,53,56,57,62,63,65,67,68,71,72,73,76,78,79,81,83,85,88,94,95,98,99,101,103,106,110,111,116,117,119,122,124,125,128,132,133,135,136,143</expansionState>
-    <lastCursor>8</lastCursor>
+    <dateModified>Fri, 02 Oct 2026 14:18:05 GMT</dateModified>
+    <expansionState>1,2,4,5,6,7,8,15,20,21,22,27,29,32,38,40,42,43,46,47,50,51,55,56,59,60,65,66,68,70,71,74,75,76,79,81,82,84,86,88,91,97,98,101,102,104,106,109,113,114,119,120,122,125,127,128,131,135,136,138,139,146</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
+    <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 2" created="Fri, 02 Oct 2026 14:17:35 GMT" type="calendarDay" name="02">
+        <outline text="Dave, let me know when a release of Atlantis is ready for me to try ou" created="Fri, 02 Oct 2026 14:17:36 GMT" type="outline"/>
+      </outline>
+    </outline>
     <outline text="September 2026" created="Fri, 04 Sep 2026 15:21:55 GMT" name="september2026" type="calendarMonth">
       <outline text="September 30" created="Wed, 30 Sep 2026 14:21:34 GMT" type="calendarDay" name="30">
         <outline text="The horizontal scrolling is just css 😃. It was mostly claude's idea.  " created="Wed, 30 Sep 2026 14:21:35 GMT" type="outline">
@@ -19,9 +24,8 @@
             <outline text=".divRiverTabs .nav-tabs {" created="Mon, 28 Sep 2026 15:40:43 GMT">
               <outline text="display: flex;" created="Wed, 30 Sep 2026 14:24:30 GMT"/>
               <outline text="flex-wrap: nowrap;" created="Wed, 30 Sep 2026 14:24:28 GMT"/>
-              <outline text="overflow-x: auto;" created="Mon, 28 Sep 2026 15:40:44 GMT">
-                <outline text=" " created="Wed, 30 Sep 2026 14:24:40 GMT"/>
-              </outline>
+              <outline text="overflow-x: auto;" created="Mon, 28 Sep 2026 15:40:44 GMT"/>
+              <outline text="-webkit-overflow-scrolling: touch;" created="Wed, 30 Sep 2026 14:24:40 GMT"/>
               <outline text="white-space: nowrap;"/>
             </outline>
             <outline text="}" created="Wed, 30 Sep 2026 14:23:46 GMT"/>
