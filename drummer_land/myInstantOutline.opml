@@ -7,8 +7,8 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 30 Sep 2026 14:24:41 GMT</dateModified>
-    <expansionState>1,2,3,4,5,12,17,18,19,24,26,29,35,37,39,40,43,44,47,48,52,53,56,57,62,63,65,67,68,71,72,73,76,78,79,81,83,85,88,94,95,98,99,101,103,106,110,111,116,117,119,122,124,125,128,132,133,135,136,143</expansionState>
+    <dateModified>Fri, 02 Oct 2026 08:18:25 GMT</dateModified>
+    <expansionState>1,2,3,4,5,8,12,17,18,19,24,26,29,35,37,39,40,43,44,47,48,52,53,56,57,62,63,65,67,68,71,72,73,76,78,79,81,83,85,88,94,95,98,99,101,103,106,110,111,116,117,119,122,124,125,128,132,133,135,136,143</expansionState>
     <lastCursor>8</lastCursor>
   </head>
   <body>
@@ -19,8 +19,9 @@
             <outline text=".divRiverTabs .nav-tabs {" created="Mon, 28 Sep 2026 15:40:43 GMT">
               <outline text="display: flex;" created="Wed, 30 Sep 2026 14:24:30 GMT"/>
               <outline text="flex-wrap: nowrap;" created="Wed, 30 Sep 2026 14:24:28 GMT"/>
-              <outline text="overflow-x: auto;" created="Mon, 28 Sep 2026 15:40:44 GMT"/>
-              <outline text="-webkit-overflow-scrolling: touch;" created="Wed, 30 Sep 2026 14:24:40 GMT"/>
+              <outline text="overflow-x: auto;" created="Mon, 28 Sep 2026 15:40:44 GMT">
+                <outline text=" " created="Wed, 30 Sep 2026 14:24:40 GMT"/>
+              </outline>
               <outline text="white-space: nowrap;"/>
             </outline>
             <outline text="}" created="Wed, 30 Sep 2026 14:23:46 GMT"/>
