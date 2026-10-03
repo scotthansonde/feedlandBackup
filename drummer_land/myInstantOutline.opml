@@ -7,13 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 03 Oct 2026 10:07:01 GMT</dateModified>
-    <expansionState>1,2,3,10,11,17,20,22,23,24,25,26,33,38,39,40,45,47,50,56,58,60,61,64,65,68,69,73,74,77,78,83,84,86,88,89,92,93,94,97,99,100,102,104,106,109,115,116,119,120,122,124,127,131,132,137,138,140,143,145,146,149,153,154,156,157,164</expansionState>
-    <lastCursor>11</lastCursor>
+    <dateModified>Sat, 03 Oct 2026 15:06:29 GMT</dateModified>
+    <expansionState>1,2,3,6,13,14,20,23,25,26,27,28,29,36,41,42,43,48,50,53,59,61,63,64,67,68,71,72,76,77,80,81,86,87,89,91,92,95,96,97,100,102,103,105,107,109,112,118,119,122,123,125,127,130,134,135,140,141,143,146,148,149,152,156,157,159,160,167</expansionState>
+    <lastCursor>3</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
       <outline text="October 3" created="Sat, 03 Oct 2026 08:48:23 GMT" type="calendarDay" name="03">
+        <outline text="My notes from my first run of Electric Frontier temporarily got lost " created="Sat, 03 Oct 2026 14:40:48 GMT" type="outline">
+          <outline text="There were about 10 lines that disappeared, which I could recover from my GitHub backup" created="Sat, 03 Oct 2026 14:40:44 GMT">
+            <outline text="Looks like Dave saw my notes before they disappeared 😃" created="Sat, 03 Oct 2026 14:41:52 GMT"/>
+            <outline text="And I make regular backups on GitHub, I can get all the lines back... and I got them back " created="Sat, 03 Oct 2026 14:50:08 GMT"/>
+          </outline>
+          <outline text="BTW I did run Electric Frontier by double-clicking on the app, I just had claude guide me through it " created="Sat, 03 Oct 2026 14:43:24 GMT"/>
+        </outline>
         <outline text="Trying out Electric Frontier" created="Sat, 03 Oct 2026 08:48:24 GMT" type="outline">
           <outline text="Listened to the voicemail" created="Sat, 03 Oct 2026 08:48:53 GMT"/>
           <outline text="Opened a claude code session, pointed it to the HelloFrontier repo  " created="Sat, 03 Oct 2026 08:49:13 GMT"/>
