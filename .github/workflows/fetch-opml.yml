@@ -2,8 +2,8 @@ name: Fetch OPML files and commit if changed
 
 on:
   schedule:
-    # every 12 hours (UTC)
-    - cron: "0 6,18 * * *"
+    # every 4 hours (UTC)
+    - cron: "0 */4 * * *"
   workflow_dispatch: {}
 
 permissions:
