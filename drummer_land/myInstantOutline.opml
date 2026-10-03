@@ -7,12 +7,35 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 02 Oct 2026 14:18:05 GMT</dateModified>
-    <expansionState>1,2,4,5,6,7,8,15,20,21,22,27,29,32,38,40,42,43,46,47,50,51,55,56,59,60,65,66,68,70,71,74,75,76,79,81,82,84,86,88,91,97,98,101,102,104,106,109,113,114,119,120,122,125,127,128,131,135,136,138,139,146</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Sat, 03 Oct 2026 10:07:01 GMT</dateModified>
+    <expansionState>1,2,3,10,11,17,20,22,23,24,25,26,33,38,39,40,45,47,50,56,58,60,61,64,65,68,69,73,74,77,78,83,84,86,88,89,92,93,94,97,99,100,102,104,106,109,115,116,119,120,122,124,127,131,132,137,138,140,143,145,146,149,153,154,156,157,164</expansionState>
+    <lastCursor>11</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 3" created="Sat, 03 Oct 2026 08:48:23 GMT" type="calendarDay" name="03">
+        <outline text="Trying out Electric Frontier" created="Sat, 03 Oct 2026 08:48:24 GMT" type="outline">
+          <outline text="Listened to the voicemail" created="Sat, 03 Oct 2026 08:48:53 GMT"/>
+          <outline text="Opened a claude code session, pointed it to the HelloFrontier repo  " created="Sat, 03 Oct 2026 08:49:13 GMT"/>
+          <outline text="It wrote a test plan for the install and first start" created="Sat, 03 Oct 2026 09:02:32 GMT"/>
+          <outline text="I notice the app is built for Intel only, rather than universal" created="Sat, 03 Oct 2026 09:16:45 GMT"/>
+          <outline text="First start works, it opens workspace.notepad, started taking notes with cmd-4" created="Sat, 03 Oct 2026 09:21:45 GMT"/>
+          <outline text="Quit and restart, my edits to workspace.notepad are still there" created="Sat, 03 Oct 2026 09:23:26 GMT"/>
+          <outline text="Asked claude how to run the helloFrontier example" created="Sat, 03 Oct 2026 09:31:30 GMT">
+            <outline text="It showed me how to get to workspace.userlandSamples and copy in the script" created="Sat, 03 Oct 2026 09:44:49 GMT">
+              <outline text="Claude didn't know that helloFrontier is already shipped in the db" created="Sat, 03 Oct 2026 09:57:17 GMT"/>
+              <outline text="So I ended up overwriting the original script" created="Sat, 03 Oct 2026 09:58:00 GMT"/>
+              <outline text="But claude showed me how to restore it" created="Sat, 03 Oct 2026 10:01:25 GMT"/>
+            </outline>
+            <outline text="It compiles and it works" created="Sat, 03 Oct 2026 09:46:13 GMT"/>
+            <outline text="Made a bookmark for userlandSamples" created="Sat, 03 Oct 2026 09:46:19 GMT"/>
+          </outline>
+          <outline text="I notice some of the shortcuts don't work on the German keyboard" created="Sat, 03 Oct 2026 09:49:06 GMT">
+            <outline text="I've ordered a US keyboard, then that won't get in the way" created="Sat, 03 Oct 2026 09:50:50 GMT"/>
+          </outline>
+          <outline text="That's all for now, I'd call that a pretty good first day" created="Sat, 03 Oct 2026 09:53:15 GMT"/>
+        </outline>
+      </outline>
       <outline text="October 2" created="Fri, 02 Oct 2026 14:17:35 GMT" type="calendarDay" name="02">
         <outline text="Dave, let me know when a release of Atlantis is ready for me to try ou" created="Fri, 02 Oct 2026 14:17:36 GMT" type="outline"/>
       </outline>
