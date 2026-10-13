@@ -7,12 +7,15 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 05 Oct 2026 16:46:58 GMT</dateModified>
-    <expansionState>1,2,5,6</expansionState>
+    <dateModified>Tue, 13 Oct 2026 15:32:13 GMT</dateModified>
+    <expansionState>1,2,4,7,8</expansionState>
     <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 13" created="Tue, 13 Oct 2026 15:31:56 GMT" type="calendarDay" name="13">
+        <outline text="I'm still here, and reading the notes 😃" created="Tue, 13 Oct 2026 15:31:57 GMT" type="outline"/>
+      </outline>
       <outline text="October 5" created="Mon, 05 Oct 2026 15:26:29 GMT" type="calendarDay" name="05">
         <outline text="FWIW, I don't see the scary dialog with I access http://scripting.com on the latest Chrome" created="Mon, 05 Oct 2026 16:45:05 GMT" type="outline"/>
         <outline text="Did maintenance on the instant outline" created="Mon, 05 Oct 2026 15:26:30 GMT" type="outline">
