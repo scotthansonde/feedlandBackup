@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Tue, 13 Oct 2026 23:42:10 GMT</dateModified>
+    <dateModified>Wed, 14 Oct 2026 04:40:16 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="PBS News Hour - Nation" xmlUrl="https://www.pbs.org/newshour/feeds/rss/nation" htmlUrl="https://www.pbs.org/newshour/nation" category="all"/>
