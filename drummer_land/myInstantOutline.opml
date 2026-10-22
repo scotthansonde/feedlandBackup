@@ -7,12 +7,19 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 21 Oct 2026 16:10:13 GMT</dateModified>
-    <expansionState>1,2,3,5,7,10,11</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Thu, 22 Oct 2026 07:49:31 GMT</dateModified>
+    <expansionState>1,2,3,7,8,10,12,15,16</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 22" created="Thu, 22 Oct 2026 07:42:16 GMT" type="calendarDay" name="22">
+        <outline text="PHP2SHELL" created="Thu, 22 Oct 2026 07:42:17 GMT" type="outline">
+          <outline text="All WordPress installs updated with the patch" created="Thu, 22 Oct 2026 07:42:25 GMT"/>
+          <outline text="It's pretty easy with Docker, just update the container to the latest version" created="Thu, 22 Oct 2026 07:44:03 GMT"/>
+          <outline text="Hardest part was waiting for the new version to be released 😃" created="Thu, 22 Oct 2026 07:44:48 GMT"/>
+        </outline>
+      </outline>
       <outline text="October 21" created="Wed, 21 Oct 2026 16:09:43 GMT" type="calendarDay" name="21">
         <outline text="feedland" created="Wed, 21 Oct 2026 16:09:44 GMT" type="outline">
           <outline text="OK, I'll keep watching. " created="Wed, 21 Oct 2026 16:09:59 GMT"/>
