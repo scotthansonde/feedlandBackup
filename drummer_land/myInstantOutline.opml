@@ -7,15 +7,24 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 24 Oct 2026 04:51:33 GMT</dateModified>
-    <expansionState>1,2,5,6,9,10,14,15,17,19,22,23</expansionState>
-    <lastCursor>3</lastCursor>
+    <dateModified>Sun, 25 Oct 2026 09:06:37 GMT</dateModified>
+    <expansionState>1,2,3,8,9,11,12,15,16,20,21,23,25,28,29</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 25" created="Sun, 25 Oct 2026 08:53:39 GMT" type="calendarDay" name="25">
+        <outline text="Quickly tried out Feedland on SQLite" created="Sun, 25 Oct 2026 08:53:40 GMT" type="outline">
+          <outline text="I ran into a problem on install. better-sqlite3 v11 couldn't install a binary for my node v24.16.0" created="Sun, 25 Oct 2026 08:54:41 GMT"/>
+          <outline text="Claude was able to compile it for my node version" created="Sun, 25 Oct 2026 09:00:38 GMT"/>
+          <outline text="An electron version wouldn't have this problem, since it includes its own node version" created="Sun, 25 Oct 2026 09:05:09 GMT"/>
+          <outline text="After that following the instructions worked" created="Sun, 25 Oct 2026 09:04:28 GMT"/>
+        </outline>
+      </outline>
       <outline text="October 24" created="Sat, 24 Oct 2026 04:48:58 GMT" type="calendarDay" name="24">
-        <outline text="Heading to the North Sea coast for a long weekend " created="Sat, 24 Oct 2026 04:48:59 GMT" type="outline"/>
-        <outline text="Might have a little time to look at SQLite FeedLand if the rain is really bad " created="Sat, 24 Oct 2026 04:49:30 GMT"/>
+        <outline text="Heading to the North Sea coast for a long weekend " created="Sat, 24 Oct 2026 04:48:59 GMT" type="outline">
+          <outline text="Might have a little time to look at SQLite FeedLand if the rain is really bad " created="Sat, 24 Oct 2026 04:49:30 GMT"/>
+        </outline>
       </outline>
       <outline text="October 23" created="Fri, 23 Oct 2026 08:09:05 GMT" type="calendarDay" name="23">
         <outline text="What If Your Browser Could Just Ask for Markdown?" created="Fri, 23 Oct 2026 08:09:06 GMT" type="link" url="https://d34dl0ck.me/accept-text-markdown/index.html">
