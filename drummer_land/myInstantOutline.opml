@@ -7,12 +7,29 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 25 Oct 2026 09:06:37 GMT</dateModified>
-    <expansionState>1,2,3,8,9,11,12,15,16,20,21,23,25,28,29</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Mon, 26 Oct 2026 16:25:18 GMT</dateModified>
+    <expansionState>1,2,3,5,9,13,14,19,20,22,23,26,27,31,32,34,36,39,40</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 26" created="Mon, 26 Oct 2026 15:47:06 GMT" type="calendarDay" name="26">
+        <outline text="I have a couple hours at the hotel to try out Electric FeedLand" created="Mon, 26 Oct 2026 15:47:07 GMT" type="outline">
+          <outline text="We're on a short vacation, but this isn't work 😃" created="Mon, 26 Oct 2026 15:47:42 GMT"/>
+          <outline text="Extracting then double clicking doesn't work" created="Mon, 26 Oct 2026 15:48:13 GMT">
+            <outline text="Dialog: &quot;FeedLand.app&quot; is damaged and can't be opened. You should move it to the Trash." created="Mon, 26 Oct 2026 15:49:29 GMT"/>
+            <outline text="My Claude was able to resign the binary so I could launch it" created="Mon, 26 Oct 2026 15:49:51 GMT"/>
+            <outline text="If your Claude wants more details, here's an md file as a gist " created="Mon, 26 Oct 2026 16:09:12 GMT" type="link" url="https://gist.githubusercontent.com/scotthansonde/2ecd42767ce4a4c6f78158e11e4ea855/raw/15c7567be5754b238080f1d127f5d15931682c3b/BUG_REPORT_signature.md">
+              <outline text="BUG_REPORT_signature.md" created="Mon, 26 Oct 2026 16:09:57 GMT" type="link" url="https://gist.githubusercontent.com/scotthansonde/2ecd42767ce4a4c6f78158e11e4ea855/raw/15c7567be5754b238080f1d127f5d15931682c3b/BUG_REPORT_signature.md"/>
+            </outline>
+          </outline>
+          <outline text="I don't see the tools subcommand to change the username" created="Mon, 26 Oct 2026 16:20:22 GMT">
+            <outline text="My Claude asks if the build we downloaded  (v0.4.1) is   the current build" created="Mon, 26 Oct 2026 16:20:49 GMT"/>
+          </outline>
+          <outline text="It seems to work and act like FeedLand. I could add the suggested feeds, I can read them, and they get updated." created="Mon, 26 Oct 2026 16:21:15 GMT"/>
+          <outline text="" created="Mon, 26 Oct 2026 16:11:30 GMT"/>
+        </outline>
+      </outline>
       <outline text="October 25" created="Sun, 25 Oct 2026 08:53:39 GMT" type="calendarDay" name="25">
         <outline text="Quickly tried out Feedland on SQLite" created="Sun, 25 Oct 2026 08:53:40 GMT" type="outline">
           <outline text="I ran into a problem on install. better-sqlite3 v11 couldn't install a binary for my node v24.16.0" created="Sun, 25 Oct 2026 08:54:41 GMT"/>
