@@ -7,12 +7,22 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 26 Oct 2026 16:25:18 GMT</dateModified>
-    <expansionState>1,2,3,5,9,13,14,19,20,22,23,26,27,31,32,34,36,39,40</expansionState>
-    <lastCursor>10</lastCursor>
+    <dateModified>Wed, 28 Oct 2026 10:03:57 GMT</dateModified>
+    <expansionState>1,2,3,5</expansionState>
+    <lastCursor>8</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 28" created="Wed, 28 Oct 2026 09:54:03 GMT" type="calendarDay" name="28">
+        <outline text="Told my Claude to follow both your outline and your Claude's outline " created="Wed, 28 Oct 2026 09:54:04 GMT" type="outline">
+          <outline text="I deleted my &quot;~/Library/Application Support/FeedLand&quot; for a clean start" created="Wed, 28 Oct 2026 09:55:07 GMT"/>
+          <outline text="The new app started just as expected" created="Wed, 28 Oct 2026 09:58:50 GMT">
+            <outline text="No error messages on startup" created="Wed, 28 Oct 2026 10:00:19 GMT"/>
+            <outline text="Starter feeds load" created="Wed, 28 Oct 2026 10:00:32 GMT"/>
+            <outline text="Quitting and restarting the app, the feeds and items are still there" created="Wed, 28 Oct 2026 10:01:17 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="October 26" created="Mon, 26 Oct 2026 15:47:06 GMT" type="calendarDay" name="26">
         <outline text="I have a couple hours at the hotel to try out Electric FeedLand" created="Mon, 26 Oct 2026 15:47:07 GMT" type="outline">
           <outline text="We're on a short vacation, but this isn't work 😃" created="Mon, 26 Oct 2026 15:47:42 GMT"/>
