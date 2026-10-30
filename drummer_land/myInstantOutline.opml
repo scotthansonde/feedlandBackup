@@ -7,9 +7,9 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 29 Oct 2026 17:24:06 GMT</dateModified>
+    <dateModified>Fri, 30 Oct 2026 08:07:18 GMT</dateModified>
     <expansionState>1,2,3,7,9,11,12,14</expansionState>
-    <lastCursor>9</lastCursor>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
@@ -19,7 +19,7 @@
           <outline text="Noticed the Tools-&gt;New Commands for EF menu  " created="Thu, 29 Oct 2026 17:02:38 GMT"/>
           <outline text="Looks like changing the name from &quot;dave&quot; to &quot;scott&quot; works" created="Thu, 29 Oct 2026 17:09:39 GMT"/>
           <outline text="The folder under privateFiles/users is still called &quot;dave@localhost&quot;" created="Thu, 29 Oct 2026 17:09:58 GMT">
-            <outline text="Changing my preferences updates appPress.json in this folder, even though my username is now scott" created="Thu, 29 Oct 2026 17:12:32 GMT"/>
+            <outline text="Changing my preferences updates appPrefs.json in this folder, even though my username is now scott" created="Thu, 29 Oct 2026 17:12:32 GMT"/>
           </outline>
           <outline text="Then I subscribed to feeds from an OPML url (from my own FeedLand server)" created="Thu, 29 Oct 2026 17:21:59 GMT">
             <outline text="&quot;206 feeds subscribed to&quot;, so it succeeded" created="Thu, 29 Oct 2026 17:23:37 GMT"/>
