@@ -7,12 +7,17 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Fri, 30 Oct 2026 16:00:12 GMT</dateModified>
-    <expansionState>1,2,3,7,9</expansionState>
-    <lastCursor>10</lastCursor>
+    <dateModified>Sat, 31 Oct 2026 10:34:17 GMT</dateModified>
+    <expansionState>1,2,3,5,6,10,12</expansionState>
+    <lastCursor>22</lastCursor>
   </head>
   <body>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
+      <outline text="October 31" created="Sat, 31 Oct 2026 10:33:16 GMT" type="calendarDay" name="31">
+        <outline text="I now have Claude check the outlines for me every morning" created="Sat, 31 Oct 2026 10:33:17 GMT" type="outline">
+          <outline text="It tells me nothing new for FeedLand, just for BonBon " created="Sat, 31 Oct 2026 10:33:35 GMT"/>
+        </outline>
+      </outline>
       <outline text="October 29" created="Thu, 29 Oct 2026 17:01:54 GMT" type="calendarDay" name="29">
         <outline text="Electric Feedland" created="Thu, 29 Oct 2026 17:01:55 GMT" type="outline">
           <outline text="Added '&quot;maxNewFeedSubscriptions&quot;: 100000,' to my config.json" created="Thu, 29 Oct 2026 17:02:03 GMT"/>
