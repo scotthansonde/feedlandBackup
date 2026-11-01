@@ -7,11 +7,26 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 31 Oct 2026 10:34:17 GMT</dateModified>
-    <expansionState>1,2,3,5,6,10,12</expansionState>
-    <lastCursor>22</lastCursor>
+    <dateModified>Sun, 01 Nov 2026 16:21:24 GMT</dateModified>
+    <expansionState>1,2,3,5,9</expansionState>
+    <lastCursor>10</lastCursor>
   </head>
   <body>
+    <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 1" created="Sun, 01 Nov 2026 16:09:45 GMT" type="calendarDay" name="01">
+        <outline text="Just for fun, I tried to convert my MySQL data to SQLite for a test instance of FeedLand" created="Sun, 01 Nov 2026 16:17:27 GMT" type="outline">
+          <outline text="It seems to have worked, I have a 1GB db file now." created="Sun, 01 Nov 2026 16:18:00 GMT"/>
+        </outline>
+        <outline text="Features I'm looking for in FeedLand" created="Sun, 01 Nov 2026 16:09:46 GMT" type="outline">
+          <outline text="I can't really think of anything you haven't already thought of" created="Sun, 01 Nov 2026 16:09:56 GMT"/>
+          <outline text="Making it easy to install on localhost... Electric FeedLand takes care of that" created="Sun, 01 Nov 2026 16:14:24 GMT"/>
+          <outline text="SQLite removes the need for a MySQL server" created="Sun, 01 Nov 2026 16:15:16 GMT"/>
+          <outline text="Node 24 includes SQLite support out of the box" created="Sun, 01 Nov 2026 16:15:46 GMT">
+            <outline text="Maybe then it doesn't need better-sqlite3?" created="Sun, 01 Nov 2026 16:19:05 GMT"/>
+          </outline>
+        </outline>
+      </outline>
+    </outline>
     <outline text="October 2026" created="Fri, 02 Oct 2026 14:17:34 GMT" name="october2026" type="calendarMonth">
       <outline text="October 31" created="Sat, 31 Oct 2026 10:33:16 GMT" type="calendarDay" name="31">
         <outline text="I now have Claude check the outlines for me every morning" created="Sat, 31 Oct 2026 10:33:17 GMT" type="outline">
