@@ -7,12 +7,25 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 01 Nov 2026 16:21:24 GMT</dateModified>
-    <expansionState>1,2,3,5,9</expansionState>
+    <dateModified>Mon, 02 Nov 2026 16:34:14 GMT</dateModified>
+    <expansionState>1,2,3,7,12,13,15,19</expansionState>
     <lastCursor>10</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 2" created="Mon, 02 Nov 2026 16:20:16 GMT" type="calendarDay" name="02">
+        <outline text="Downloaded the new Electric FeedLand to try out the new News Products UI" created="Mon, 02 Nov 2026 16:20:17 GMT" type="outline">
+          <outline text="Found it under New commands for EF" created="Mon, 02 Nov 2026 16:20:59 GMT"/>
+          <outline text="Clicked New product" created="Mon, 02 Nov 2026 16:21:26 GMT"/>
+          <outline text="Set up the nyt category" created="Mon, 02 Nov 2026 16:22:58 GMT"/>
+          <outline text="https://marin.scripting.com/products/scott/nyt" created="Mon, 02 Nov 2026 16:23:16 GMT" type="link" url="https://marin.scripting.com/products/scott/nyt">
+            <outline text="I last ran EF last Thursday, so it will take a bit to get current" created="Mon, 02 Nov 2026 16:28:17 GMT"/>
+            <outline text="Updated Most Recent Headlines by hand in ED" created="Mon, 02 Nov 2026 16:30:45 GMT"/>
+            <outline text="And voilá, in a couple of minutes the news product had the newest latest headlines" created="Mon, 02 Nov 2026 16:31:02 GMT"/>
+          </outline>
+          <outline text="https://marin.scripting.com/products/scott/main/" created="Mon, 02 Nov 2026 16:34:05 GMT" type="link" url="https://marin.scripting.com/products/scott/main/"/>
+        </outline>
+      </outline>
       <outline text="November 1" created="Sun, 01 Nov 2026 16:09:45 GMT" type="calendarDay" name="01">
         <outline text="Just for fun, I tried to convert my MySQL data to SQLite for a test instance of FeedLand" created="Sun, 01 Nov 2026 16:17:27 GMT" type="outline">
           <outline text="It seems to have worked, I have a 1GB db file now." created="Sun, 01 Nov 2026 16:18:00 GMT"/>
