@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Tue, 03 Nov 2026 11:49:17 GMT</dateModified>
+    <dateModified>Tue, 03 Nov 2026 19:25:25 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
@@ -198,7 +198,7 @@
     <outline type="rss" text="Make WordPress Design" xmlUrl="https://make.wordpress.org/design/feed/" htmlUrl="https://make.wordpress.org/design" category="make-wordpress"/>
     <outline type="rss" text="Make WordPress Documentation" xmlUrl="https://make.wordpress.org/docs/feed/" htmlUrl="https://make.wordpress.org/docs" category="make-wordpress"/>
     <outline type="rss" text="Make WordPress Hosting" xmlUrl="https://make.wordpress.org/hosting/feed/" htmlUrl="https://make.wordpress.org/hosting" category="make-wordpress"/>
-    <outline type="rss" text="Make WordPress.org Marketing" xmlUrl="https://make.wordpress.org/marketing/feed/" htmlUrl="https://make.wordpress.org/marketing" category="make-wordpress"/>
+    <outline type="rss" text="WordPress.org Marketing" xmlUrl="https://make.wordpress.org/marketing/feed/" htmlUrl="https://make.wordpress.org/marketing" category="make-wordpress"/>
     <outline type="rss" text="Kent C. Dodds Blog" xmlUrl="https://kentcdodds.com/blog/rss.xml" htmlUrl="https://kentcdodds.com/blog" category="all,tech"/>
     <outline type="rss" text="Make WordPress Accessible" xmlUrl="https://make.wordpress.org/accessibility/feed/" htmlUrl="https://make.wordpress.org/accessibility" category="make-wordpress"/>
     <outline type="rss" text="WP-CLI – WordPress.org" xmlUrl="https://make.wordpress.org/cli/feed/" htmlUrl="https://make.wordpress.org/cli" category="make-wordpress"/>
