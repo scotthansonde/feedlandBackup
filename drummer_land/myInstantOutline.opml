@@ -7,12 +7,29 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 02 Nov 2026 16:34:14 GMT</dateModified>
-    <expansionState>1,2,3,7,12,13,15,19</expansionState>
-    <lastCursor>10</lastCursor>
+    <dateModified>Tue, 03 Nov 2026 06:31:22 GMT</dateModified>
+    <expansionState>1,2,3,5,9,12,13,17</expansionState>
+    <lastCursor>7</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 3" created="Tue, 03 Nov 2026 05:59:26 GMT" type="calendarDay" name="03">
+        <outline text="Electric FeedLand 0.5.1" created="Tue, 03 Nov 2026 05:59:27 GMT" type="outline">
+          <outline text="Downloaded and started per Claude's instructions" created="Tue, 03 Nov 2026 05:59:38 GMT"/>
+          <outline text="I'm not seeing the bar with the browser buttons that Claude describes " created="Tue, 03 Nov 2026 06:00:05 GMT">
+            <outline text="I'm on macOS 26.7.1. The app bundles Electron 22.3.27." created="Tue, 03 Nov 2026 06:20:26 GMT"/>
+            <outline text="Resizing the window does not change it." created="Tue, 03 Nov 2026 06:23:45 GMT"/>
+            <outline text="Screenshot" created="Tue, 03 Nov 2026 06:25:28 GMT">
+              <outline text="https://f001.backblazeb2.com/file/scotthanson-images/outlines/window051.png" created="Tue, 03 Nov 2026 06:25:20 GMT" type="link" url="https://f001.backblazeb2.com/file/scotthanson-images/outlines/window051.png"/>
+              <outline text="&lt;img src=&quot;https://f001.backblazeb2.com/file/scotthanson-images/outlines/window051.png&quot;&gt;" created="Tue, 03 Nov 2026 06:26:10 GMT"/>
+            </outline>
+          </outline>
+          <outline text="I do see the commands in the View menu " created="Tue, 03 Nov 2026 06:26:49 GMT">
+            <outline text="On my German keyboard Back is Cmd-ö, Forward is Cmd-ä, and both work" created="Tue, 03 Nov 2026 06:28:13 GMT"/>
+          </outline>
+          <outline text="I see the new layout of my news products, with dimmed icons" created="Tue, 03 Nov 2026 06:29:03 GMT"/>
+        </outline>
+      </outline>
       <outline text="November 2" created="Mon, 02 Nov 2026 16:20:16 GMT" type="calendarDay" name="02">
         <outline text="Downloaded the new Electric FeedLand to try out the new News Products UI" created="Mon, 02 Nov 2026 16:20:17 GMT" type="outline">
           <outline text="Found it under New commands for EF" created="Mon, 02 Nov 2026 16:20:59 GMT"/>
