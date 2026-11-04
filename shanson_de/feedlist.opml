@@ -3,9 +3,10 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Wed, 04 Nov 2026 11:59:33 GMT</dateModified>
+    <dateModified>Wed, 04 Nov 2026 19:41:21 GMT</dateModified>
   </head>
   <body>
+    <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all,politics"/>
     <outline type="rss" text="PBS News Hour - Nation" xmlUrl="https://www.pbs.org/newshour/feeds/rss/nation" htmlUrl="https://www.pbs.org/newshour/nation" category="all"/>
     <outline type="rss" text="rss.chat: all posts" xmlUrl="https://users.rss.network/rss.xml" htmlUrl="https://rss.chat/" category="all,chat"/>
     <outline type="rss" text="Jake Savin" xmlUrl="https://jakesav.in/feed/" htmlUrl="https://jakesav.in/" category="all,bloggers,main"/>
@@ -13,7 +14,6 @@
     <outline type="rss" text="US news | The Guardian" xmlUrl="https://www.theguardian.com/us-news/rss" htmlUrl="https://www.theguardian.com/us-news" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://links.daveverse.org/feed/" htmlUrl="https://links.daveverse.org/" category="all"/>
     <outline type="rss" text="Scott's Test Fediverse Blog" xmlUrl="https://scottverse.wordpress.com/feed" htmlUrl="https://scottverse.wordpress.com/" category="all,testing"/>
-    <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all"/>
     <outline type="rss" text="inessential.com" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="https://inessential.com/" category="all,bloggers,tech"/>
     <outline type="rss" text="Julia Evans" xmlUrl="https://jvns.ca/atom.xml" htmlUrl="https://jvns.ca/" category="all,main,tech"/>
     <outline type="rss" text="swyx's site RSS Feed" xmlUrl="https://www.swyx.io/rss.xml" htmlUrl="https://swyx.io/" category="all,bloggers,tech"/>
@@ -37,7 +37,6 @@
     <outline type="rss" text="Scientific American Content: Global" xmlUrl="http://rss.sciam.com/ScientificAmerican-Global" htmlUrl="https://www.scientificamerican.com/" category="all,starters"/>
     <outline type="rss" text="Yahoo Tech" xmlUrl="https://www.yahoo.com/tech/rss" htmlUrl="https://finance.yahoo.com/tech" category="all,tech,starters"/>
     <outline type="rss" text="On the Media" xmlUrl="http://feeds.wnyc.org/onthemedia" htmlUrl="https://www.wnycstudios.org/podcasts/otm" category="all,podcasts,starters"/>
-    <outline type="rss" text="SCOTUSblog" xmlUrl="http://www.scotusblog.com/feed/" htmlUrl="https://www.scotusblog.com/" category="all"/>
     <outline type="rss" text="The Morning Missive" xmlUrl="https://amy.substack.com/feed" htmlUrl="https://amy.substack.com/" category="all"/>
     <outline type="rss" text="Mediagazer" xmlUrl="http://mediagazer.com/feed.xml" htmlUrl="https://mediagazer.com/" category="all"/>
     <outline type="rss" text="Yumi stap storian" xmlUrl="http://oldschool.scripting.com/mistersugar/rss.xml" htmlUrl="http://storian.org/" category="all"/>
@@ -208,7 +207,6 @@
     <outline type="rss" text="CodePen" xmlUrl="https://blog.codepen.io/feed" htmlUrl="https://blog.codepen.io/" category="all"/>
     <outline type="rss" text="TidBITS" xmlUrl="https://tidbits.com/feed/atom" htmlUrl="https://tidbits.com/" category="all"/>
     <outline type="rss" text="TechRepublic" xmlUrl="https://www.techrepublic.com/rssfeeds/articles/" htmlUrl="https://www.techrepublic.com/" category="all,starters"/>
-    <outline type="rss" text="CSS-Tricks" xmlUrl="https://css-tricks.com/feed" htmlUrl="https://css-tricks.com/" category="all"/>
     <outline type="rss" text="The Verge" xmlUrl="http://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/" category="all,starters"/>
     <outline type="rss" text="Axios" xmlUrl="http://scripting.com/publicfolder/feedland/feeds/axios.xml" htmlUrl="https://www.axios.com/top/" category="all,politics,starters"/>
     <outline type="rss" text="BGR - Industry-Leading Insights In Tech And Entertainment" xmlUrl="http://feeds.feedburner.com/TheBoyGeniusReport" htmlUrl="https://www.bgr.com/" category="all,starters"/>
