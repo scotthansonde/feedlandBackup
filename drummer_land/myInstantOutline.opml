@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 03 Nov 2026 06:31:22 GMT</dateModified>
-    <expansionState>1,2,3,5,9,12,13,17</expansionState>
-    <lastCursor>7</lastCursor>
+    <dateModified>Thu, 05 Nov 2026 16:15:30 GMT</dateModified>
+    <expansionState>1,2,3,5,7,8,10,14,17,18,22</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 5" created="Thu, 05 Nov 2026 16:14:06 GMT" type="calendarDay" name="05">
+        <outline text="Nothing new from Claude for Electric FeedLand?" created="Thu, 05 Nov 2026 16:14:07 GMT" type="outline">
+          <outline text="That's OK if it's busy with other things." created="Thu, 05 Nov 2026 16:14:31 GMT"/>
+          <outline text="The missing bar with the browser buttons is still a mystery for us. " created="Thu, 05 Nov 2026 16:14:58 GMT">
+            <outline text="Dave, do you see it?" created="Thu, 05 Nov 2026 16:15:19 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="November 3" created="Tue, 03 Nov 2026 05:59:26 GMT" type="calendarDay" name="03">
         <outline text="Electric FeedLand 0.5.1" created="Tue, 03 Nov 2026 05:59:27 GMT" type="outline">
           <outline text="Downloaded and started per Claude's instructions" created="Tue, 03 Nov 2026 05:59:38 GMT"/>
