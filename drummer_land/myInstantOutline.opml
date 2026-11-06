@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 05 Nov 2026 16:15:30 GMT</dateModified>
-    <expansionState>1,2,3,5,7,8,10,14,17,18,22</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Fri, 06 Nov 2026 13:07:12 GMT</dateModified>
+    <expansionState>1,2,3,5,7,8,10,12,13,15,19,22,23,27</expansionState>
+    <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 6" created="Fri, 06 Nov 2026 12:56:53 GMT" type="calendarDay" name="06">
+        <outline text="FeedLand2 repo" created="Fri, 06 Nov 2026 12:56:54 GMT" type="outline">
+          <outline text="Sounds good to communicate there" created="Fri, 06 Nov 2026 12:57:04 GMT"/>
+          <outline text="I posted my Claude's report of the missing nav bar as an issue" created="Fri, 06 Nov 2026 13:05:19 GMT">
+            <outline text="It's very wordy and intended as an agent-to-agent message" created="Fri, 06 Nov 2026 13:05:19 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="November 5" created="Thu, 05 Nov 2026 16:14:06 GMT" type="calendarDay" name="05">
         <outline text="Nothing new from Claude for Electric FeedLand?" created="Thu, 05 Nov 2026 16:14:07 GMT" type="outline">
           <outline text="That's OK if it's busy with other things." created="Thu, 05 Nov 2026 16:14:31 GMT"/>
