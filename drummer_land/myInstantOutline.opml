@@ -7,12 +7,15 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Mon, 09 Nov 2026 18:17:20 GMT</dateModified>
-    <expansionState>1,2,3,5,6</expansionState>
-    <lastCursor>0</lastCursor>
+    <dateModified>Sat, 14 Nov 2026 14:36:33 GMT</dateModified>
+    <expansionState>1,2,4,5,7,8</expansionState>
+    <lastCursor>2</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 14" created="Sat, 14 Nov 2026 14:35:41 GMT" type="calendarDay" name="14">
+        <outline text="Yes, I have a Macbook with an apple M2 chip " created="Sat, 14 Nov 2026 14:35:42 GMT" type="outline"/>
+      </outline>
       <outline text="November 9" created="Mon, 09 Nov 2026 06:40:49 GMT" type="calendarDay" name="09">
         <outline text="FeedLand 0.5.10" created="Mon, 09 Nov 2026 06:40:50 GMT" type="outline">
           <outline text="Quickly downloaded and updated before work and breakfast" created="Mon, 09 Nov 2026 06:41:04 GMT"/>
