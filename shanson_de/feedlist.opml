@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Mon, 16 Nov 2026 06:06:45 GMT</dateModified>
+    <dateModified>Mon, 16 Nov 2026 18:20:17 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all,politics"/>
@@ -206,7 +206,7 @@
     <outline type="rss" text="Smithsonian Insider" xmlUrl="https://insider.si.edu/feed" htmlUrl="https://insider.si.edu/" category="all"/>
     <outline type="rss" text="CodePen" xmlUrl="https://blog.codepen.io/feed" htmlUrl="https://blog.codepen.io/" category="all"/>
     <outline type="rss" text="TidBITS" xmlUrl="https://tidbits.com/feed/atom" htmlUrl="https://tidbits.com/" category="all"/>
-    <outline type="rss" text="You searched for site:https://techcrunch.com/feed/ - TechRepublic" xmlUrl="https://www.techrepublic.com/rssfeeds/articles/" htmlUrl="https://www.techrepublic.com/" category="all,starters"/>
+    <outline type="rss" text="TechRepublic" xmlUrl="https://www.techrepublic.com/rssfeeds/articles/" htmlUrl="https://www.techrepublic.com/" category="all,starters"/>
     <outline type="rss" text="The Verge" xmlUrl="http://www.theverge.com/rss/index.xml" htmlUrl="https://www.theverge.com/" category="all,starters"/>
     <outline type="rss" text="Axios" xmlUrl="http://scripting.com/publicfolder/feedland/feeds/axios.xml" htmlUrl="https://www.axios.com/top/" category="all,politics,starters"/>
     <outline type="rss" text="BGR - Industry-Leading Insights In Tech And Entertainment" xmlUrl="http://feeds.feedburner.com/TheBoyGeniusReport" htmlUrl="https://www.bgr.com/" category="all,starters"/>
