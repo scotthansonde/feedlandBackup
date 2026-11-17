@@ -7,12 +7,20 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sat, 14 Nov 2026 14:36:33 GMT</dateModified>
-    <expansionState>1,2,4,5,7,8</expansionState>
-    <lastCursor>2</lastCursor>
+    <dateModified>Tue, 17 Nov 2026 16:24:26 GMT</dateModified>
+    <expansionState>1,2,3,4,7,9,10,12,13</expansionState>
+    <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 17" created="Tue, 17 Nov 2026 15:57:43 GMT" type="calendarDay" name="17">
+        <outline text="Hello Dave in Kingston 😃" created="Tue, 17 Nov 2026 15:57:44 GMT" type="outline">
+          <outline text="I did download bonbon and started it on my macbook" created="Tue, 17 Nov 2026 15:57:57 GMT">
+            <outline text="It seems to work as expected" created="Tue, 17 Nov 2026 15:58:49 GMT"/>
+          </outline>
+          <outline text="I can try out the Linux build tomorrow" created="Tue, 17 Nov 2026 16:24:09 GMT"/>
+        </outline>
+      </outline>
       <outline text="November 14" created="Sat, 14 Nov 2026 14:35:41 GMT" type="calendarDay" name="14">
         <outline text="Yes, I have a Macbook with an apple M2 chip " created="Sat, 14 Nov 2026 14:35:42 GMT" type="outline"/>
       </outline>
