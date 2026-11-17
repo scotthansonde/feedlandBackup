@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.9.3.</description>
-    <dateModified>Mon, 16 Nov 2026 18:20:17 GMT</dateModified>
+    <dateModified>Tue, 17 Nov 2026 02:52:12 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="TPM – Talking Points Memo" xmlUrl="https://talkingpointsmemo.com/feed/atom/evz0AlCRRchk" htmlUrl="https://talkingpointsmemo.com/" category="all,politics"/>
@@ -20,7 +20,7 @@
     <outline type="rss" text="daverupert.com" xmlUrl="https://daverupert.com/atom.xml" htmlUrl="https://daverupert.com/" category="all,bloggers,tech"/>
     <outline type="rss" text="CSS-Tricks" xmlUrl="https://css-tricks.com/feed/" htmlUrl="https://css-tricks.com/" category="all,tech"/>
     <outline type="rss" text="Chris Coyier" xmlUrl="https://chriscoyier.net/feed/" htmlUrl="https://chriscoyier.net/" category="all,bloggers,tech,blogroll"/>
-    <outline type="rss" text="Herve Family" xmlUrl="https://herve.bzh/feed" htmlUrl="https://herve.bzh/" category="all,bloggers,wordpress"/>
+    <outline type="rss" text="Jeremy Herve" xmlUrl="https://herve.bzh/feed" htmlUrl="https://herve.bzh/" category="all,bloggers,wordpress"/>
     <outline type="rss" text="Scott Hanson's Linkblog" xmlUrl="https://linkblog.scotthanson.de/feed/" htmlUrl="https://linkblog.scotthanson.de/" category="all"/>
     <outline type="rss" text="links.daveverse.org" xmlUrl="https://dave.linkblog.org/" htmlUrl="https://links.daveverse.org" category="all,bloggers,politics,linkblog"/>
     <outline type="rss" text="The Kyiv Independent" xmlUrl="https://kyivindependent.com/news-archive/rss/" htmlUrl="https://kyivindependent.com/" category="all,politics"/>
