@@ -7,12 +7,32 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 17 Nov 2026 16:24:26 GMT</dateModified>
-    <expansionState>1,2,3,4,7,9,10,12,13</expansionState>
+    <dateModified>Wed, 18 Nov 2026 18:07:28 GMT</dateModified>
+    <expansionState>1,2,3,7,9,11,14,16,17,18,21,23,24,26,27</expansionState>
     <lastCursor>5</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 18" created="Wed, 18 Nov 2026 12:48:04 GMT" type="calendarDay" name="18">
+        <outline text="River in FeedLand to display as Markdown " created="Wed, 18 Nov 2026 18:05:41 GMT">
+          <outline text="Yes I'd be interested, sounds simple enough" created="Wed, 18 Nov 2026 18:06:29 GMT"/>
+          <outline text="Although the devil is always in the details 😃" created="Wed, 18 Nov 2026 18:06:51 GMT"/>
+          <outline text="Claude is good at dealing with devils" created="Wed, 18 Nov 2026 18:07:18 GMT"/>
+        </outline>
+        <outline text="My own FeedLand is now using SQLite on a local server" created="Wed, 18 Nov 2026 18:01:24 GMT" type="outline">
+          <outline text="The virtual server with MySQL was getting slow" created="Wed, 18 Nov 2026 18:01:54 GMT"/>
+          <outline text="It's now only visible on my home network " created="Wed, 18 Nov 2026 18:02:21 GMT">
+            <outline text="My Macbook, iPhone and iPad stay in my home network with VPN when they are not at home" created="Wed, 18 Nov 2026 18:03:25 GMT"/>
+          </outline>
+        </outline>
+        <outline text="bonbon on Linux" created="Wed, 18 Nov 2026 12:48:05 GMT" type="outline">
+          <outline text="Downloaded to a laptop running Omarchy Linux" created="Wed, 18 Nov 2026 12:48:31 GMT"/>
+          <outline text="I was able to start the app and click from page to page" created="Wed, 18 Nov 2026 12:48:49 GMT"/>
+          <outline text="Claude noticed some warnings about the Electron version 22 being old (2023)" created="Wed, 18 Nov 2026 12:49:33 GMT">
+            <outline text="Mostly font config warnings stemming from the outdated version of Electron" created="Wed, 18 Nov 2026 12:50:22 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="November 17" created="Tue, 17 Nov 2026 15:57:43 GMT" type="calendarDay" name="17">
         <outline text="Hello Dave in Kingston 😃" created="Tue, 17 Nov 2026 15:57:44 GMT" type="outline">
           <outline text="I did download bonbon and started it on my macbook" created="Tue, 17 Nov 2026 15:57:57 GMT">
