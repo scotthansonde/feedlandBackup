@@ -7,12 +7,28 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Wed, 18 Nov 2026 18:07:28 GMT</dateModified>
-    <expansionState>1,2,3,7,9,11,14,16,17,18,21,23,24,26,27</expansionState>
-    <lastCursor>5</lastCursor>
+    <dateModified>Sat, 21 Nov 2026 17:31:44 GMT</dateModified>
+    <expansionState>1,2,3,4,8,11</expansionState>
+    <lastCursor>15</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 21" created="Sat, 21 Nov 2026 17:23:08 GMT" type="calendarDay" name="21">
+        <outline text="FeedLand river as Markdown, live demo" created="Sat, 21 Nov 2026 17:23:09 GMT" type="outline">
+          <outline text="We added riverToMarkdown.js to the project we downloaded" created="Sat, 21 Nov 2026 17:23:10 GMT">
+            <outline text="It is a standalone Node module that turns river JSON from FeedLand's getriverfromcategory into the Markdown file." created="Sat, 21 Nov 2026 17:24:19 GMT"/>
+            <outline text="Feed names and favicon sites come from getfeed, since the river JSON has only feed URLs" created="Sat, 21 Nov 2026 17:27:51 GMT"/>
+            <outline text="Feeds repeat as separate h2 groups, the same as FeedLand's own river" created="Sat, 21 Nov 2026 17:27:56 GMT"/>
+          </outline>
+          <outline text="We have a demo running" created="Sat, 21 Nov 2026 17:24:47 GMT">
+            <outline text="https://feedland-timeline-markdown.papascott.workers.dev" created="Sat, 21 Nov 2026 17:25:01 GMT" type="link" url="https://feedland-timeline-markdown.papascott.workers.dev"/>
+            <outline text="It's hosted at Cloudflare, that's why it has a funny domain" created="Sat, 21 Nov 2026 17:26:50 GMT"/>
+          </outline>
+          <outline text="It checks the river from https://feedland.social/getriverfromcategory?screenname=davewiner&amp;catname=NYT " created="Sat, 21 Nov 2026 17:25:29 GMT">
+            <outline text="Updates every 10 minutes" created="Sat, 21 Nov 2026 17:26:29 GMT"/>
+          </outline>
+        </outline>
+      </outline>
       <outline text="November 18" created="Wed, 18 Nov 2026 12:48:04 GMT" type="calendarDay" name="18">
         <outline text="River in FeedLand to display as Markdown " created="Wed, 18 Nov 2026 18:05:41 GMT">
           <outline text="Yes I'd be interested, sounds simple enough" created="Wed, 18 Nov 2026 18:06:29 GMT"/>
