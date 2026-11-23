@@ -3,7 +3,7 @@
   <head>
     <title>shanson</title>
     <description>shanson's subscription list. List created by feedlandDatabase v0.10.0.</description>
-    <dateModified>Mon, 23 Nov 2026 00:44:25 GMT</dateModified>
+    <dateModified>Mon, 23 Nov 2026 14:21:06 GMT</dateModified>
   </head>
   <body>
     <outline type="rss" text="PBS News Hour - Nation" xmlUrl="https://www.pbs.org/newshour/feeds/rss/nation" htmlUrl="https://www.pbs.org/newshour/nation" category="all"/>
@@ -27,8 +27,8 @@
     <outline type="rss" text="The Zuiker Chronicles" xmlUrl="http://zuiker.com/rss/" htmlUrl="https://zuiker.com/" category="all,bloggers"/>
     <outline type="rss" text="Daring Fireball" xmlUrl="https://daringfireball.net/feeds/main" htmlUrl="https://daringfireball.net/" category="all,bloggers,main,tech,blogroll"/>
     <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland.social/papascott/240136846/rss.xml" htmlUrl="https://wordland.shanson.de" category="all,me"/>
-    <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland.shanson.de/feed/" htmlUrl="https://wordland.shanson.de/feed/markdown/" category="all,me"/>
-    <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland-test.shanson.de/feed/" htmlUrl="https://wordland.shanson.de/feed/markdown/" category="all"/>
+    <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland.shanson.de/feed/" htmlUrl="https://wordland.shanson.de/" category="all,me"/>
+    <outline type="rss" text="Scott's WordLand" xmlUrl="https://wordland-test.shanson.de/feed/" htmlUrl="https://wordland.shanson.de/" category="all"/>
     <outline type="rss" text="Kevin Drum" xmlUrl="https://jabberwocking.com/feed/" htmlUrl="https://jabberwocking.com/" category="all,politics,blogroll"/>
     <outline type="rss" text="Hacker News" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/" category="all,hn"/>
     <outline type="rss" text="NYT &gt; Arts &gt; Television" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/Television.xml" htmlUrl="https://www.nytimes.com/section/arts/television" category="all,nyt,starters"/>
@@ -73,7 +73,7 @@
     <outline type="rss" text="Open Source with Christopher Lydon" xmlUrl="https://radioopensource.org/feed/" htmlUrl="https://radioopensource.org/" category="all,podcasts,starters"/>
     <outline type="rss" text="NYT &gt; Most Recent Headlines" xmlUrl="http://nytimes.com/timeswire/feeds/" htmlUrl="https://www.nytimes.com/timeswire" category="all,nyt,starters"/>
     <outline type="rss" text="NYT &gt; Most Popular" xmlUrl="https://rss.nytimes.com/services/xml/rss/nyt/MostEmailed.xml" htmlUrl="https://www.nytimes.com/" category="all,nyt,starters"/>
-    <outline type="rss" text="food-service.de - Märkte und Management" xmlUrl="https://www.food-service.de/maerkteundmanagement/feed/" htmlUrl="https://gvpraxis.food-service.de/" category="all"/>
+    <outline type="rss" text="food-service.de - Märkte und Management" xmlUrl="https://www.food-service.de/maerkteundmanagement/feed/" htmlUrl="https://www.food-service.de/" category="all"/>
     <outline type="rss" text="PBS News Hour - Agents for Change" xmlUrl="https://www.pbs.org/newshour/feeds/rss/agents-for-change" htmlUrl="https://www.pbs.org/newshour/world/agents-for-change" category="all"/>
     <outline type="rss" text="CodePen Radio" xmlUrl="https://blog.codepen.io/feed/podcast/" htmlUrl="https://blog.codepen.io/series/codepen-radio/" category="all,podcasts"/>
     <outline type="rss" text="Remote Synthesis | Blog" xmlUrl="https://remotesynthesis.com/feed.xml" htmlUrl="https://remotesynthesis.com/" category="all,tech"/>
