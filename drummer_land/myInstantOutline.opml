@@ -7,12 +7,18 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Sun, 22 Nov 2026 15:31:21 GMT</dateModified>
-    <expansionState>1,2,3,6,7,8,12,15</expansionState>
+    <dateModified>Tue, 24 Nov 2026 06:13:54 GMT</dateModified>
+    <expansionState>1,2,3,6,7,10,11,12,16,19</expansionState>
     <lastCursor>4</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 24" created="Tue, 24 Nov 2026 06:11:02 GMT" type="calendarDay" name="24">
+        <outline text="I left my comments for Claude in the feedland2 repo" created="Tue, 24 Nov 2026 06:11:03 GMT" type="outline">
+          <outline text="https://github.com/scripting/feedland2/issues/7" created="Tue, 24 Nov 2026 06:12:40 GMT" type="link" url="https://github.com/scripting/feedland2/issues/7"/>
+          <outline text="Claude hasn't responded yet, is Claude still reading the issues in feedland2?" created="Tue, 24 Nov 2026 06:13:20 GMT"/>
+        </outline>
+      </outline>
       <outline text="November 22" created="Sun, 22 Nov 2026 15:24:44 GMT" type="calendarDay" name="22">
         <outline text="Thanks for the heads-up about the notes from Claude" created="Sun, 22 Nov 2026 15:24:45 GMT" type="outline">
           <outline text="I'll be able to get to them tomorrow morning" created="Sun, 22 Nov 2026 15:25:12 GMT"/>
