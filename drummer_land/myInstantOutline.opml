@@ -7,12 +7,25 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Tue, 24 Nov 2026 06:13:54 GMT</dateModified>
-    <expansionState>1,2,3,6,7,10,11,12,16,19</expansionState>
-    <lastCursor>4</lastCursor>
+    <dateModified>Wed, 25 Nov 2026 15:52:31 GMT</dateModified>
+    <expansionState>1,2,3,6,8,11,12,15,16,19,20,21,25,28</expansionState>
+    <lastCursor>6</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
+      <outline text="November 25" created="Wed, 25 Nov 2026 15:46:04 GMT" type="calendarDay" name="25">
+        <outline text="My first impression of Praline is that it looks very good" created="Wed, 25 Nov 2026 15:46:05 GMT" type="outline">
+          <outline text="Jon is obviously a profressional WordPress developer, so Praline is very well structured" created="Wed, 25 Nov 2026 15:46:36 GMT"/>
+          <outline text="Once Praline is in the WordPress plugin directory it will be easy to install" created="Wed, 25 Nov 2026 15:50:02 GMT"/>
+          <outline text="I'm happy to let it be the BonBon plugin for WordPress, and help make sure it works well with our sites" created="Wed, 25 Nov 2026 15:50:28 GMT">
+            <outline text="And the Baseline theme" created="Wed, 25 Nov 2026 15:52:21 GMT"/>
+          </outline>
+        </outline>
+        <outline text="No problem if you can't get to my Feedland feedback for Claude right now" created="Wed, 25 Nov 2026 15:47:06 GMT" type="outline">
+          <outline text="I just wanted to make sure you weren't waiting on it" created="Wed, 25 Nov 2026 15:47:41 GMT"/>
+          <outline text="We're at a business meeting in Amsterdam right now, so I'm not at my pc most of the time" created="Wed, 25 Nov 2026 15:47:56 GMT"/>
+        </outline>
+      </outline>
       <outline text="November 24" created="Tue, 24 Nov 2026 06:11:02 GMT" type="calendarDay" name="24">
         <outline text="I left my comments for Claude in the feedland2 repo" created="Tue, 24 Nov 2026 06:11:03 GMT" type="outline">
           <outline text="https://github.com/scripting/feedland2/issues/7" created="Tue, 24 Nov 2026 06:12:40 GMT" type="link" url="https://github.com/scripting/feedland2/issues/7"/>
