@@ -7,15 +7,15 @@
     <urlPublic>https://drummer.land/papascott@gmail.com/myInstantOutline.opml</urlPublic>
     <ownerId>papascott@gmail.com</ownerId>
     <urlUpdateSocket>wss://drummer.land/</urlUpdateSocket>
-    <dateModified>Thu, 26 Nov 2026 15:42:56 GMT</dateModified>
+    <dateModified>Fri, 27 Nov 2026 14:46:42 GMT</dateModified>
     <expansionState>1,2,3,6,8,11,12,15,16,19,20,21,25,28</expansionState>
-    <lastCursor>1</lastCursor>
+    <lastCursor>0</lastCursor>
   </head>
   <body>
     <outline text="November 2026" created="Sun, 01 Nov 2026 16:09:44 GMT" name="november2026" type="calendarMonth">
       <outline text="November 25" created="Wed, 25 Nov 2026 15:46:04 GMT" type="calendarDay" name="25">
         <outline text="My first impression of Praline is that it looks very good" created="Wed, 25 Nov 2026 15:46:05 GMT" type="outline">
-          <outline text="Jon is obviously a profressional WordPress developer, so Praline is very well structured" created="Wed, 25 Nov 2026 15:46:36 GMT"/>
+          <outline text="Jon is obviously a professional WordPress developer, so Praline is very well structured" created="Wed, 25 Nov 2026 15:46:36 GMT"/>
           <outline text="Once Praline is in the WordPress plugin directory it will be easy to install" created="Wed, 25 Nov 2026 15:50:02 GMT"/>
           <outline text="I'm happy to let it be the BonBon plugin for WordPress, and help make sure it works well with our sites" created="Wed, 25 Nov 2026 15:50:28 GMT">
             <outline text="And the Baseline theme" created="Wed, 25 Nov 2026 15:52:21 GMT"/>
